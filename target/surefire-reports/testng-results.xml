@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="15" passed="15" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[[L]ReportLog >> Before Navigate To...https://10.8.75.196/]]>
+    </line>
+    <line>
+      <![CDATA[[L]ReportLog >> Before Navigate To...https://10.103.50.206/]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> beforeClass > Got your Box IP for [ENG]: https://10.8.75.196/]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> beforeClass > Got your Box IP for [JPN]: https://10.103.50.206/]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test_Step01_Login_ENG > Login to main page...]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test_Step01_Login_ENG > [Pass]Take screenshot...]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test_Step01_Login_JPN > Login to main page...]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test_Step01_Login_JPN > [Pass]Take screenshot...]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test_Step02_HomeMenu_Top_JPN > Got info for [JPN]!]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test_Step02_HomeMenu_Top_ENG > Got info for [ENG]!]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test_Step02_HomeMenu_Top_ENG > Data created!]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test_Step02_HomeMenu_Top_JPN > Data created!]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test_Step02_HomeMenu_Top_ENG > Data updated!]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test_Step02_HomeMenu_Top_JPN > Data updated!]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test_Step02_HomeMenu_Top_ENG > Top menu 'HOME' is done!]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test_Step02_HomeMenu_Top_JPN > Top menu 'HOME' is done!]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test_Step02_HomeMenu_Top_JPN > [Pass]Take screenshot...]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test_Step02_HomeMenu_Top_ENG > [Pass]Take screenshot...]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test_Step03_MonitorMenu_Top_JPN > Data updated!]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test_Step03_MonitorMenu_Top_JPN > Top menu 'MONITOR' is done!]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test_Step03_MonitorMenu_Top_ENG > Data updated!]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test_Step03_MonitorMenu_Top_ENG > Top menu 'MONITOR' is done!]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test_Step03_MonitorMenu_Top_JPN > [Pass]Take screenshot...]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test_Step03_MonitorMenu_Top_ENG > [Pass]Take screenshot...]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test_Step04_DeviceMenu_Top_JPN > Data updated!]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test_Step04_DeviceMenu_Top_JPN > Top menu 'DEVICE' is done!]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test_Step04_DeviceMenu_Top_JPN > [Pass]Take screenshot...]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test_Step04_DeviceMenu_Top_ENG > Data updated!]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test_Step04_DeviceMenu_Top_ENG > Top menu 'DEVICE' is done!]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test_Step04_DeviceMenu_Top_ENG > [Pass]Take screenshot...]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test_Step05_NetworkMenu_Top_JPN > Data updated!]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test_Step05_NetworkMenu_Top_JPN > Top menu 'NETWORK' is done!]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test_Step05_NetworkMenu_Top_JPN > [Pass]Take screenshot...]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test_Step05_NetworkMenu_Top_ENG > Data updated!]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test_Step05_NetworkMenu_Top_ENG > Top menu 'NETWORK' is done!]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test_Step05_NetworkMenu_Top_ENG > [Pass]Take screenshot...]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test_Step06_ObjectMenu_Top_JPN > Data updated!]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test_Step06_ObjectMenu_Top_JPN > Top menu 'OBJECT' is done!]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test_Step06_ObjectMenu_Top_JPN > [Pass]Take screenshot...]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test_Step06_ObjectMenu_Top_ENG > Data updated!]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test_Step06_ObjectMenu_Top_ENG > Top menu 'OBJECT' is done!]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test_Step06_ObjectMenu_Top_ENG > [Pass]Take screenshot...]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test_Step07_PolicyMenu_Top_JPN > Data updated!]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test_Step07_PolicyMenu_Top_JPN > Top menu 'POLICY' is done!]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test_Step07_PolicyMenu_Top_JPN > [Pass]Take screenshot...]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test_Step07_PolicyMenu_Top_ENG > Data updated!]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test_Step07_PolicyMenu_Top_ENG > Top menu 'POLICY' is done!]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test_Step07_PolicyMenu_Top_ENG > [Pass]Take screenshot...]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> box_JPN > Got data!]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> box_ENG > Got data!]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test_dataCompare > Ready to start...]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test_dataCompare > --------------------------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test_dataCompare > [JPN] info: Device Name -----> TZ 370W]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test_dataCompare > [JPN] info: Serial Number ---> 2CB8ED69339C]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test_dataCompare > [JPN] info: Firmware Version > SonicOS 7.0.1-5018]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test_dataCompare > --------------------------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test_dataCompare > [ENG] info: Device Name -----> TZ 570W]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test_dataCompare > [ENG] info: Serial Number ---> 2CB8ED4ACD9C]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test_dataCompare > [ENG] info: Firmware Version > SonicOS 7.0.1-5025]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test_dataCompare > --------------------------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> missing_page > [ENG] version missing: HOME > Dashboard > Capture ATP]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> missing_page > [ENG] version missing: POLICY > Capture ATP > Scanning History]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-09-17T15:06:04 CST" name="SonicWall TestSuite" finished-at="2021-09-17T15:07:38 CST" duration-ms="93810">
+    <groups>
+    </groups>
+    <test started-at="2021-09-17T15:06:04 CST" name="Menu Test JPN/ENG" finished-at="2021-09-17T15:07:38 CST" duration-ms="93763">
+      <class name="test.Test_NavData_ENG">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:test.Test_NavData_ENG@4d910fd6]" started-at="2021-09-17T15:06:04 CST" name="beforeClass" finished-at="2021-09-17T15:06:21 CST" duration-ms="16950" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[L]ReportLog >> Before Navigate To...https://10.8.75.196/]]>
+            </line>
+            <line>
+              <![CDATA[[S]ReportLog >> beforeClass > Got your Box IP for [ENG]: https://10.8.75.196/]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="test_Step01_Login_ENG()[pri:0, instance:test.Test_NavData_ENG@4d910fd6]" started-at="2021-09-17T15:06:21 CST" name="test_Step01_Login_ENG" finished-at="2021-09-17T15:06:22 CST" duration-ms="820" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[S]ReportLog >> test_Step01_Login_ENG > Login to main page...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test_Step01_Login_ENG -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.Test_NavData_ENG@4d910fd6]" started-at="2021-09-17T15:06:22 CST" name="afterMethod" finished-at="2021-09-17T15:06:23 CST" duration-ms="378" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test_Step01_Login_ENG status=SUCCESS method=Test_NavData_ENG.test_Step01_Login_ENG()[pri:0, instance:test.Test_NavData_ENG@4d910fd6] output=[S]ReportLog >> test_Step01_Login_ENG > Login to main page...]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[[S]ReportLog >> test_Step01_Login_ENG > [Pass]Take screenshot...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="test_Step02_HomeMenu_Top_ENG()[pri:0, instance:test.Test_NavData_ENG@4d910fd6]" started-at="2021-09-17T15:06:23 CST" name="test_Step02_HomeMenu_Top_ENG" finished-at="2021-09-17T15:06:41 CST" duration-ms="17983" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[S]ReportLog >> test_Step02_HomeMenu_Top_ENG > Got info for [ENG]!]]>
+            </line>
+            <line>
+              <![CDATA[[S]ReportLog >> test_Step02_HomeMenu_Top_ENG > Data created!]]>
+            </line>
+            <line>
+              <![CDATA[[S]ReportLog >> test_Step02_HomeMenu_Top_ENG > Data updated!]]>
+            </line>
+            <line>
+              <![CDATA[[S]ReportLog >> test_Step02_HomeMenu_Top_ENG > Top menu 'HOME' is done!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test_Step02_HomeMenu_Top_ENG -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.Test_NavData_ENG@4d910fd6]" started-at="2021-09-17T15:06:41 CST" name="afterMethod" finished-at="2021-09-17T15:06:41 CST" duration-ms="380" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test_Step02_HomeMenu_Top_ENG status=SUCCESS method=Test_NavData_ENG.test_Step02_HomeMenu_Top_ENG()[pri:0, instance:test.Test_NavData_ENG@4d910fd6] output=[S]ReportLog >> test_Step02_HomeMenu_Top_ENG > Got info for [ENG]!]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[[S]ReportLog >> test_Step02_HomeMenu_Top_ENG > [Pass]Take screenshot...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="test_Step03_MonitorMenu_Top_ENG()[pri:0, instance:test.Test_NavData_ENG@4d910fd6]" started-at="2021-09-17T15:06:41 CST" name="test_Step03_MonitorMenu_Top_ENG" finished-at="2021-09-17T15:06:50 CST" duration-ms="9077" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[S]ReportLog >> test_Step03_MonitorMenu_Top_ENG > Data updated!]]>
+            </line>
+            <line>
+              <![CDATA[[S]ReportLog >> test_Step03_MonitorMenu_Top_ENG > Top menu 'MONITOR' is done!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test_Step03_MonitorMenu_Top_ENG -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.Test_NavData_ENG@4d910fd6]" started-at="2021-09-17T15:06:50 CST" name="afterMethod" finished-at="2021-09-17T15:06:51 CST" duration-ms="949" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test_Step03_MonitorMenu_Top_ENG status=SUCCESS method=Test_NavData_ENG.test_Step03_MonitorMenu_Top_ENG()[pri:0, instance:test.Test_NavData_ENG@4d910fd6] output=[S]ReportLog >> test_Step03_MonitorMenu_Top_ENG > Data updated!]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[[S]ReportLog >> test_Step03_MonitorMenu_Top_ENG > [Pass]Take screenshot...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="test_Step04_DeviceMenu_Top_ENG()[pri:0, instance:test.Test_NavData_ENG@4d910fd6]" started-at="2021-09-17T15:06:51 CST" name="test_Step04_DeviceMenu_Top_ENG" finished-at="2021-09-17T15:07:05 CST" duration-ms="13774" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[S]ReportLog >> test_Step04_DeviceMenu_Top_ENG > Data updated!]]>
+            </line>
+            <line>
+              <![CDATA[[S]ReportLog >> test_Step04_DeviceMenu_Top_ENG > Top menu 'DEVICE' is done!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test_Step04_DeviceMenu_Top_ENG -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.Test_NavData_ENG@4d910fd6]" started-at="2021-09-17T15:07:05 CST" name="afterMethod" finished-at="2021-09-17T15:07:05 CST" duration-ms="698" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test_Step04_DeviceMenu_Top_ENG status=SUCCESS method=Test_NavData_ENG.test_Step04_DeviceMenu_Top_ENG()[pri:0, instance:test.Test_NavData_ENG@4d910fd6] output=[S]ReportLog >> test_Step04_DeviceMenu_Top_ENG > Data updated!]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[[S]ReportLog >> test_Step04_DeviceMenu_Top_ENG > [Pass]Take screenshot...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="test_Step05_NetworkMenu_Top_ENG()[pri:0, instance:test.Test_NavData_ENG@4d910fd6]" started-at="2021-09-17T15:07:05 CST" name="test_Step05_NetworkMenu_Top_ENG" finished-at="2021-09-17T15:07:18 CST" duration-ms="12813" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[S]ReportLog >> test_Step05_NetworkMenu_Top_ENG > Data updated!]]>
+            </line>
+            <line>
+              <![CDATA[[S]ReportLog >> test_Step05_NetworkMenu_Top_ENG > Top menu 'NETWORK' is done!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test_Step05_NetworkMenu_Top_ENG -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.Test_NavData_ENG@4d910fd6]" started-at="2021-09-17T15:07:18 CST" name="afterMethod" finished-at="2021-09-17T15:07:19 CST" duration-ms="866" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test_Step05_NetworkMenu_Top_ENG status=SUCCESS method=Test_NavData_ENG.test_Step05_NetworkMenu_Top_ENG()[pri:0, instance:test.Test_NavData_ENG@4d910fd6] output=[S]ReportLog >> test_Step05_NetworkMenu_Top_ENG > Data updated!]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[[S]ReportLog >> test_Step05_NetworkMenu_Top_ENG > [Pass]Take screenshot...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="test_Step06_ObjectMenu_Top_ENG()[pri:0, instance:test.Test_NavData_ENG@4d910fd6]" started-at="2021-09-17T15:07:19 CST" name="test_Step06_ObjectMenu_Top_ENG" finished-at="2021-09-17T15:07:23 CST" duration-ms="3509" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[S]ReportLog >> test_Step06_ObjectMenu_Top_ENG > Data updated!]]>
+            </line>
+            <line>
+              <![CDATA[[S]ReportLog >> test_Step06_ObjectMenu_Top_ENG > Top menu 'OBJECT' is done!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test_Step06_ObjectMenu_Top_ENG -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.Test_NavData_ENG@4d910fd6]" started-at="2021-09-17T15:07:23 CST" name="afterMethod" finished-at="2021-09-17T15:07:23 CST" duration-ms="665" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test_Step06_ObjectMenu_Top_ENG status=SUCCESS method=Test_NavData_ENG.test_Step06_ObjectMenu_Top_ENG()[pri:0, instance:test.Test_NavData_ENG@4d910fd6] output=[S]ReportLog >> test_Step06_ObjectMenu_Top_ENG > Data updated!]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[[S]ReportLog >> test_Step06_ObjectMenu_Top_ENG > [Pass]Take screenshot...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="test_Step07_PolicyMenu_Top_ENG()[pri:0, instance:test.Test_NavData_ENG@4d910fd6]" started-at="2021-09-17T15:07:23 CST" name="test_Step07_PolicyMenu_Top_ENG" finished-at="2021-09-17T15:07:34 CST" duration-ms="10637" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[S]ReportLog >> test_Step07_PolicyMenu_Top_ENG > Data updated!]]>
+            </line>
+            <line>
+              <![CDATA[[S]ReportLog >> test_Step07_PolicyMenu_Top_ENG > Top menu 'POLICY' is done!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test_Step07_PolicyMenu_Top_ENG -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.Test_NavData_ENG@4d910fd6]" started-at="2021-09-17T15:07:34 CST" name="afterMethod" finished-at="2021-09-17T15:07:34 CST" duration-ms="375" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test_Step07_PolicyMenu_Top_ENG status=SUCCESS method=Test_NavData_ENG.test_Step07_PolicyMenu_Top_ENG()[pri:0, instance:test.Test_NavData_ENG@4d910fd6] output=[S]ReportLog >> test_Step07_PolicyMenu_Top_ENG > Data updated!]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[[S]ReportLog >> test_Step07_PolicyMenu_Top_ENG > [Pass]Take screenshot...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:test.Test_NavData_ENG@4d910fd6]" started-at="2021-09-17T15:07:34 CST" name="afterClass" finished-at="2021-09-17T15:07:38 CST" duration-ms="3840" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- test.Test_NavData_ENG -->
+      <class name="test.Test_NavData_JPN">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:test.Test_NavData_JPN@62e7f11d]" started-at="2021-09-17T15:06:04 CST" name="beforeClass" finished-at="2021-09-17T15:06:22 CST" duration-ms="17223" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[L]ReportLog >> Before Navigate To...https://10.103.50.206/]]>
+            </line>
+            <line>
+              <![CDATA[[S]ReportLog >> beforeClass > Got your Box IP for [JPN]: https://10.103.50.206/]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="test_Step01_Login_JPN()[pri:0, instance:test.Test_NavData_JPN@62e7f11d]" started-at="2021-09-17T15:06:22 CST" name="test_Step01_Login_JPN" finished-at="2021-09-17T15:06:23 CST" duration-ms="1097" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[S]ReportLog >> test_Step01_Login_JPN > Login to main page...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test_Step01_Login_JPN -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.Test_NavData_JPN@62e7f11d]" started-at="2021-09-17T15:06:23 CST" name="afterMethod" finished-at="2021-09-17T15:06:23 CST" duration-ms="483" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test_Step01_Login_JPN status=SUCCESS method=Test_NavData_JPN.test_Step01_Login_JPN()[pri:0, instance:test.Test_NavData_JPN@62e7f11d] output=[S]ReportLog >> test_Step01_Login_JPN > Login to main page...]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[[S]ReportLog >> test_Step01_Login_JPN > [Pass]Take screenshot...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="test_Step02_HomeMenu_Top_JPN()[pri:0, instance:test.Test_NavData_JPN@62e7f11d]" started-at="2021-09-17T15:06:23 CST" name="test_Step02_HomeMenu_Top_JPN" finished-at="2021-09-17T15:06:41 CST" duration-ms="17345" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[S]ReportLog >> test_Step02_HomeMenu_Top_JPN > Got info for [JPN]!]]>
+            </line>
+            <line>
+              <![CDATA[[S]ReportLog >> test_Step02_HomeMenu_Top_JPN > Data created!]]>
+            </line>
+            <line>
+              <![CDATA[[S]ReportLog >> test_Step02_HomeMenu_Top_JPN > Data updated!]]>
+            </line>
+            <line>
+              <![CDATA[[S]ReportLog >> test_Step02_HomeMenu_Top_JPN > Top menu 'HOME' is done!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test_Step02_HomeMenu_Top_JPN -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.Test_NavData_JPN@62e7f11d]" started-at="2021-09-17T15:06:41 CST" name="afterMethod" finished-at="2021-09-17T15:06:41 CST" duration-ms="380" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test_Step02_HomeMenu_Top_JPN status=SUCCESS method=Test_NavData_JPN.test_Step02_HomeMenu_Top_JPN()[pri:0, instance:test.Test_NavData_JPN@62e7f11d] output=[S]ReportLog >> test_Step02_HomeMenu_Top_JPN > Got info for [JPN]!]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[[S]ReportLog >> test_Step02_HomeMenu_Top_JPN > [Pass]Take screenshot...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="test_Step03_MonitorMenu_Top_JPN()[pri:0, instance:test.Test_NavData_JPN@62e7f11d]" started-at="2021-09-17T15:06:41 CST" name="test_Step03_MonitorMenu_Top_JPN" finished-at="2021-09-17T15:06:50 CST" duration-ms="9075" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[S]ReportLog >> test_Step03_MonitorMenu_Top_JPN > Data updated!]]>
+            </line>
+            <line>
+              <![CDATA[[S]ReportLog >> test_Step03_MonitorMenu_Top_JPN > Top menu 'MONITOR' is done!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test_Step03_MonitorMenu_Top_JPN -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.Test_NavData_JPN@62e7f11d]" started-at="2021-09-17T15:06:50 CST" name="afterMethod" finished-at="2021-09-17T15:06:51 CST" duration-ms="792" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test_Step03_MonitorMenu_Top_JPN status=SUCCESS method=Test_NavData_JPN.test_Step03_MonitorMenu_Top_JPN()[pri:0, instance:test.Test_NavData_JPN@62e7f11d] output=[S]ReportLog >> test_Step03_MonitorMenu_Top_JPN > Data updated!]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[[S]ReportLog >> test_Step03_MonitorMenu_Top_JPN > [Pass]Take screenshot...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="test_Step04_DeviceMenu_Top_JPN()[pri:0, instance:test.Test_NavData_JPN@62e7f11d]" started-at="2021-09-17T15:06:51 CST" name="test_Step04_DeviceMenu_Top_JPN" finished-at="2021-09-17T15:07:04 CST" duration-ms="13327" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[S]ReportLog >> test_Step04_DeviceMenu_Top_JPN > Data updated!]]>
+            </line>
+            <line>
+              <![CDATA[[S]ReportLog >> test_Step04_DeviceMenu_Top_JPN > Top menu 'DEVICE' is done!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test_Step04_DeviceMenu_Top_JPN -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.Test_NavData_JPN@62e7f11d]" started-at="2021-09-17T15:07:04 CST" name="afterMethod" finished-at="2021-09-17T15:07:04 CST" duration-ms="301" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test_Step04_DeviceMenu_Top_JPN status=SUCCESS method=Test_NavData_JPN.test_Step04_DeviceMenu_Top_JPN()[pri:0, instance:test.Test_NavData_JPN@62e7f11d] output=[S]ReportLog >> test_Step04_DeviceMenu_Top_JPN > Data updated!]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[[S]ReportLog >> test_Step04_DeviceMenu_Top_JPN > [Pass]Take screenshot...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="test_Step05_NetworkMenu_Top_JPN()[pri:0, instance:test.Test_NavData_JPN@62e7f11d]" started-at="2021-09-17T15:07:04 CST" name="test_Step05_NetworkMenu_Top_JPN" finished-at="2021-09-17T15:07:15 CST" duration-ms="10339" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[S]ReportLog >> test_Step05_NetworkMenu_Top_JPN > Data updated!]]>
+            </line>
+            <line>
+              <![CDATA[[S]ReportLog >> test_Step05_NetworkMenu_Top_JPN > Top menu 'NETWORK' is done!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test_Step05_NetworkMenu_Top_JPN -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.Test_NavData_JPN@62e7f11d]" started-at="2021-09-17T15:07:15 CST" name="afterMethod" finished-at="2021-09-17T15:07:16 CST" duration-ms="1195" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test_Step05_NetworkMenu_Top_JPN status=SUCCESS method=Test_NavData_JPN.test_Step05_NetworkMenu_Top_JPN()[pri:0, instance:test.Test_NavData_JPN@62e7f11d] output=[S]ReportLog >> test_Step05_NetworkMenu_Top_JPN > Data updated!]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[[S]ReportLog >> test_Step05_NetworkMenu_Top_JPN > [Pass]Take screenshot...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="test_Step06_ObjectMenu_Top_JPN()[pri:0, instance:test.Test_NavData_JPN@62e7f11d]" started-at="2021-09-17T15:07:16 CST" name="test_Step06_ObjectMenu_Top_JPN" finished-at="2021-09-17T15:07:20 CST" duration-ms="3824" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[S]ReportLog >> test_Step06_ObjectMenu_Top_JPN > Data updated!]]>
+            </line>
+            <line>
+              <![CDATA[[S]ReportLog >> test_Step06_ObjectMenu_Top_JPN > Top menu 'OBJECT' is done!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test_Step06_ObjectMenu_Top_JPN -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.Test_NavData_JPN@62e7f11d]" started-at="2021-09-17T15:07:20 CST" name="afterMethod" finished-at="2021-09-17T15:07:21 CST" duration-ms="933" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test_Step06_ObjectMenu_Top_JPN status=SUCCESS method=Test_NavData_JPN.test_Step06_ObjectMenu_Top_JPN()[pri:0, instance:test.Test_NavData_JPN@62e7f11d] output=[S]ReportLog >> test_Step06_ObjectMenu_Top_JPN > Data updated!]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[[S]ReportLog >> test_Step06_ObjectMenu_Top_JPN > [Pass]Take screenshot...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="test_Step07_PolicyMenu_Top_JPN()[pri:0, instance:test.Test_NavData_JPN@62e7f11d]" started-at="2021-09-17T15:07:21 CST" name="test_Step07_PolicyMenu_Top_JPN" finished-at="2021-09-17T15:07:29 CST" duration-ms="8404" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[S]ReportLog >> test_Step07_PolicyMenu_Top_JPN > Data updated!]]>
+            </line>
+            <line>
+              <![CDATA[[S]ReportLog >> test_Step07_PolicyMenu_Top_JPN > Top menu 'POLICY' is done!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test_Step07_PolicyMenu_Top_JPN -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.Test_NavData_JPN@62e7f11d]" started-at="2021-09-17T15:07:29 CST" name="afterMethod" finished-at="2021-09-17T15:07:29 CST" duration-ms="317" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test_Step07_PolicyMenu_Top_JPN status=SUCCESS method=Test_NavData_JPN.test_Step07_PolicyMenu_Top_JPN()[pri:0, instance:test.Test_NavData_JPN@62e7f11d] output=[S]ReportLog >> test_Step07_PolicyMenu_Top_JPN > Data updated!]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[[S]ReportLog >> test_Step07_PolicyMenu_Top_JPN > [Pass]Take screenshot...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:test.Test_NavData_JPN@62e7f11d]" started-at="2021-09-17T15:07:29 CST" name="afterClass" finished-at="2021-09-17T15:07:34 CST" duration-ms="4247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- test.Test_NavData_JPN -->
+    </test> <!-- Menu Test JPN/ENG -->
+    <test started-at="2021-09-17T15:07:38 CST" name="Menu Compare JPN/ENG" finished-at="2021-09-17T15:07:38 CST" duration-ms="17">
+      <class name="test.Test_vsDATA">
+        <test-method signature="test_dataCompare()[pri:0, instance:test.Test_vsDATA@53812a9b]" started-at="2021-09-17T15:07:38 CST" name="test_dataCompare" finished-at="2021-09-17T15:07:38 CST" duration-ms="15" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[S]ReportLog >> box_JPN > Got data!]]>
+            </line>
+            <line>
+              <![CDATA[[S]ReportLog >> box_ENG > Got data!]]>
+            </line>
+            <line>
+              <![CDATA[[S]ReportLog >> test_dataCompare > Ready to start...]]>
+            </line>
+            <line>
+              <![CDATA[[S]ReportLog >> test_dataCompare > --------------------------------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[[S]ReportLog >> test_dataCompare > [JPN] info: Device Name -----> TZ 370W]]>
+            </line>
+            <line>
+              <![CDATA[[S]ReportLog >> test_dataCompare > [JPN] info: Serial Number ---> 2CB8ED69339C]]>
+            </line>
+            <line>
+              <![CDATA[[S]ReportLog >> test_dataCompare > [JPN] info: Firmware Version > SonicOS 7.0.1-5018]]>
+            </line>
+            <line>
+              <![CDATA[[S]ReportLog >> test_dataCompare > --------------------------------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[[S]ReportLog >> test_dataCompare > [ENG] info: Device Name -----> TZ 570W]]>
+            </line>
+            <line>
+              <![CDATA[[S]ReportLog >> test_dataCompare > [ENG] info: Serial Number ---> 2CB8ED4ACD9C]]>
+            </line>
+            <line>
+              <![CDATA[[S]ReportLog >> test_dataCompare > [ENG] info: Firmware Version > SonicOS 7.0.1-5025]]>
+            </line>
+            <line>
+              <![CDATA[[S]ReportLog >> test_dataCompare > --------------------------------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[[S]ReportLog >> missing_page > [ENG] version missing: HOME > Dashboard > Capture ATP]]>
+            </line>
+            <line>
+              <![CDATA[[S]ReportLog >> missing_page > [ENG] version missing: POLICY > Capture ATP > Scanning History]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test_dataCompare -->
+      </class> <!-- test.Test_vsDATA -->
+    </test> <!-- Menu Compare JPN/ENG -->
+  </suite> <!-- SonicWall TestSuite -->
+</testng-results>

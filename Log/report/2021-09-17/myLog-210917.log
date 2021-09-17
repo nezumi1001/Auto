@@ -1,0 +1,70 @@
+2021-09-17 15:03:52,189: - INFO - Test_NavData_JPN: Before Navigate To...https://10.103.50.206/
+2021-09-17 15:03:52,189: - INFO - Test_NavData_ENG: Before Navigate To...https://10.8.75.196/
+2021-09-17 15:04:10,078: - INFO - Test_NavData_ENG: beforeClass > Got your Box IP for [ENG]: https://10.8.75.196/
+2021-09-17 15:04:11,010: - INFO - Test_NavData_JPN: beforeClass > Got your Box IP for [JPN]: https://10.103.50.206/
+2021-09-17 15:04:11,158: - INFO - Test_NavData_ENG: test_Step01_Login_ENG > Login to main page...
+2021-09-17 15:04:11,413: - INFO - Test_NavData_JPN: test_Step01_Login_JPN > Login to main page...
+2021-09-17 15:04:13,067: - INFO - Test_NavData_ENG: test_Step01_Login_ENG > [Pass]Take screenshot...
+2021-09-17 15:04:13,206: - INFO - Test_NavData_JPN: test_Step01_Login_JPN > [Pass]Take screenshot...
+2021-09-17 15:06:07,495: - INFO - Test_NavData_ENG: Before Navigate To...https://10.8.75.196/
+2021-09-17 15:06:08,464: - INFO - Test_NavData_JPN: Before Navigate To...https://10.103.50.206/
+2021-09-17 15:06:21,869: - INFO - Test_NavData_ENG: beforeClass > Got your Box IP for [ENG]: https://10.8.75.196/
+2021-09-17 15:06:22,142: - INFO - Test_NavData_JPN: beforeClass > Got your Box IP for [JPN]: https://10.103.50.206/
+2021-09-17 15:06:22,704: - INFO - Test_NavData_ENG: test_Step01_Login_ENG > Login to main page...
+2021-09-17 15:06:23,084: - INFO - Test_NavData_ENG: test_Step01_Login_ENG > [Pass]Take screenshot...
+2021-09-17 15:06:23,240: - INFO - Test_NavData_JPN: test_Step01_Login_JPN > Login to main page...
+2021-09-17 15:06:23,723: - INFO - Test_NavData_JPN: test_Step01_Login_JPN > [Pass]Take screenshot...
+2021-09-17 15:06:37,872: - INFO - Test_NavData_JPN: test_Step02_HomeMenu_Top_JPN > Got info for [JPN]!
+2021-09-17 15:06:38,246: - INFO - Test_NavData_ENG: test_Step02_HomeMenu_Top_ENG > Got info for [ENG]!
+2021-09-17 15:06:41,027: - INFO - Test_NavData_ENG: test_Step02_HomeMenu_Top_ENG > Data created!
+2021-09-17 15:06:41,032: - INFO - Test_NavData_JPN: test_Step02_HomeMenu_Top_JPN > Data created!
+2021-09-17 15:06:41,069: - INFO - Test_NavData_JPN: test_Step02_HomeMenu_Top_JPN > Data updated!
+2021-09-17 15:06:41,069: - INFO - Test_NavData_ENG: test_Step02_HomeMenu_Top_ENG > Data updated!
+2021-09-17 15:06:41,069: - INFO - Test_NavData_ENG: test_Step02_HomeMenu_Top_ENG > Top menu 'HOME' is done!
+2021-09-17 15:06:41,069: - INFO - Test_NavData_JPN: test_Step02_HomeMenu_Top_JPN > Top menu 'HOME' is done!
+2021-09-17 15:06:41,449: - INFO - Test_NavData_JPN: test_Step02_HomeMenu_Top_JPN > [Pass]Take screenshot...
+2021-09-17 15:06:41,449: - INFO - Test_NavData_ENG: test_Step02_HomeMenu_Top_ENG > [Pass]Take screenshot...
+2021-09-17 15:06:50,525: - INFO - Test_NavData_JPN: test_Step03_MonitorMenu_Top_JPN > Data updated!
+2021-09-17 15:06:50,525: - INFO - Test_NavData_JPN: test_Step03_MonitorMenu_Top_JPN > Top menu 'MONITOR' is done!
+2021-09-17 15:06:50,526: - INFO - Test_NavData_ENG: test_Step03_MonitorMenu_Top_ENG > Data updated!
+2021-09-17 15:06:50,527: - INFO - Test_NavData_ENG: test_Step03_MonitorMenu_Top_ENG > Top menu 'MONITOR' is done!
+2021-09-17 15:06:51,318: - INFO - Test_NavData_JPN: test_Step03_MonitorMenu_Top_JPN > [Pass]Take screenshot...
+2021-09-17 15:06:51,476: - INFO - Test_NavData_ENG: test_Step03_MonitorMenu_Top_ENG > [Pass]Take screenshot...
+2021-09-17 15:07:04,644: - INFO - Test_NavData_JPN: test_Step04_DeviceMenu_Top_JPN > Data updated!
+2021-09-17 15:07:04,644: - INFO - Test_NavData_JPN: test_Step04_DeviceMenu_Top_JPN > Top menu 'DEVICE' is done!
+2021-09-17 15:07:04,946: - INFO - Test_NavData_JPN: test_Step04_DeviceMenu_Top_JPN > [Pass]Take screenshot...
+2021-09-17 15:07:05,251: - INFO - Test_NavData_ENG: test_Step04_DeviceMenu_Top_ENG > Data updated!
+2021-09-17 15:07:05,251: - INFO - Test_NavData_ENG: test_Step04_DeviceMenu_Top_ENG > Top menu 'DEVICE' is done!
+2021-09-17 15:07:05,949: - INFO - Test_NavData_ENG: test_Step04_DeviceMenu_Top_ENG > [Pass]Take screenshot...
+2021-09-17 15:07:15,286: - INFO - Test_NavData_JPN: test_Step05_NetworkMenu_Top_JPN > Data updated!
+2021-09-17 15:07:15,286: - INFO - Test_NavData_JPN: test_Step05_NetworkMenu_Top_JPN > Top menu 'NETWORK' is done!
+2021-09-17 15:07:16,482: - INFO - Test_NavData_JPN: test_Step05_NetworkMenu_Top_JPN > [Pass]Take screenshot...
+2021-09-17 15:07:18,762: - INFO - Test_NavData_ENG: test_Step05_NetworkMenu_Top_ENG > Data updated!
+2021-09-17 15:07:18,763: - INFO - Test_NavData_ENG: test_Step05_NetworkMenu_Top_ENG > Top menu 'NETWORK' is done!
+2021-09-17 15:07:19,628: - INFO - Test_NavData_ENG: test_Step05_NetworkMenu_Top_ENG > [Pass]Take screenshot...
+2021-09-17 15:07:20,306: - INFO - Test_NavData_JPN: test_Step06_ObjectMenu_Top_JPN > Data updated!
+2021-09-17 15:07:20,307: - INFO - Test_NavData_JPN: test_Step06_ObjectMenu_Top_JPN > Top menu 'OBJECT' is done!
+2021-09-17 15:07:21,240: - INFO - Test_NavData_JPN: test_Step06_ObjectMenu_Top_JPN > [Pass]Take screenshot...
+2021-09-17 15:07:23,137: - INFO - Test_NavData_ENG: test_Step06_ObjectMenu_Top_ENG > Data updated!
+2021-09-17 15:07:23,138: - INFO - Test_NavData_ENG: test_Step06_ObjectMenu_Top_ENG > Top menu 'OBJECT' is done!
+2021-09-17 15:07:23,803: - INFO - Test_NavData_ENG: test_Step06_ObjectMenu_Top_ENG > [Pass]Take screenshot...
+2021-09-17 15:07:29,644: - INFO - Test_NavData_JPN: test_Step07_PolicyMenu_Top_JPN > Data updated!
+2021-09-17 15:07:29,644: - INFO - Test_NavData_JPN: test_Step07_PolicyMenu_Top_JPN > Top menu 'POLICY' is done!
+2021-09-17 15:07:29,961: - INFO - Test_NavData_JPN: test_Step07_PolicyMenu_Top_JPN > [Pass]Take screenshot...
+2021-09-17 15:07:34,441: - INFO - Test_NavData_ENG: test_Step07_PolicyMenu_Top_ENG > Data updated!
+2021-09-17 15:07:34,441: - INFO - Test_NavData_ENG: test_Step07_PolicyMenu_Top_ENG > Top menu 'POLICY' is done!
+2021-09-17 15:07:34,817: - INFO - Test_NavData_ENG: test_Step07_PolicyMenu_Top_ENG > [Pass]Take screenshot...
+2021-09-17 15:07:38,691: - INFO - Test_NavData_ENG: box_JPN > Got data!
+2021-09-17 15:07:38,696: - INFO - Test_NavData_ENG: box_ENG > Got data!
+2021-09-17 15:07:38,696: - INFO - Test_NavData_ENG: test_dataCompare > Ready to start...
+2021-09-17 15:07:38,697: - INFO - Test_NavData_ENG: test_dataCompare > --------------------------------------------------------------------
+2021-09-17 15:07:38,699: - INFO - Test_NavData_ENG: test_dataCompare > [JPN] info: Device Name -----> TZ 370W
+2021-09-17 15:07:38,699: - INFO - Test_NavData_ENG: test_dataCompare > [JPN] info: Serial Number ---> 2CB8ED69339C
+2021-09-17 15:07:38,699: - INFO - Test_NavData_ENG: test_dataCompare > [JPN] info: Firmware Version > SonicOS 7.0.1-5018
+2021-09-17 15:07:38,699: - INFO - Test_NavData_ENG: test_dataCompare > --------------------------------------------------------------------
+2021-09-17 15:07:38,700: - INFO - Test_NavData_ENG: test_dataCompare > [ENG] info: Device Name -----> TZ 570W
+2021-09-17 15:07:38,701: - INFO - Test_NavData_ENG: test_dataCompare > [ENG] info: Serial Number ---> 2CB8ED4ACD9C
+2021-09-17 15:07:38,701: - INFO - Test_NavData_ENG: test_dataCompare > [ENG] info: Firmware Version > SonicOS 7.0.1-5025
+2021-09-17 15:07:38,701: - INFO - Test_NavData_ENG: test_dataCompare > --------------------------------------------------------------------
+2021-09-17 15:07:38,701: - INFO - Test_NavData_ENG: missing_page > [ENG] version missing: HOME > Dashboard > Capture ATP
+2021-09-17 15:07:38,703: - INFO - Test_NavData_ENG: missing_page > [ENG] version missing: POLICY > Capture ATP > Scanning History

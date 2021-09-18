@@ -107,7 +107,7 @@ public class Test_NavData_JPN {
 //		eDriver.get(iData_JPN.baseUrl + boxIP_JPN);
 		eDriver.get(iData_JPN.baseUrl);
 		mf = new Func_All_JPN(eDriver);
-//		mf.log_message(testName, "Got your Box IP for [JPN]: " + iData_JPN.baseUrl + boxIP_JPN, "");
+		mf.start_exReport();
 		mf.log_message(testName, "Got your Box IP for [JPN]: " + iData_JPN.baseUrl, "");
 	}
 
@@ -315,5 +315,6 @@ public class Test_NavData_JPN {
 	public void afterClass() throws InterruptedException {
 		Thread.sleep(3000);
 		eDriver.quit();
+		mf.close_exReport();
 	}
 }

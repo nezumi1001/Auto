@@ -15,11 +15,17 @@ import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 
+import com.relevantcodes.extentreports.ExtentReports;
+import com.relevantcodes.extentreports.ExtentTest;
+import com.relevantcodes.extentreports.LogStatus;
+
 public class Test_vsDATA {
 	private File my_path = new File(System.getProperty("user.dir"));
 	private static final Logger log = LogManager.getLogger(Test_NavData_ENG.class.getName());
 	private String main_menu;
 	private int match = 0;
+	private ExtentReports exReport;
+	private ExtentTest exTest;
 
 	// Import data only (info JPN)
 	public List<String> info_JPN() throws IOException {
@@ -586,15 +592,30 @@ public class Test_vsDATA {
 		return match;
 	}
 
+	// Start > Extent report
+	public void start_exReport() {
+		exReport = new ExtentReports(my_path + "\\Extent\\report\\ExReport_VS.html");
+		exTest = exReport.startTest("Menu Test > [JPN] vs [ENG]");
+	}
+
+	// End > Extent report
+	public void close_exReport() {
+		exReport.endTest(exTest);
+		exReport.flush();
+	}
+
 	// Log message[S]
 	public void log_message(String test_name, String info1, String info2) {
 		log.info(test_name + " > " + info1 + info2);
+		exTest.log(LogStatus.INFO, test_name + " > " + info1 + info2);
 		Reporter.log("[S]ReportLog >> " + test_name + " > " + info1 + info2, true);
 	}
 
 	@Test
 	public void test_dataCompare() throws IOException {
 		String testName = Thread.currentThread().getStackTrace()[1].getMethodName();
+		start_exReport();
+		
 		// Get data JPN & ENG
 		String[][] Menus_JPNs = box_JPN();
 		String[][] Menus_ENGs = box_ENG();
@@ -633,7 +654,8 @@ public class Test_vsDATA {
 		if (match == 0) {
 			System.out.println("********** All matched! **********");
 		}
-
+		
+		close_exReport();
 	}
 
 }

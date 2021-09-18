@@ -69,7 +69,7 @@ public class Test_NavData_ENG {
 //		eDriver.get(iData_ENG.baseUrl + boxIP_ENG);
 		eDriver.get(iData_ENG.baseUrl);
 		mf = new Func_All_ENG(eDriver);
-//		mf.log_message(testName, "Got your Box IP for [ENG]: " + iData_ENG.baseUrl + boxIP_ENG, "");
+		mf.start_exReport();
 		mf.log_message(testName, "Got your Box IP for [ENG]: " + iData_ENG.baseUrl, "");
 	}
 
@@ -279,5 +279,6 @@ public class Test_NavData_ENG {
 	public void afterClass() throws InterruptedException {
 		Thread.sleep(3000);
 		eDriver.quit();
+		mf.close_exReport();
 	}
 }

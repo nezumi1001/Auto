@@ -6,8 +6,8 @@ public class iData_ENG {
 	// --- Base ---
 	public static File my_path = new File(System.getProperty("user.dir"));
 //	public static String baseUrl = "https://";
-	public static String baseUrl = "https://10.8.75.196/"; //[TZ 570W]
-//	public static String baseUrl = "https://10.8.34.196/"; //[NSa 6700]
+//	public static String baseUrl = "https://10.8.75.196/"; //[TZ 570W]
+	public static String baseUrl = "https://10.8.34.196/"; //[NSa 6700]
 //	public static String baseUrl = "https://10.8.135.150/"; [TZ 570W]
 	public static String chromeDriver_name = "webdriver.chrome.driver";
 	public static String chromeDriver_path = my_path.getParent() + "\\Driver\\chromedriver.exe";

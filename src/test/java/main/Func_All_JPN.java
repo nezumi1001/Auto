@@ -28,6 +28,10 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Reporter;
 
+import com.relevantcodes.extentreports.ExtentReports;
+import com.relevantcodes.extentreports.ExtentTest;
+import com.relevantcodes.extentreports.LogStatus;
+
 import info.iData_ENG;
 import info.iData_JPN;
 import test.Test_NavData_JPN;
@@ -40,6 +44,8 @@ public class Func_All_JPN {
 	private Actions ac;
 	private static final Logger log = LogManager.getLogger(Test_NavData_JPN.class.getName());
 	private File my_path = new File(System.getProperty("user.dir"));
+	private ExtentReports exReport;
+	private ExtentTest exTest;
 
 	public Func_All_JPN(WebDriver driver) {
 		this.driver = driver;
@@ -51,10 +57,23 @@ public class Func_All_JPN {
 		System.out.println("[P]Print out >> " + pageSrc);
 		driver.quit();
 	}
+	
+	// Start > Extent report 
+	public void start_exReport() {
+		exReport = new ExtentReports(my_path + "\\Extent\\report\\ExReport_JPN.html");
+		exTest = exReport.startTest("Menu Test > [JPN]");
+	}
+	
+	// End > Extent report
+	public void close_exReport() {
+		exReport.endTest(exTest);
+		exReport.flush();
+	}
 
 	// Log message[S]
 	public void log_message(String test_name, String info1, String info2) {
 		log.info(test_name + " > " + info1 + info2);
+		exTest.log(LogStatus.INFO, test_name + " > " + info1 + info2);
 		Reporter.log("[S]ReportLog >> " + test_name + " > " + info1 + info2, true);
 	}
 

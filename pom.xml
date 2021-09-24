@@ -203,7 +203,7 @@
 
 	<profiles>
 		<profile>
-			<id>Test_NavData_vsDATA</id>
+			<id>SonicWall_Box2</id>
 			<build>
 				<plugins>
 					<plugin>
@@ -220,7 +220,7 @@
 			</build>
 		</profile>
 		<profile>
-			<id>Func_Delete</id>
+			<id>SonicWall_Delete</id>
 			<build>
 				<plugins>
 					<plugin>

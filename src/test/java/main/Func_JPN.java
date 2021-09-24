@@ -7,6 +7,7 @@ import java.io.IOException;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Date;
 import java.util.List;
 import java.util.Set;
@@ -31,34 +32,37 @@ import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
 
-import test.Test_NavData_ENG;
+import info.iData_ENG;
+import info.iData_JPN;
+import test.Test_NavData_JPN;
 
-public class Func_All_ENG {
+public class Func_JPN {
 	private WebDriver driver;
 	private WebElement we;
 	private List<WebElement> ges;
 	private String main_handle;
 	private Actions ac;
-	private static final Logger log = LogManager.getLogger(Test_NavData_ENG.class.getName());
+	private String class_name = Test_NavData_JPN.class.getName();
+	private Logger log = LogManager.getLogger(class_name);
 	private File my_path = new File(System.getProperty("user.dir"));
 	private ExtentReports exReport;
 	private ExtentTest exTest;
 
-	public Func_All_ENG(WebDriver driver) {
+	public Func_JPN(WebDriver driver) {
 		this.driver = driver;
 	}
 
 	// Page source
 	public void page_source() {
 		String pageSrc = driver.getPageSource();
-		System.out.println("[P]Print out >> " + pageSrc);
+		log_message(class_name, pageSrc);
 		driver.quit();
 	}
 
 	// Start > Extent report
 	public void start_exReport() {
-		exReport = new ExtentReports(my_path + "\\Extent\\report\\ExReport_ENG.html");
-		exTest = exReport.startTest("Menu Test > [ENG]");
+		exReport = new ExtentReports(my_path + "\\Log\\report\\ExReport_JPN.html");
+		exTest = exReport.startTest("Menu Test > [JPN]");
 	}
 
 	// End > Extent report
@@ -68,10 +72,10 @@ public class Func_All_ENG {
 	}
 
 	// Log message[S]
-	public void log_message(String test_name, String info1, String info2) {
-		log.info(test_name + " > " + info1 + info2);
-		exTest.log(LogStatus.INFO, test_name + " > " + info1 + info2);
-		Reporter.log("[S]ReportLog >> " + test_name + " > " + info1 + info2, true);
+	public void log_message(String test_name, String info) {
+		log.info(test_name + " > " + info);
+		exTest.log(LogStatus.INFO, test_name + " > " + info);
+		Reporter.log("[S]ReportLog >> " + test_name + " > " + info, true);
 	}
 
 	// Date time
@@ -83,11 +87,19 @@ public class Func_All_ENG {
 	}
 
 	// Take screenshot
-	public void take_screenshot(String file_name, String pass_fail) throws Exception {
+	public String take_screenshot(String file_name, String pass_fail) throws Exception {
 		file_name = pass_fail + file_name + "_" + date_time() + ".png";
 		String file_path = my_path + "\\Screenshot\\Image\\";
 		File src_file = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 		FileUtils.copyFile(src_file, new File(file_path + file_name));
+		String file_all = file_path + file_name;
+		return file_all;
+	}
+	
+	// Add screenshot > extent report
+	public void extent_screenshot(String path) {
+		String img_path = exTest.addScreenCapture(path);
+		exTest.log(LogStatus.FAIL, "[Failed]", img_path);
 	}
 
 	// Mouse action
@@ -142,7 +154,8 @@ public class Func_All_ENG {
 				we = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(path)));
 			}
 		} catch (Exception e) {
-			System.out.println("[P]Print out >> Ready to preempt...");
+			log_message(class_name, "Ready to preempt...");
+//			System.out.println("[P]Print out >> Ready to preempt...");
 			return null;
 		}
 		return we;
@@ -162,7 +175,8 @@ public class Func_All_ENG {
 				we = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(path)));
 			}
 		} catch (Exception e) {
-			System.out.println("[P]Print out >> Element Not Found!");
+			log_message(class_name, "Element Not Found!");
+//			System.out.println("[P]Print out >> Element Not Found!");
 		}
 		return we;
 	}
@@ -180,15 +194,18 @@ public class Func_All_ENG {
 				ges = driver.findElements(By.xpath(path));
 			}
 		} catch (Exception e) {
-			System.out.println("[P]Print out >> Element Not Found!");
+			log_message(class_name, "Element Not Found!");
+//			System.out.println("[P]Print out >> Element Not Found!");
 		}
 		return ges;
 	}
 
 	// Expand menu
 	public void expand_menu(List<WebElement> expand_Menus, String top_menu) throws InterruptedException {
-		System.out.println("[P]Print out >> " + "'" + top_menu + "'" + " left menu expanded " + "("
-				+ expand_Menus.size() + ")" + ". Please wait...");
+		log_message(class_name,
+				"'" + top_menu + "'" + " left menu expanded " + "(" + expand_Menus.size() + ")" + ". Please wait...");
+//		System.out.println("[P]Print out >> " + "'" + top_menu + "'" + " left menu expanded " + "("
+//				+ expand_Menus.size() + ")" + ". Please wait...");
 		for (WebElement expand_Menu : expand_Menus) {
 			expand_Menu.click();
 			Thread.sleep(1000);
@@ -198,7 +215,7 @@ public class Func_All_ENG {
 	// Create data (info)
 	public void create_info() throws IOException {
 		HSSFWorkbook workbook = new HSSFWorkbook();
-		HSSFSheet sheet = workbook.createSheet("ENG");
+		HSSFSheet sheet = workbook.createSheet("JPN");
 		// Create 100 row
 		for (int new_row = 0; new_row < 3; new_row++) {
 			sheet.createRow(new_row);
@@ -209,7 +226,7 @@ public class Func_All_ENG {
 			file_compare.mkdir();
 		}
 		// Write data
-		FileOutputStream out = new FileOutputStream(my_path + "\\Data\\info\\info_ENG.xls");
+		FileOutputStream out = new FileOutputStream(my_path + "\\Data\\info\\info_JPN.xls");
 		workbook.write(out);
 		out.close();
 		workbook.close();
@@ -217,9 +234,9 @@ public class Func_All_ENG {
 
 	// Update data (info)
 	public void update_info(List<String> info_list, int menu_column) throws IOException {
-		FileInputStream fs = new FileInputStream(my_path + "\\Data\\info\\info_ENG.xls");
+		FileInputStream fs = new FileInputStream(my_path + "\\Data\\info\\info_JPN.xls");
 		HSSFWorkbook workbook = new HSSFWorkbook(fs);
-		HSSFSheet sheet = workbook.getSheet("ENG");
+		HSSFSheet sheet = workbook.getSheet("JPN");
 		HSSFRow row = null;
 		// Input data
 		for (int i = 0; i < info_list.size(); i++) {
@@ -231,7 +248,7 @@ public class Func_All_ENG {
 			sheet.autoSizeColumn(auto_column);
 		}
 		// Write data
-		FileOutputStream out = new FileOutputStream(my_path + "\\Data\\info\\info_ENG.xls");
+		FileOutputStream out = new FileOutputStream(my_path + "\\Data\\info\\info_JPN.xls");
 		workbook.write(out);
 		out.close();
 		workbook.close();
@@ -240,7 +257,7 @@ public class Func_All_ENG {
 	// Create data (menu)
 	public void create_data() throws IOException {
 		HSSFWorkbook workbook = new HSSFWorkbook();
-		HSSFSheet sheet = workbook.createSheet("ENG");
+		HSSFSheet sheet = workbook.createSheet("JPN");
 		// Create 100 row
 		for (int new_row = 0; new_row < 100; new_row++) {
 			sheet.createRow(new_row);
@@ -251,7 +268,7 @@ public class Func_All_ENG {
 			file_compare.mkdir();
 		}
 		// Write data
-		FileOutputStream out = new FileOutputStream(my_path + "\\Data\\compare\\Box_ENG.xls");
+		FileOutputStream out = new FileOutputStream(my_path + "\\Data\\compare\\Box_JPN.xls");
 		workbook.write(out);
 		out.close();
 		workbook.close();
@@ -259,9 +276,9 @@ public class Func_All_ENG {
 
 	// Update data (menu)
 	public void update_data(List<String> MENU_list, int menu_column) throws IOException {
-		FileInputStream fs = new FileInputStream(my_path + "\\Data\\compare\\Box_ENG.xls");
+		FileInputStream fs = new FileInputStream(my_path + "\\Data\\compare\\Box_JPN.xls");
 		HSSFWorkbook workbook = new HSSFWorkbook(fs);
-		HSSFSheet sheet = workbook.getSheet("ENG");
+		HSSFSheet sheet = workbook.getSheet("JPN");
 		HSSFRow row = null;
 		// Input data
 		for (int i = 0; i < MENU_list.size(); i++) {
@@ -273,7 +290,7 @@ public class Func_All_ENG {
 			sheet.autoSizeColumn(auto_column);
 		}
 		// Write data
-		FileOutputStream out = new FileOutputStream(my_path + "\\Data\\compare\\Box_ENG.xls");
+		FileOutputStream out = new FileOutputStream(my_path + "\\Data\\compare\\Box_JPN.xls");
 		workbook.write(out);
 		out.close();
 		workbook.close();
@@ -282,11 +299,47 @@ public class Func_All_ENG {
 	// VS menu
 	public List<String> vs_elements(List<WebElement> left_Menus, String top_menu) {
 		List<String> vs_leftMenus = new ArrayList<String>();
-		System.out.println("[P]Print out >> " + "'" + top_menu + "'" + " menu total: " + left_Menus.size());
-		// Add menu ENG
+		log_message(class_name, "'" + top_menu + "'" + " menu total: " + left_Menus.size());
+//		System.out.println("[P]Print out >> " + "'" + top_menu + "'" + " menu total: " + left_Menus.size());
+		// Add menu JPN >> ENG
 		for (WebElement left_Menu : left_Menus) {
-			System.out.println("[P]Print out >> " + "'" + top_menu + "'" + " left menu: " + left_Menu.getText());
-			vs_leftMenus.add(left_Menu.getText());
+			log_message(class_name, "'" + top_menu + "'" + " left menu: " + left_Menu.getText());
+//			System.out.println("[P]Print out >> " + "'" + top_menu + "'" + " left menu: " + left_Menu.getText());
+			// HOME
+			if (top_menu.equals("HOME")) {
+				int menuIndex = Arrays.asList(iData_JPN.leftPane_HOME).indexOf(left_Menu.getText());
+				vs_leftMenus.add(iData_ENG.homeList[menuIndex]);
+			}
+
+			// MONITOR
+			if (top_menu.equals("MONITOR")) {
+				int menuIndex = Arrays.asList(iData_JPN.leftPane_MONITOR).indexOf(left_Menu.getText());
+				vs_leftMenus.add(iData_ENG.monitorList[menuIndex]);
+			}
+
+			// DEVICE
+			if (top_menu.equals("DEVICE")) {
+				int menuIndex = Arrays.asList(iData_JPN.leftPane_DEVICE).indexOf(left_Menu.getText());
+				vs_leftMenus.add(iData_ENG.deviceList[menuIndex]);
+			}
+
+			// NETWORK
+			if (top_menu.equals("NETWORK")) {
+				int menuIndex = Arrays.asList(iData_JPN.leftPane_NETWORK).indexOf(left_Menu.getText());
+				vs_leftMenus.add(iData_ENG.networkList[menuIndex]);
+			}
+
+			// OBJECT
+			if (top_menu.equals("OBJECT")) {
+				int menuIndex = Arrays.asList(iData_JPN.leftPane_OBJECT).indexOf(left_Menu.getText());
+				vs_leftMenus.add(iData_ENG.objectList[menuIndex]);
+			}
+
+			// POLICY
+			if (top_menu.equals("POLICY")) {
+				int menuIndex = Arrays.asList(iData_JPN.leftPane_POLICY).indexOf(left_Menu.getText());
+				vs_leftMenus.add(iData_ENG.policyList[menuIndex]);
+			}
 		}
 		return vs_leftMenus;
 	}

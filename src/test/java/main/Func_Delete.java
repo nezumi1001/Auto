@@ -4,7 +4,7 @@ import java.io.File;
 
 import org.testng.annotations.Test;
 
-public class Func_DeleteFile {
+public class Func_Delete {
 	static File my_path = new File(System.getProperty("user.dir"));
 	static String delete_path;
 

@@ -220,7 +220,7 @@
 			</build>
 		</profile>
 		<profile>
-			<id>Func_DeleteFile</id>
+			<id>Func_Delete</id>
 			<build>
 				<plugins>
 					<plugin>
@@ -229,7 +229,7 @@
 						<version>2.22.1</version>
 						<configuration>
 							<suiteXmlFiles>
-								<suiteXmlFile>SonicWall_DeleteFile.xml</suiteXmlFile>
+								<suiteXmlFile>SonicWall_Delete.xml</suiteXmlFile>
 							</suiteXmlFiles>
 						</configuration>
 					</plugin>

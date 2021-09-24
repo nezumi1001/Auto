@@ -2,7 +2,7 @@
 <suite name="SonicWall TestSuite">
 	<test name="Menu Compare JPN/ENG">
 		<classes>
-			<class name="main.Func_DeleteFile"></class>
+			<class name="main.Func_Delete"></class>
 		</classes>
 	</test>
 </suite>

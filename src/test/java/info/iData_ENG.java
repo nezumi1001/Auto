@@ -4,89 +4,71 @@ import java.io.File;
 
 public class iData_ENG {
 	// --- Base ---
+	public static String baseUrl = "https://10.8.34.196/"; // [NSa 6700]
 	public static File my_path = new File(System.getProperty("user.dir"));
-//	public static String baseUrl = "https://";
 //	public static String baseUrl = "https://10.8.75.196/"; //[TZ 570W]
-	public static String baseUrl = "https://10.8.34.196/"; //[NSa 6700]
 //	public static String baseUrl = "https://10.8.135.150/"; [TZ 570W]
-	public static String chromeDriver_name = "webdriver.chrome.driver";
-	public static String chromeDriver_path = my_path.getParent() + "\\Driver\\chromedriver.exe";
+	public static String[] chromeDriver_data = { "webdriver.chrome.driver",
+			my_path.getParent() + "\\Driver\\chromedriver.exe" };
+//	public static String chromeDriver_name = "webdriver.chrome.driver";
+//	public static String chromeDriver_path = my_path.getParent() + "\\Driver\\chromedriver.exe";
 
 	// ===================================================================================================================================================================================
 	// --- Item ---
 	// Preempt
-	public static String preempt_type = "xpath";
 	public static String preempt_path = "//button[contains(text(),'Non-Config')]";
 	// Username field
-	public static String userName_type = "xpath";
 	public static String userName_path = "//input[contains(@placeholder,'Enter your username')]";
+	public static String login_name = "admin";
 	// Password field
-	public static String password_type = "xpath";
 	public static String password_path = "//input[contains(@placeholder,'Enter your password')]";
+	public static String login_pass = "password";
 	// LOGIN button
-	public static String login_type = "xpath";
 	public static String login_path = "//div[contains(text(),'LOG')]";
 
 	// --- Info ---
 	// Box Name > e.g. TZ570W
-	public static String Box_Name_type = "xpath";
 	public static String Box_Name_path = "//div[@class='fw-app-header__head__app-name sw-flexbox__flex-none']/span";
 	// Serial Number > e.g. 2CB8ED4ACD9C
-	public static String Serial_Number_type = "xpath";
 	public static String Serial_Number_path = "//span[contains(text(),'Serial Number')]/parent::div/following-sibling::div/span";
 	// Firmware Version > e.g. SonicOS 7.0.1-5018
-	public static String Firmware_Version_type = "xpath";
 	public static String Firmware_Version_path = "//span[contains(text(),'Firmware Version')]/parent::div/following-sibling::div/span";
 
 	// HOME menu (top page)
-	public static String HomeMenu_Top_type = "xpath";
 	public static String HomeMenu_Top_path = "//span[@class='sw-top-nav-item__label sw-flexbox__flex-none' and contains(text(),'Home')]";
 	// HOME/Dashboard/System
-	public static String Dashboard_System_type = "xpath";
 	public static String Dashboard_System_path = "//span[@class='sw-breadcrumb__item__text' and contains(text(),'System')]";
 
 	// MONITOR menu (top page)
-	public static String MonitorMenu_Top_type = "xpath";
 	public static String MonitorMenu_Top_path = "//span[@class='sw-top-nav-item__label sw-flexbox__flex-none' and contains(text(),'Monitor')]";
 	// Monitor/Real-Time Charts/System Monitor
-	public static String RealTimeCharts_SystemMonitor_type = "xpath";
 	public static String RealTimeCharts_SystemMonitor_path = "//span[@class='sw-breadcrumb__item__text' and contains(text(),'System Monitor')]";
 
 	// DEVICE menu (top page)
-	public static String DeviceMenu_Top_type = "xpath";
 	public static String DeviceMenu_Top_path = "//span[@class='sw-top-nav-item__label sw-flexbox__flex-none' and contains(text(),'Device')]";
 	// Device/Settings/Licenses
-	public static String Settings_Licenses_type = "xpath";
 	public static String Settings_Licenses_path = "//span[@class='sw-breadcrumb__item__text' and contains(text(),'Licenses')]";
 
 	// NETWORK menu (top page)
-	public static String NetworkMenu_Top_type = "xpath";
 	public static String NetworkMenu_Top_path = "//span[@class='sw-top-nav-item__label sw-flexbox__flex-none' and contains(text(),'Network')]";
 	// Network/System/Interfaces
-	public static String System_Interfaces_type = "xpath";
 	public static String System_Interfaces_path = "//span[@class='sw-breadcrumb__item__text' and contains(text(),'Interfaces')]";
 
 	// OBJECT menu (top page)
-	public static String ObjectMenu_Top_type = "xpath";
 	public static String ObjectMenu_Top_path = "//span[@class='sw-top-nav-item__label sw-flexbox__flex-none' and contains(text(),'Object')]";
 	// Object/Match Objects/Zones
-	public static String MatchObjects_Zones_type = "xpath";
 	public static String MatchObjects_Zones_path = "//span[@class='sw-breadcrumb__item__text' and contains(text(),'Zones')]";
 
 	// POLICY menu (top page)
-	public static String PolicyMenu_Top_type = "xpath";
 	public static String PolicyMenu_Top_path = "//span[@class='sw-top-nav-item__label sw-flexbox__flex-none' and contains(text(),'Policy')]";
 	// Policy/Rules and Policies/Access Rules
-	public static String RulesPolicies_AccessRules_type = "xpath";
 	public static String RulesPolicies_AccessRules_path = "//span[@class='sw-breadcrumb__item__text' and contains(text(),'Access Rules')]";
 
 	// All left pane
-	public static String LeftPane_type = "xpath";
 	public static String LeftPane_path = "//div[@class='sw-nav-item__content sw-flexbox sw-flexbox--center-items sw-flexbox__flex']/span";
 
 	// ===================================================================================================================================================================================
 	// --- Dark menu ---
-	public static String DarkMenu_LeftPane_type = "xpath";
 	public static String DarkMenu_LeftPane_path = "//li[@class='sw-nav-item sw-flexbox sw-nav-item--dark sw-nav-item--level-0 sw-nav-item--compact']//div[@class='sw-nav-item__content sw-flexbox sw-flexbox--center-items sw-flexbox__flex']/span";
 
 	// ===================================================================================================================================================================================

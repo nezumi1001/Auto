@@ -21,7 +21,7 @@ import com.relevantcodes.extentreports.LogStatus;
 
 public class Test_vsDATA {
 	private File my_path = new File(System.getProperty("user.dir"));
-	private static final Logger log = LogManager.getLogger(Test_NavData_ENG.class.getName());
+	private Logger log = LogManager.getLogger(Test_NavData_ENG.class.getName());
 	private String main_menu;
 	private int match = 0;
 	private ExtentReports exReport;
@@ -113,7 +113,7 @@ public class Test_vsDATA {
 		String[] menu_POLICYs = menu_POLICY.toArray(new String[menu_POLICY.size()]);
 		String[][] menu_JPN = { menu_HOMEs, menu_MONITORs, menu_DEVICEs, menu_NETWORKs, menu_OBJECTs, menu_POLICYs };
 		// [L]Log
-		log_message(testName, "Got data!", "");
+		log_message(testName, "Got data!");
 		workbook_JPN.close();
 		return menu_JPN;
 	}
@@ -166,7 +166,7 @@ public class Test_vsDATA {
 		String[] menu_POLICYs = menu_POLICY.toArray(new String[menu_POLICY.size()]);
 		String[][] menu_ENG = { menu_HOMEs, menu_MONITORs, menu_DEVICEs, menu_NETWORKs, menu_OBJECTs, menu_POLICYs };
 		// [L]Log
-		log_message(testName, "Got data!", "");
+		log_message(testName, "Got data!");
 		workbook_ENG.close();
 		return menu_ENG;
 	}
@@ -567,7 +567,7 @@ public class Test_vsDATA {
 						MenuENG = MenuENG.replace(" (TOP)", "");
 					}
 					// [L]Log
-					log_message(testName, "[JPN] version missing: " + main_menu + " > ", MenuENG);
+					log_message(testName, "[JPN] version missing: " + main_menu + " > " + MenuENG);
 					match++;
 				}
 			}
@@ -583,7 +583,7 @@ public class Test_vsDATA {
 						MenuJPN = MenuJPN.replace(" (TOP)", "");
 					}
 					// [L]Log
-					log_message(testName, "[ENG] version missing: " + main_menu + " > ", MenuJPN);
+					log_message(testName, "[ENG] version missing: " + main_menu + " > " + MenuJPN);
 					match++;
 				}
 			}
@@ -594,7 +594,7 @@ public class Test_vsDATA {
 
 	// Start > Extent report
 	public void start_exReport() {
-		exReport = new ExtentReports(my_path + "\\Extent\\report\\ExReport_VS.html");
+		exReport = new ExtentReports(my_path + "\\Log\\report\\ExReport_VS.html");
 		exTest = exReport.startTest("Menu Test > [JPN] vs [ENG]");
 	}
 
@@ -605,10 +605,10 @@ public class Test_vsDATA {
 	}
 
 	// Log message[S]
-	public void log_message(String test_name, String info1, String info2) {
-		log.info(test_name + " > " + info1 + info2);
-		exTest.log(LogStatus.INFO, test_name + " > " + info1 + info2);
-		Reporter.log("[S]ReportLog >> " + test_name + " > " + info1 + info2, true);
+	public void log_message(String test_name, String info) {
+		log.info(test_name + " > " + info);
+		exTest.log(LogStatus.INFO, test_name + " > " + info);
+		Reporter.log("[S]ReportLog >> " + test_name + " > " + info, true);
 	}
 
 	@Test
@@ -621,28 +621,28 @@ public class Test_vsDATA {
 		String[][] Menus_ENGs = box_ENG();
 
 		// [L]Log
-		log_message(testName, "Ready to start...", "");
+		log_message(testName, "Ready to start...");
 
 		// [L]Log
-		log_message(testName, "--------------------------------------------------------------------", "");
+		log_message(testName, "--------------------------------------------------------------------");
 
 		// [L]Log (info JPN)
 		List<String> InfoJPNs = info_JPN();
-		log_message(testName, "[JPN] info: " + "Device Name -----> ", InfoJPNs.get(0));
-		log_message(testName, "[JPN] info: " + "Serial Number ---> ", InfoJPNs.get(1));
-		log_message(testName, "[JPN] info: " + "Firmware Version > ", InfoJPNs.get(2));
+		log_message(testName, "[JPN] info: " + "Device Name -----> " + InfoJPNs.get(0));
+		log_message(testName, "[JPN] info: " + "Serial Number ---> " + InfoJPNs.get(1));
+		log_message(testName, "[JPN] info: " + "Firmware Version > " + InfoJPNs.get(2));
 
 		// [L]Log
-		log_message(testName, "--------------------------------------------------------------------", "");
+		log_message(testName, "--------------------------------------------------------------------");
 
 		// [L]Log (info JPN)
 		List<String> InfoENGs = info_ENG();
-		log_message(testName, "[ENG] info: " + "Device Name -----> ", InfoENGs.get(0));
-		log_message(testName, "[ENG] info: " + "Serial Number ---> ", InfoENGs.get(1));
-		log_message(testName, "[ENG] info: " + "Firmware Version > ", InfoENGs.get(2));
+		log_message(testName, "[ENG] info: " + "Device Name -----> " + InfoENGs.get(0));
+		log_message(testName, "[ENG] info: " + "Serial Number ---> " + InfoENGs.get(1));
+		log_message(testName, "[ENG] info: " + "Firmware Version > " + InfoENGs.get(2));
 
 		// [L]Log
-		log_message(testName, "--------------------------------------------------------------------", "");
+		log_message(testName, "--------------------------------------------------------------------");
 
 		// Compare data JPN & ENG
 		for (int i = 0; i < 6; i++) {
@@ -652,7 +652,8 @@ public class Test_vsDATA {
 		}
 		// Completely Match!
 		if (match == 0) {
-			System.out.println("********** All matched! **********");
+			log_message(testName, "********** All matched! **********");
+//			System.out.println("********** All matched! **********");
 		}
 		
 		close_exReport();

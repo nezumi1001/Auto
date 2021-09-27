@@ -163,7 +163,7 @@ public class Func_ENG {
 		WebDriverWait wait = new WebDriverWait(driver, 60);
 		try {
 			if (type.equals("id")) {
-				we = wait.until(ExpectedConditions.presenceOfElementLocated(By.name(path)));
+				we = wait.until(ExpectedConditions.presenceOfElementLocated(By.id(path)));
 			} else if (type.equals("name")) {
 				we = wait.until(ExpectedConditions.presenceOfElementLocated(By.name(path)));
 			} else if (type.equals("class")) {

@@ -24,7 +24,6 @@ public class Test_NavData_JPN {
 
 	@BeforeClass
 	public void beforeClass() throws InterruptedException, IOException {
-		String testName = Thread.currentThread().getStackTrace()[1].getMethodName();
 		// ChromeDriver Settings
 		System.setProperty(iData_JPN.chromeDriver_data[0], iData_JPN.chromeDriver_data[1]);
 		ChromeOptions chromOptions = new ChromeOptions();
@@ -33,7 +32,8 @@ public class Test_NavData_JPN {
 		driver.get(iData_JPN.baseUrl);
 		mf = new Func_JPN(driver);
 		mf.start_exReport();
-		mf.log_message(testName, "Before Navigate To..." + "[JPN]" + iData_JPN.baseUrl);
+		mf.log_message(Thread.currentThread().getStackTrace()[1].getMethodName(),
+				"Before Navigate To..." + iData_JPN.baseUrl + "[JPN]");
 	}
 
 	// Actual data
@@ -51,7 +51,6 @@ public class Test_NavData_JPN {
 
 	@Test
 	public void test_Step01_Login_JPN() throws Exception {
-		String testName = Thread.currentThread().getStackTrace()[1].getMethodName();
 		// [WA]Enter "ユーザ名"
 		mf.wait_element("xpath", iData_JPN.userName_path).sendKeys(iData_JPN.login_name);
 		// [WA]Enter "パスワード"
@@ -59,23 +58,21 @@ public class Test_NavData_JPN {
 		// [WA]Click "ログイン"
 		mf.wait_element("xpath", iData_JPN.login_path).click();
 		// [L]Log
-		mf.log_message(testName, "Login to main page...");
+		mf.log_message(Thread.currentThread().getStackTrace()[1].getMethodName(), "Login to main page...");
 	}
 
 	@Test
 	public void test_Step02_HomeMenu_Top_JPN() throws Exception {
 		topMenu = "HOME";
-		String testName = Thread.currentThread().getStackTrace()[1].getMethodName();
 		// [WA]Click HOME menu (top page)
 		if (mf.wait_element_short("xpath", iData_JPN.HomeMenu_Top_path) != null) {
 			mf.wait_element_short("xpath", iData_JPN.HomeMenu_Top_path).click();
 		} else {
 			// [WA]Preempt
 			mf.wait_element("xpath", iData_JPN.preempt_path).click();
-			mf.log_message(testName, "Preempt the box...");
+			mf.log_message(Thread.currentThread().getStackTrace()[1].getMethodName(), "Preempt the box...");
+			mf.wait_element("xpath", iData_JPN.HomeMenu_Top_path).click();
 		}
-		// [WA]Click ホーム menu (top page)
-		mf.wait_element("xpath", iData_JPN.HomeMenu_Top_path).click();
 		// [W]Wait right page title (by default)
 		mf.wait_element("xpath", iData_JPN.Dashboard_System_path);
 
@@ -90,7 +87,7 @@ public class Test_NavData_JPN {
 		// Create info >> Excel
 		mf.create_info();
 		// [L]Log
-		mf.log_message(testName, "Got info for [JPN]!");
+		mf.log_message(Thread.currentThread().getStackTrace()[1].getMethodName(), "Got info for [JPN]!");
 		// Update info >> Excel
 		mf.update_info(info_JPNs, 0);
 		// [M]Get compare data
@@ -98,19 +95,19 @@ public class Test_NavData_JPN {
 		// Create data >> Excel
 		mf.create_data();
 		// [L]Log
-		mf.log_message(testName, "Data created!");
+		mf.log_message(Thread.currentThread().getStackTrace()[1].getMethodName(), "Data created!");
 		// Update data >> Excel
 		mf.update_data(actualData, 0);
 		// [L]Log
-		mf.log_message(testName, "Data updated!");
+		mf.log_message(Thread.currentThread().getStackTrace()[1].getMethodName(), "Data updated!");
 		// [L]Log
-		mf.log_message(testName, "Top menu " + "'" + topMenu + "'" + " is done!");
+		mf.log_message(Thread.currentThread().getStackTrace()[1].getMethodName(),
+				"Top menu " + "'" + topMenu + "'" + " is done!");
 	}
 
 	@Test
 	public void test_Step03_MonitorMenu_Top_JPN() throws Exception {
 		topMenu = "MONITOR";
-		String testName = Thread.currentThread().getStackTrace()[1].getMethodName();
 		// [WA]Click 監視 menu (top page)
 		mf.wait_element("xpath", iData_JPN.MonitorMenu_Top_path).click();
 		// [W]Wait right page title (by default)
@@ -120,15 +117,15 @@ public class Test_NavData_JPN {
 		// Update data >> Excel
 		mf.update_data(actualData, 1);
 		// [L]Log
-		mf.log_message(testName, "Data updated!");
+		mf.log_message(Thread.currentThread().getStackTrace()[1].getMethodName(), "Data updated!");
 		// [L]Log
-		mf.log_message(testName, "Top menu " + "'" + topMenu + "'" + " is done!");
+		mf.log_message(Thread.currentThread().getStackTrace()[1].getMethodName(),
+				"Top menu " + "'" + topMenu + "'" + " is done!");
 	}
 
 	@Test
 	public void test_Step04_DeviceMenu_Top_JPN() throws Exception {
 		topMenu = "DEVICE";
-		String testName = Thread.currentThread().getStackTrace()[1].getMethodName();
 		// [A]Click デバイス menu (top page)
 		mf.wait_element("xpath", iData_JPN.DeviceMenu_Top_path).click();
 		// [W]Wait right page title (by default)
@@ -138,15 +135,15 @@ public class Test_NavData_JPN {
 		// Update data >> Excel
 		mf.update_data(actualData, 2);
 		// [L]Log
-		mf.log_message(testName, "Data updated!");
+		mf.log_message(Thread.currentThread().getStackTrace()[1].getMethodName(), "Data updated!");
 		// [L]Log
-		mf.log_message(testName, "Top menu " + "'" + topMenu + "'" + " is done!");
+		mf.log_message(Thread.currentThread().getStackTrace()[1].getMethodName(),
+				"Top menu " + "'" + topMenu + "'" + " is done!");
 	}
 
 	@Test
 	public void test_Step05_NetworkMenu_Top_JPN() throws Exception {
 		topMenu = "NETWORK";
-		String testName = Thread.currentThread().getStackTrace()[1].getMethodName();
 		// [A]Click ネットワーク menu (top page)
 		mf.wait_element("xpath", iData_JPN.NetworkMenu_Top_path).click();
 		// [W]Wait right page title (by default)
@@ -156,15 +153,15 @@ public class Test_NavData_JPN {
 		// Update data >> Excel
 		mf.update_data(actualData, 3);
 		// [L]Log
-		mf.log_message(testName, "Data updated!");
+		mf.log_message(Thread.currentThread().getStackTrace()[1].getMethodName(), "Data updated!");
 		// [L]Log
-		mf.log_message(testName, "Top menu " + "'" + topMenu + "'" + " is done!");
+		mf.log_message(Thread.currentThread().getStackTrace()[1].getMethodName(),
+				"Top menu " + "'" + topMenu + "'" + " is done!");
 	}
 
 	@Test
 	public void test_Step06_ObjectMenu_Top_JPN() throws Exception {
 		topMenu = "OBJECT";
-		String testName = Thread.currentThread().getStackTrace()[1].getMethodName();
 		// [A]Click オブジェクト menu (top page)
 		mf.wait_element("xpath", iData_JPN.ObjectMenu_Top_path).click();
 		// [W]Wait right page title (by default)
@@ -174,15 +171,15 @@ public class Test_NavData_JPN {
 		// Update data >> Excel
 		mf.update_data(actualData, 4);
 		// [L]Log
-		mf.log_message(testName, "Data updated!");
+		mf.log_message(Thread.currentThread().getStackTrace()[1].getMethodName(), "Data updated!");
 		// [L]Log
-		mf.log_message(testName, "Top menu " + "'" + topMenu + "'" + " is done!");
+		mf.log_message(Thread.currentThread().getStackTrace()[1].getMethodName(),
+				"Top menu " + "'" + topMenu + "'" + " is done!");
 	}
 
 	@Test
 	public void test_Step07_PolicyMenu_Top_JPN() throws Exception {
 		topMenu = "POLICY";
-		String testName = Thread.currentThread().getStackTrace()[1].getMethodName();
 		// [A]Click ポリシー menu (top page)
 		mf.wait_element("xpath", iData_JPN.PolicyMenu_Top_path).click();
 		// [W]Wait right page title (by default)
@@ -192,9 +189,10 @@ public class Test_NavData_JPN {
 		// Update data >> Excel
 		mf.update_data(actualData, 5);
 		// [L]Log
-		mf.log_message(testName, "Data updated!");
+		mf.log_message(Thread.currentThread().getStackTrace()[1].getMethodName(), "Data updated!");
 		// [L]Log
-		mf.log_message(testName, "Top menu " + "'" + topMenu + "'" + " is done!");
+		mf.log_message(Thread.currentThread().getStackTrace()[1].getMethodName(),
+				"Top menu " + "'" + topMenu + "'" + " is done!");
 	}
 
 	@AfterMethod

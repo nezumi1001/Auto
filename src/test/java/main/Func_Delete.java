@@ -43,7 +43,7 @@ public class Func_Delete {
 		System.out.println("[P]Print out >> Start...");
 		delete_path = "\\Log\\report";
 		deleteAllFilesOfDir(new File(my_path + delete_path));
-		delete_path = "\\Extent\\report";
+		delete_path = "\\Log\\log4j";
 		deleteAllFilesOfDir(new File(my_path + delete_path));
 		delete_path = "\\Screenshot\\image";
 		deleteAllFilesOfDir(new File(my_path + delete_path));

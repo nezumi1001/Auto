@@ -1,0 +1,472 @@
+2021-09-27 16:13:21,572: - INFO - Test_NavData_JPN: beforeClass > Before Navigate To...https://10.103.50.78/[JPN]
+2021-09-27 16:13:23,723: - INFO - Test_NavData_ENG: beforeClass > Before Navigate To...https://10.8.51.169/[ENG]
+2021-09-27 16:13:24,274: - INFO - Test_NavData_JPN: test_Step01_Login_JPN > Login to main page...
+2021-09-27 16:13:24,299: - INFO - Test_NavData_ENG: test_Step01_Login_ENG > Login to main page...
+2021-09-27 16:13:25,996: - INFO - Test_NavData_JPN: test_Step01_Login_JPN > [Pass]Take screenshot...
+2021-09-27 16:13:26,387: - INFO - Test_NavData_ENG: test_Step01_Login_ENG > [Pass]Take screenshot...
+2021-09-27 16:13:42,978: - INFO - Test_NavData_JPN: test_Step02_HomeMenu_Top_JPN > Got info for [JPN]!
+2021-09-27 16:13:43,563: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'HOME' left menu expanded (2). Please wait...
+2021-09-27 16:13:43,815: - INFO - Test_NavData_ENG: test_Step02_HomeMenu_Top_ENG > Got info for [ENG]!
+2021-09-27 16:13:44,218: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'HOME' left menu expanded (2). Please wait...
+2021-09-27 16:13:46,271: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'HOME' menu total: 7
+2021-09-27 16:13:46,296: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'HOME' left menu: ダッシュボード
+2021-09-27 16:13:46,330: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'HOME' left menu: システム
+2021-09-27 16:13:46,353: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'HOME' left menu: アクセス ポイント
+2021-09-27 16:13:46,377: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'HOME' left menu: キャプチャ ATP
+2021-09-27 16:13:46,398: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'HOME' left menu: トポロジ
+2021-09-27 16:13:46,418: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'HOME' left menu: 法的情報
+2021-09-27 16:13:46,436: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'HOME' left menu: API
+2021-09-27 16:13:46,512: - INFO - Test_NavData_JPN: test_Step02_HomeMenu_Top_JPN > Data created!
+2021-09-27 16:13:46,615: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'HOME' menu total: 6
+2021-09-27 16:13:46,631: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'HOME' left menu: Dashboard
+2021-09-27 16:13:46,658: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'HOME' left menu: System
+2021-09-27 16:13:46,680: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'HOME' left menu: Access Points
+2021-09-27 16:13:46,702: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'HOME' left menu: Topology
+2021-09-27 16:13:46,722: - INFO - Test_NavData_JPN: test_Step02_HomeMenu_Top_JPN > Data updated!
+2021-09-27 16:13:46,722: - INFO - Test_NavData_JPN: test_Step02_HomeMenu_Top_JPN > Top menu 'HOME' is done!
+2021-09-27 16:13:46,732: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'HOME' left menu: Legal Information
+2021-09-27 16:13:46,759: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'HOME' left menu: API
+2021-09-27 16:13:46,773: - INFO - Test_NavData_ENG: test_Step02_HomeMenu_Top_ENG > Data created!
+2021-09-27 16:13:46,824: - INFO - Test_NavData_ENG: test_Step02_HomeMenu_Top_ENG > Data updated!
+2021-09-27 16:13:46,825: - INFO - Test_NavData_ENG: test_Step02_HomeMenu_Top_ENG > Top menu 'HOME' is done!
+2021-09-27 16:13:47,158: - INFO - Test_NavData_JPN: test_Step02_HomeMenu_Top_JPN > [Pass]Take screenshot...
+2021-09-27 16:13:47,399: - INFO - Test_NavData_ENG: test_Step02_HomeMenu_Top_ENG > [Pass]Take screenshot...
+2021-09-27 16:13:48,727: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'MONITOR' left menu expanded (4). Please wait...
+2021-09-27 16:13:49,809: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'MONITOR' left menu expanded (4). Please wait...
+2021-09-27 16:13:59,540: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'MONITOR' menu total: 20
+2021-09-27 16:13:59,940: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'MONITOR' left menu: リアルタイム グラフ
+2021-09-27 16:14:00,572: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'MONITOR' left menu: システム監視
+2021-09-27 16:14:00,572: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'MONITOR' menu total: 20
+2021-09-27 16:14:00,722: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'MONITOR' left menu: Real-Time Charts
+2021-09-27 16:14:00,817: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'MONITOR' left menu: プロトコル監視
+2021-09-27 16:14:00,829: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'MONITOR' left menu: System Monitor
+2021-09-27 16:14:00,850: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'MONITOR' left menu: ユーザ監視
+2021-09-27 16:14:00,860: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'MONITOR' left menu: Protocol Monitor
+2021-09-27 16:14:00,880: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'MONITOR' left menu: 帯域幅管理監視
+2021-09-27 16:14:00,885: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'MONITOR' left menu: User Monitor
+2021-09-27 16:14:00,906: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'MONITOR' left menu: BWM Monitor
+2021-09-27 16:14:00,909: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'MONITOR' left menu: AppFlow
+2021-09-27 16:14:00,933: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'MONITOR' left menu: AppFlow
+2021-09-27 16:14:00,935: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'MONITOR' left menu: AppFlow 報告
+2021-09-27 16:14:00,957: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'MONITOR' left menu: AppFlow 監視
+2021-09-27 16:14:00,959: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'MONITOR' left menu: AppFlow Report
+2021-09-27 16:14:00,980: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'MONITOR' left menu: CTA レポート
+2021-09-27 16:14:00,987: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'MONITOR' left menu: AppFlow Monitor
+2021-09-27 16:14:01,004: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'MONITOR' left menu: SDWAN
+2021-09-27 16:14:01,012: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'MONITOR' left menu: CTA Report
+2021-09-27 16:14:01,025: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'MONITOR' left menu: SDWAN 監視
+2021-09-27 16:14:01,035: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'MONITOR' left menu: SDWAN
+2021-09-27 16:14:01,044: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'MONITOR' left menu: SD-WAN 接続
+2021-09-27 16:14:01,055: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'MONITOR' left menu: SDWAN Monitor
+2021-09-27 16:14:01,064: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'MONITOR' left menu: ログ
+2021-09-27 16:14:01,077: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'MONITOR' left menu: SD-WAN Connections
+2021-09-27 16:14:01,085: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'MONITOR' left menu: システム ログ
+2021-09-27 16:14:01,097: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'MONITOR' left menu: Logs
+2021-09-27 16:14:01,105: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'MONITOR' left menu: 監査ログ
+2021-09-27 16:14:01,117: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'MONITOR' left menu: System Logs
+2021-09-27 16:14:01,124: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'MONITOR' left menu: ツールと監視
+2021-09-27 16:14:01,137: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'MONITOR' left menu: Auditing Logs
+2021-09-27 16:14:01,143: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'MONITOR' left menu: パケット監視
+2021-09-27 16:14:01,155: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'MONITOR' left menu: Tools & Monitors
+2021-09-27 16:14:01,163: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'MONITOR' left menu: 接続
+2021-09-27 16:14:01,175: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'MONITOR' left menu: Packet Monitor
+2021-09-27 16:14:01,181: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'MONITOR' left menu: コア 0 プロセス
+2021-09-27 16:14:01,194: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'MONITOR' left menu: Connections
+2021-09-27 16:14:01,201: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'MONITOR' left menu: パケット再生
+2021-09-27 16:14:01,217: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'MONITOR' left menu: Core 0 Processes
+2021-09-27 16:14:01,227: - INFO - Test_NavData_JPN: test_Step03_MonitorMenu_Top_JPN > Data updated!
+2021-09-27 16:14:01,227: - INFO - Test_NavData_JPN: test_Step03_MonitorMenu_Top_JPN > Top menu 'MONITOR' is done!
+2021-09-27 16:14:01,481: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'MONITOR' left menu: Packet Replay
+2021-09-27 16:14:01,501: - INFO - Test_NavData_ENG: test_Step03_MonitorMenu_Top_ENG > Data updated!
+2021-09-27 16:14:01,502: - INFO - Test_NavData_ENG: test_Step03_MonitorMenu_Top_ENG > Top menu 'MONITOR' is done!
+2021-09-27 16:14:02,694: - INFO - Test_NavData_ENG: test_Step03_MonitorMenu_Top_ENG > [Pass]Take screenshot...
+2021-09-27 16:14:02,700: - INFO - Test_NavData_JPN: test_Step03_MonitorMenu_Top_JPN > [Pass]Take screenshot...
+2021-09-27 16:14:04,306: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' left menu expanded (8). Please wait...
+2021-09-27 16:14:04,881: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' left menu expanded (8). Please wait...
+2021-09-27 16:14:13,763: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' menu total: 67
+2021-09-27 16:14:13,774: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' menu total: 68
+2021-09-27 16:14:13,777: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' left menu: Settings
+2021-09-27 16:14:13,825: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' left menu: 設定
+2021-09-27 16:14:13,846: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' left menu: Licenses
+2021-09-27 16:14:13,854: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' left menu: ライセンス
+2021-09-27 16:14:13,870: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' left menu: Administration
+2021-09-27 16:14:13,886: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' left menu: 管理
+2021-09-27 16:14:13,892: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' left menu: Time
+2021-09-27 16:14:13,915: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' left menu: 時間
+2021-09-27 16:14:13,930: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' left menu: Certificates
+2021-09-27 16:14:14,502: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' left menu: SNMP
+2021-09-27 16:14:14,511: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' left menu: 証明書
+2021-09-27 16:14:14,523: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' left menu: Firmware and Settings
+2021-09-27 16:14:14,533: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' left menu: SNMP
+2021-09-27 16:14:14,545: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' left menu: Storage
+2021-09-27 16:14:14,558: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' left menu: ファームウェアと設定
+2021-09-27 16:14:14,566: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' left menu: Restart
+2021-09-27 16:14:14,578: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' left menu: 記憶装置
+2021-09-27 16:14:14,586: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' left menu: High Availability
+2021-09-27 16:14:14,601: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' left menu: 再起動
+2021-09-27 16:14:14,608: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' left menu: Status
+2021-09-27 16:14:14,622: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' left menu: 高可用性
+2021-09-27 16:14:14,642: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' left menu: 状況
+2021-09-27 16:14:14,642: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' left menu: Settings
+2021-09-27 16:14:15,267: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' left menu: 設定
+2021-09-27 16:14:15,270: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' left menu: Advanced
+2021-09-27 16:14:16,139: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' left menu: 詳細
+2021-09-27 16:14:16,140: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' left menu: Monitoring
+2021-09-27 16:14:16,697: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' left menu: Users
+2021-09-27 16:14:16,697: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' left menu: 監視
+2021-09-27 16:14:17,359: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' left menu: Status
+2021-09-27 16:14:17,361: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' left menu: ユーザ
+2021-09-27 16:14:17,843: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' left menu: Settings
+2021-09-27 16:14:17,843: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' left menu: 状況
+2021-09-27 16:14:18,329: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' left menu: Partitions
+2021-09-27 16:14:18,329: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' left menu: 設定
+2021-09-27 16:14:18,717: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' left menu: ローカル ユーザとグループ
+2021-09-27 16:14:18,724: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' left menu: Local Users & Groups
+2021-09-27 16:14:19,284: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' left menu: Guest Services
+2021-09-27 16:14:19,284: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' left menu: ゲスト サービス
+2021-09-27 16:14:19,311: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' left menu: Guest Accounts
+2021-09-27 16:14:19,314: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' left menu: ゲスト アカウント
+2021-09-27 16:14:19,335: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' left menu: Guest Status
+2021-09-27 16:14:19,337: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' left menu: ゲスト状況
+2021-09-27 16:14:19,358: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' left menu: AppFlow
+2021-09-27 16:14:19,358: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' left menu: AppFlow
+2021-09-27 16:14:19,379: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' left menu: Flow Reporting
+2021-09-27 16:14:19,382: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' left menu: フロー報告
+2021-09-27 16:14:19,405: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' left menu: AppFlow Agent
+2021-09-27 16:14:19,405: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' left menu: AppFlow エージェント
+2021-09-27 16:14:19,426: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' left menu: Log
+2021-09-27 16:14:19,426: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' left menu: ログ
+2021-09-27 16:14:19,448: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' left menu: Settings
+2021-09-27 16:14:19,448: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' left menu: 設定
+2021-09-27 16:14:19,468: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' left menu: Syslog
+2021-09-27 16:14:19,472: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' left menu: Syslog
+2021-09-27 16:14:19,490: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' left menu: 自動化
+2021-09-27 16:14:19,495: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' left menu: Automation
+2021-09-27 16:14:19,510: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' left menu: 名前解決
+2021-09-27 16:14:19,515: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' left menu: Name Resolution
+2021-09-27 16:14:19,530: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' left menu: レポート
+2021-09-27 16:14:19,535: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' left menu: Reports
+2021-09-27 16:14:19,549: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' left menu: AWS
+2021-09-27 16:14:19,555: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' left menu: AWS
+2021-09-27 16:14:19,568: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' left menu: 診断
+2021-09-27 16:14:19,574: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' left menu: Diagnostics
+2021-09-27 16:14:19,589: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' left menu: テクニカル サポート レポート
+2021-09-27 16:14:19,592: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' left menu: Tech Support Report
+2021-09-27 16:14:19,609: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' left menu: ネットワーク設定の確認
+2021-09-27 16:14:19,612: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' left menu: Check Network Settings
+2021-09-27 16:14:19,629: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' left menu: DNS 名の調査
+2021-09-27 16:14:19,631: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' left menu: DNS Name Lookup
+2021-09-27 16:14:19,649: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' left menu: Network Path
+2021-09-27 16:14:19,649: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' left menu: ネットワーク パス
+2021-09-27 16:14:19,670: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' left menu: Ping
+2021-09-27 16:14:19,670: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' left menu: Ping
+2021-09-27 16:14:19,693: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' left menu: ルート追跡
+2021-09-27 16:14:19,693: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' left menu: Trace Route
+2021-09-27 16:14:20,085: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' left menu: Real-Time Blacklist
+2021-09-27 16:14:20,095: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' left menu: リアルタイム ブラックリスト
+2021-09-27 16:14:20,162: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' left menu: Reverse Name Lookup
+2021-09-27 16:14:20,172: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' left menu: 逆引き名前調査
+2021-09-27 16:14:20,187: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' left menu: Connection TopX
+2021-09-27 16:14:20,736: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' left menu: 上位接続
+2021-09-27 16:14:21,452: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' left menu: Geo and Botnet
+2021-09-27 16:14:21,459: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' left menu: 地域とボットネット
+2021-09-27 16:14:22,087: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' left menu: URL Rating Request
+2021-09-27 16:14:22,087: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' left menu: MX とバナー
+2021-09-27 16:14:22,111: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' left menu: PMTU Discovery
+2021-09-27 16:14:22,114: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' left menu: グリッド確認
+2021-09-27 16:14:22,135: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' left menu: Switch Diagnostics
+2021-09-27 16:14:22,135: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' left menu: URL 格付け要求
+2021-09-27 16:14:22,157: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' left menu: PMTU 検出
+2021-09-27 16:14:22,158: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' left menu: Switch Network
+2021-09-27 16:14:22,178: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' left menu: Overview
+2021-09-27 16:14:22,178: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' left menu: スイッチ診断
+2021-09-27 16:14:22,198: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' left menu: スイッチ ネットワーク
+2021-09-27 16:14:22,198: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' left menu: Switches
+2021-09-27 16:14:22,219: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' left menu: 概要
+2021-09-27 16:14:22,219: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' left menu: Access Points
+2021-09-27 16:14:22,240: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' left menu: スイッチ
+2021-09-27 16:14:22,240: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' left menu: Settings
+2021-09-27 16:14:22,263: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' left menu: Firmware Management
+2021-09-27 16:14:22,264: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' left menu: アクセス ポイント
+2021-09-27 16:14:22,284: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' left menu: Floor Plan View
+2021-09-27 16:14:22,284: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' left menu: 設定
+2021-09-27 16:14:22,304: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' left menu: ファームウェア管理
+2021-09-27 16:14:22,304: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' left menu: Station Status
+2021-09-27 16:14:22,325: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' left menu: IDS
+2021-09-27 16:14:22,325: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' left menu: フロア プラン表示
+2021-09-27 16:14:22,348: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' left menu: Advanced IDP
+2021-09-27 16:14:22,354: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' left menu: ステーション状況
+2021-09-27 16:14:22,372: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' left menu: Packet Capture
+2021-09-27 16:14:22,380: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' left menu: IDS
+2021-09-27 16:14:22,396: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' left menu: Virtual Access Point
+2021-09-27 16:14:22,403: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' left menu: 高度な IDP
+2021-09-27 16:14:22,420: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' left menu: RF Monitoring
+2021-09-27 16:14:22,426: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' left menu: パケット キャプチャ
+2021-09-27 16:14:22,442: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' left menu: RF Analysis
+2021-09-27 16:14:22,445: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' left menu: 仮想アクセス ポイント
+2021-09-27 16:14:22,462: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' left menu: RF Spectrum
+2021-09-27 16:14:22,464: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' left menu: RF 監視
+2021-09-27 16:14:22,484: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' left menu: RF 解析
+2021-09-27 16:14:22,485: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' left menu: FairNet
+2021-09-27 16:14:22,504: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' left menu: Wi-Fi Multimedia
+2021-09-27 16:14:22,504: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' left menu: RF スペクトラム
+2021-09-27 16:14:22,526: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' left menu: 3G/4G/LTE WWAN
+2021-09-27 16:14:22,529: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' left menu: FairNet
+2021-09-27 16:14:22,555: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' left menu: Bluetooth LE
+2021-09-27 16:14:22,556: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' left menu: Wi-Fi マルチメディア
+2021-09-27 16:14:22,578: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' left menu: Radio Management
+2021-09-27 16:14:22,584: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' left menu: 3G/4G/LTE WWAN
+2021-09-27 16:14:22,604: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' left menu: WWAN
+2021-09-27 16:14:22,612: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' left menu: Bluetooth LE
+2021-09-27 16:14:22,638: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' left menu: 無線管理
+2021-09-27 16:14:22,647: - INFO - Test_NavData_ENG: test_Step04_DeviceMenu_Top_ENG > Data updated!
+2021-09-27 16:14:22,647: - INFO - Test_NavData_ENG: test_Step04_DeviceMenu_Top_ENG > Top menu 'DEVICE' is done!
+2021-09-27 16:14:22,672: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' left menu: WWAN
+2021-09-27 16:14:22,748: - INFO - Test_NavData_JPN: test_Step04_DeviceMenu_Top_JPN > Data updated!
+2021-09-27 16:14:22,748: - INFO - Test_NavData_JPN: test_Step04_DeviceMenu_Top_JPN > Top menu 'DEVICE' is done!
+2021-09-27 16:14:23,246: - INFO - Test_NavData_JPN: test_Step04_DeviceMenu_Top_JPN > [Pass]Take screenshot...
+2021-09-27 16:14:23,263: - INFO - Test_NavData_ENG: test_Step04_DeviceMenu_Top_ENG > [Pass]Take screenshot...
+2021-09-27 16:14:23,925: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'NETWORK' left menu expanded (6). Please wait...
+2021-09-27 16:14:25,520: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'NETWORK' left menu expanded (7). Please wait...
+2021-09-27 16:14:32,198: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'NETWORK' menu total: 47
+2021-09-27 16:14:32,212: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'NETWORK' left menu: システム
+2021-09-27 16:14:32,298: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'NETWORK' left menu: インターフェース
+2021-09-27 16:14:32,586: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'NETWORK' left menu: フェイルオーバーと負荷分散
+2021-09-27 16:14:32,838: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'NETWORK' left menu: 近隣者検出
+2021-09-27 16:14:32,861: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'NETWORK' left menu: ARP
+2021-09-27 16:14:32,880: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'NETWORK' left menu: MAC IP アンチスプーフ
+2021-09-27 16:14:32,900: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'NETWORK' left menu: ウェブ プロキシ
+2021-09-27 16:14:32,919: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'NETWORK' left menu: PortShield グループ
+2021-09-27 16:14:32,940: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'NETWORK' left menu: VLAN 変換
+2021-09-27 16:14:32,960: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'NETWORK' left menu: IP ヘルパー
+2021-09-27 16:14:32,981: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'NETWORK' left menu: 動的ルーティング
+2021-09-27 16:14:33,002: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'NETWORK' left menu: DHCP サーバ
+2021-09-27 16:14:33,022: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'NETWORK' left menu: マルチキャスト
+2021-09-27 16:14:33,042: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'NETWORK' left menu: ネットワーク監視
+2021-09-27 16:14:33,063: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'NETWORK' left menu: AWS 設定
+2021-09-27 16:14:33,083: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'NETWORK' left menu: ファイアウォール
+2021-09-27 16:14:33,103: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'NETWORK' left menu: 詳細
+2021-09-27 16:14:33,125: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'NETWORK' left menu: フラッド防御
+2021-09-27 16:14:33,147: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'NETWORK' left menu: SSL 制御
+2021-09-27 16:14:33,168: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'NETWORK' left menu: 暗号化制御
+2021-09-27 16:14:33,189: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'NETWORK' left menu: RBL フィルタ
+2021-09-27 16:14:33,214: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'NETWORK' left menu: VoIP
+2021-09-27 16:14:33,235: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'NETWORK' left menu: 設定
+2021-09-27 16:14:33,257: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'NETWORK' left menu: 通話状況
+2021-09-27 16:14:33,279: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'NETWORK' left menu: DNS
+2021-09-27 16:14:33,300: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'NETWORK' left menu: 設定
+2021-09-27 16:14:33,375: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'NETWORK' left menu: 動的 DNS
+2021-09-27 16:14:33,602: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'NETWORK' left menu: DNS プロキシ
+2021-09-27 16:14:34,730: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'NETWORK' left menu: DNS セキュリティ
+2021-09-27 16:14:34,755: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'NETWORK' left menu: SDWAN
+2021-09-27 16:14:34,779: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'NETWORK' left menu: グループ
+2021-09-27 16:14:34,803: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'NETWORK' left menu: SLA プローブ
+2021-09-27 16:14:34,826: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'NETWORK' left menu: SLA クラス オブジェクト
+2021-09-27 16:14:34,848: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'NETWORK' left menu: パス選択プロファイル
+2021-09-27 16:14:34,869: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'NETWORK' left menu: ルール
+2021-09-27 16:14:34,889: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'NETWORK' left menu: IPSec VPN
+2021-09-27 16:14:34,909: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'NETWORK' left menu: ルールと設定
+2021-09-27 16:14:34,929: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'NETWORK' left menu: 詳細
+2021-09-27 16:14:34,949: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'NETWORK' left menu: VPN を越えた DHCP
+2021-09-27 16:14:34,970: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'NETWORK' left menu: L2TP サーバ
+2021-09-27 16:14:34,990: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'NETWORK' left menu: AWS VPN
+2021-09-27 16:14:35,011: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'NETWORK' left menu: SSL VPN
+2021-09-27 16:14:35,031: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'NETWORK' left menu: 状況
+2021-09-27 16:14:35,050: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'NETWORK' left menu: サーバ設定
+2021-09-27 16:14:35,070: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'NETWORK' left menu: クライアント設定
+2021-09-27 16:14:35,092: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'NETWORK' left menu: ポータル設定
+2021-09-27 16:14:35,113: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'NETWORK' left menu: 仮想オフィス
+2021-09-27 16:14:35,154: - INFO - Test_NavData_JPN: test_Step05_NetworkMenu_Top_JPN > Data updated!
+2021-09-27 16:14:35,154: - INFO - Test_NavData_JPN: test_Step05_NetworkMenu_Top_JPN > Top menu 'NETWORK' is done!
+2021-09-27 16:14:35,817: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'NETWORK' menu total: 52
+2021-09-27 16:14:35,833: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'NETWORK' left menu: System
+2021-09-27 16:14:35,858: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'NETWORK' left menu: Interfaces
+2021-09-27 16:14:35,887: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'NETWORK' left menu: Failover & LB
+2021-09-27 16:14:35,914: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'NETWORK' left menu: Neighbor Discovery
+2021-09-27 16:14:35,937: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'NETWORK' left menu: ARP
+2021-09-27 16:14:35,958: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'NETWORK' left menu: MAC IP Anti-Spoof
+2021-09-27 16:14:35,986: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'NETWORK' left menu: Web Proxy
+2021-09-27 16:14:36,013: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'NETWORK' left menu: PortShield Groups
+2021-09-27 16:14:36,037: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'NETWORK' left menu: VLAN Translation
+2021-09-27 16:14:36,059: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'NETWORK' left menu: IP Helper
+2021-09-27 16:14:36,080: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'NETWORK' left menu: Dynamic Routing
+2021-09-27 16:14:36,102: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'NETWORK' left menu: DHCP Server
+2021-09-27 16:14:36,125: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'NETWORK' left menu: Multicast
+2021-09-27 16:14:36,149: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'NETWORK' left menu: Network Monitor
+2021-09-27 16:14:36,163: - INFO - Test_NavData_JPN: test_Step05_NetworkMenu_Top_JPN > [Pass]Take screenshot...
+2021-09-27 16:14:36,182: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'NETWORK' left menu: AWS Configuration
+2021-09-27 16:14:36,207: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'NETWORK' left menu: Firewall
+2021-09-27 16:14:36,233: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'NETWORK' left menu: Advanced
+2021-09-27 16:14:36,267: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'NETWORK' left menu: Flood Protection
+2021-09-27 16:14:36,294: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'NETWORK' left menu: SSL Control
+2021-09-27 16:14:36,322: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'NETWORK' left menu: Cipher Control
+2021-09-27 16:14:36,353: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'NETWORK' left menu: RBL Filter
+2021-09-27 16:14:36,387: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'NETWORK' left menu: VoIP
+2021-09-27 16:14:36,410: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'NETWORK' left menu: Settings
+2021-09-27 16:14:36,433: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'NETWORK' left menu: Call Status
+2021-09-27 16:14:36,455: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'NETWORK' left menu: DNS
+2021-09-27 16:14:36,481: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'NETWORK' left menu: Settings
+2021-09-27 16:14:36,511: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'NETWORK' left menu: Dynamic DNS
+2021-09-27 16:14:36,531: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'NETWORK' left menu: DNS Proxy
+2021-09-27 16:14:36,553: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'NETWORK' left menu: DNS Security
+2021-09-27 16:14:36,577: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'NETWORK' left menu: Switching
+2021-09-27 16:14:36,602: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'NETWORK' left menu: VLAN Trunking
+2021-09-27 16:14:36,624: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'NETWORK' left menu: L2 Discovery
+2021-09-27 16:14:36,649: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'NETWORK' left menu: Link Aggregation
+2021-09-27 16:14:36,673: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'NETWORK' left menu: Port Mirroring
+2021-09-27 16:14:36,700: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'NETWORK' left menu: SDWAN
+2021-09-27 16:14:36,724: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'NETWORK' left menu: Groups
+2021-09-27 16:14:36,745: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'NETWORK' left menu: SLA Probes
+2021-09-27 16:14:36,818: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'NETWORK' left menu: SLA Class Objects
+2021-09-27 16:14:36,831: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'OBJECT' left menu expanded (2). Please wait...
+2021-09-27 16:14:36,839: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'NETWORK' left menu: Path Selection Profiles
+2021-09-27 16:14:36,859: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'NETWORK' left menu: Rules
+2021-09-27 16:14:36,879: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'NETWORK' left menu: IPSec VPN
+2021-09-27 16:14:36,897: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'NETWORK' left menu: Rules and Settings
+2021-09-27 16:14:36,917: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'NETWORK' left menu: Advanced
+2021-09-27 16:14:36,936: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'NETWORK' left menu: DHCP over VPN
+2021-09-27 16:14:36,955: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'NETWORK' left menu: L2TP Server
+2021-09-27 16:14:36,974: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'NETWORK' left menu: AWS VPN
+2021-09-27 16:14:36,992: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'NETWORK' left menu: SSL VPN
+2021-09-27 16:14:37,012: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'NETWORK' left menu: Status
+2021-09-27 16:14:37,032: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'NETWORK' left menu: Server Settings
+2021-09-27 16:14:37,052: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'NETWORK' left menu: Client Settings
+2021-09-27 16:14:37,073: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'NETWORK' left menu: Portal Settings
+2021-09-27 16:14:37,092: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'NETWORK' left menu: Virtual Office
+2021-09-27 16:14:37,123: - INFO - Test_NavData_ENG: test_Step05_NetworkMenu_Top_ENG > Data updated!
+2021-09-27 16:14:37,124: - INFO - Test_NavData_ENG: test_Step05_NetworkMenu_Top_ENG > Top menu 'NETWORK' is done!
+2021-09-27 16:14:38,320: - INFO - Test_NavData_ENG: test_Step05_NetworkMenu_Top_ENG > [Pass]Take screenshot...
+2021-09-27 16:14:39,168: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'OBJECT' left menu expanded (2). Please wait...
+2021-09-27 16:14:39,172: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'OBJECT' menu total: 19
+2021-09-27 16:14:40,118: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'OBJECT' left menu: 一致オブジェクト
+2021-09-27 16:14:40,140: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'OBJECT' left menu: ゾーン
+2021-09-27 16:14:40,164: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'OBJECT' left menu: アドレス
+2021-09-27 16:14:40,197: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'OBJECT' left menu: サービス
+2021-09-27 16:14:40,220: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'OBJECT' left menu: URI リスト
+2021-09-27 16:14:40,244: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'OBJECT' left menu: 一致オブジェクト
+2021-09-27 16:14:40,270: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'OBJECT' left menu: スケジュール
+2021-09-27 16:14:40,295: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'OBJECT' left menu: 動的グループ
+2021-09-27 16:14:40,317: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'OBJECT' left menu: 電子メール アドレス
+2021-09-27 16:14:40,340: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'OBJECT' left menu: プロファイル オブジェクト
+2021-09-27 16:14:40,365: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'OBJECT' left menu: エンドポイント セキュリティ
+2021-09-27 16:14:40,388: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'OBJECT' left menu: 帯域幅
+2021-09-27 16:14:40,413: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'OBJECT' left menu: QoS 級割
+2021-09-27 16:14:40,439: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'OBJECT' left menu: コンテンツ フィルタ
+2021-09-27 16:14:40,461: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'OBJECT' left menu: DHCP オプション
+2021-09-27 16:14:40,481: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'OBJECT' left menu: AWS
+2021-09-27 16:14:40,503: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'OBJECT' left menu: 動作オブジェクト
+2021-09-27 16:14:40,528: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'OBJECT' left menu: アプリケーション ルールの動作
+2021-09-27 16:14:40,549: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'OBJECT' left menu: コンテンツ フィルタの動作
+2021-09-27 16:14:40,586: - INFO - Test_NavData_JPN: test_Step06_ObjectMenu_Top_JPN > Data updated!
+2021-09-27 16:14:40,586: - INFO - Test_NavData_JPN: test_Step06_ObjectMenu_Top_JPN > Top menu 'OBJECT' is done!
+2021-09-27 16:14:43,230: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'OBJECT' menu total: 19
+2021-09-27 16:14:43,246: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'OBJECT' left menu: Match Objects
+2021-09-27 16:14:43,270: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'OBJECT' left menu: Zones
+2021-09-27 16:14:43,291: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'OBJECT' left menu: Addresses
+2021-09-27 16:14:43,312: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'OBJECT' left menu: Services
+2021-09-27 16:14:43,335: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'OBJECT' left menu: URI Lists
+2021-09-27 16:14:43,356: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'OBJECT' left menu: Match Objects
+2021-09-27 16:14:43,379: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'OBJECT' left menu: Schedules
+2021-09-27 16:14:43,401: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'OBJECT' left menu: Dynamic Group
+2021-09-27 16:14:43,422: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'OBJECT' left menu: Email Addresses
+2021-09-27 16:14:43,443: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'OBJECT' left menu: Profile Objects
+2021-09-27 16:14:43,463: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'OBJECT' left menu: Endpoint Security
+2021-09-27 16:14:43,487: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'OBJECT' left menu: Bandwidth
+2021-09-27 16:14:43,508: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'OBJECT' left menu: QoS Marking
+2021-09-27 16:14:43,529: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'OBJECT' left menu: Content Filter
+2021-09-27 16:14:43,551: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'OBJECT' left menu: DHCP Option
+2021-09-27 16:14:43,572: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'OBJECT' left menu: AWS
+2021-09-27 16:14:43,595: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'OBJECT' left menu: Action Objects
+2021-09-27 16:14:43,618: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'OBJECT' left menu: App Rule Actions
+2021-09-27 16:14:43,636: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'OBJECT' left menu: Content Filter Actions
+2021-09-27 16:14:43,654: - INFO - Test_NavData_JPN: test_Step06_ObjectMenu_Top_JPN > [Pass]Take screenshot...
+2021-09-27 16:14:43,663: - INFO - Test_NavData_ENG: test_Step06_ObjectMenu_Top_ENG > Data updated!
+2021-09-27 16:14:43,663: - INFO - Test_NavData_ENG: test_Step06_ObjectMenu_Top_ENG > Top menu 'OBJECT' is done!
+2021-09-27 16:14:44,309: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'POLICY' left menu expanded (6). Please wait...
+2021-09-27 16:14:44,562: - INFO - Test_NavData_ENG: test_Step06_ObjectMenu_Top_ENG > [Pass]Take screenshot...
+2021-09-27 16:14:53,222: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'POLICY' left menu expanded (6). Please wait...
+2021-09-27 16:14:57,656: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'POLICY' menu total: 28
+2021-09-27 16:14:57,672: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'POLICY' left menu: ルールとポリシー
+2021-09-27 16:14:57,696: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'POLICY' left menu: アクセス ルール
+2021-09-27 16:14:57,721: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'POLICY' left menu: NAT ルール
+2021-09-27 16:14:57,750: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'POLICY' left menu: ルーティング ルール
+2021-09-27 16:14:57,773: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'POLICY' left menu: コンテンツ フィルタ ルール
+2021-09-27 16:14:57,794: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'POLICY' left menu: アプリケーション ルール
+2021-09-27 16:14:57,816: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'POLICY' left menu: エンドポイント ルール
+2021-09-27 16:14:57,840: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'POLICY' left menu: DPI-SSL
+2021-09-27 16:14:57,860: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'POLICY' left menu: クライアント SSL
+2021-09-27 16:14:57,885: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'POLICY' left menu: サーバ SSL
+2021-09-27 16:14:57,911: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'POLICY' left menu: DPI-SSH
+2021-09-27 16:14:57,936: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'POLICY' left menu: 設定
+2021-09-27 16:14:57,957: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'POLICY' left menu: セキュリティ サービス
+2021-09-27 16:14:57,981: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'POLICY' left menu: サマリ
+2021-09-27 16:14:58,003: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'POLICY' left menu: ゲートウェイ アンチウイルス
+2021-09-27 16:14:58,023: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'POLICY' left menu: アンチスパイウェア
+2021-09-27 16:14:58,044: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'POLICY' left menu: 侵入防御
+2021-09-27 16:14:58,066: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'POLICY' left menu: 地域 IP フィルタ
+2021-09-27 16:14:58,086: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'POLICY' left menu: ボットネット フィルタ
+2021-09-27 16:14:58,106: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'POLICY' left menu: アプリケーション制御
+2021-09-27 16:14:58,127: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'POLICY' left menu: コンテンツ フィルタ
+2021-09-27 16:14:58,147: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'POLICY' left menu: アンチスパム
+2021-09-27 16:14:58,168: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'POLICY' left menu: 状況
+2021-09-27 16:14:58,193: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'POLICY' left menu: 設定
+2021-09-27 16:14:58,216: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'POLICY' left menu: キャプチャ ATP
+2021-09-27 16:14:58,242: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'POLICY' left menu: 設定
+2021-09-27 16:14:58,264: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'POLICY' left menu: スキャン履歴
+2021-09-27 16:14:58,285: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'POLICY' left menu: エンドポイント セキュリティ
+2021-09-27 16:14:58,312: - INFO - Test_NavData_JPN: test_Step07_PolicyMenu_Top_JPN > Data updated!
+2021-09-27 16:14:58,312: - INFO - Test_NavData_JPN: test_Step07_PolicyMenu_Top_JPN > Top menu 'POLICY' is done!
+2021-09-27 16:15:00,371: - INFO - Test_NavData_JPN: test_Step07_PolicyMenu_Top_JPN > [Pass]Take screenshot...
+2021-09-27 16:15:02,468: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'POLICY' menu total: 27
+2021-09-27 16:15:02,772: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'POLICY' left menu: Rules and Policies
+2021-09-27 16:15:02,798: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'POLICY' left menu: Access Rules
+2021-09-27 16:15:03,005: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'POLICY' left menu: NAT Rules
+2021-09-27 16:15:03,173: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'POLICY' left menu: Routing Rules
+2021-09-27 16:15:03,398: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'POLICY' left menu: Content Filter Rules
+2021-09-27 16:15:03,573: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'POLICY' left menu: App Rules
+2021-09-27 16:15:03,665: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'POLICY' left menu: Endpoint Rules
+2021-09-27 16:15:03,813: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'POLICY' left menu: DPI-SSL
+2021-09-27 16:15:03,833: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'POLICY' left menu: Client SSL
+2021-09-27 16:15:03,854: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'POLICY' left menu: Server SSL
+2021-09-27 16:15:03,875: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'POLICY' left menu: DPI-SSH
+2021-09-27 16:15:03,894: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'POLICY' left menu: Settings
+2021-09-27 16:15:03,914: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'POLICY' left menu: Security Services
+2021-09-27 16:15:03,934: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'POLICY' left menu: Summary
+2021-09-27 16:15:03,956: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'POLICY' left menu: Gateway Anti-Virus
+2021-09-27 16:15:03,977: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'POLICY' left menu: Anti-Spyware
+2021-09-27 16:15:03,998: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'POLICY' left menu: Intrusion Prevention
+2021-09-27 16:15:04,019: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'POLICY' left menu: Geo-IP Filter
+2021-09-27 16:15:04,040: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'POLICY' left menu: Botnet Filter
+2021-09-27 16:15:04,065: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'POLICY' left menu: App Control
+2021-09-27 16:15:04,086: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'POLICY' left menu: Content Filter
+2021-09-27 16:15:04,107: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'POLICY' left menu: Anti-Spam
+2021-09-27 16:15:04,128: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'POLICY' left menu: Status
+2021-09-27 16:15:04,149: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'POLICY' left menu: Settings
+2021-09-27 16:15:04,173: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'POLICY' left menu: Capture ATP
+2021-09-27 16:15:04,194: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'POLICY' left menu: Settings
+2021-09-27 16:15:04,215: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'POLICY' left menu: Endpoint Security
+2021-09-27 16:15:04,241: - INFO - Test_NavData_ENG: test_Step07_PolicyMenu_Top_ENG > Data updated!
+2021-09-27 16:15:04,242: - INFO - Test_NavData_ENG: test_Step07_PolicyMenu_Top_ENG > Top menu 'POLICY' is done!
+2021-09-27 16:15:04,666: - INFO - Test_NavData_ENG: test_Step07_PolicyMenu_Top_ENG > [Pass]Take screenshot...
+2021-09-27 16:15:10,366: - INFO - Test_NavData_ENG: box_JPN > Got data!
+2021-09-27 16:15:10,370: - INFO - Test_NavData_ENG: box_ENG > Got data!
+2021-09-27 16:15:10,370: - INFO - Test_NavData_ENG: test_dataCompare > Ready to start...
+2021-09-27 16:15:10,370: - INFO - Test_NavData_ENG: test_dataCompare > --------------------------------------------------------------------
+2021-09-27 16:15:10,371: - INFO - Test_NavData_ENG: test_dataCompare > [JPN] info: Device Name -----> TZ 470
+2021-09-27 16:15:10,372: - INFO - Test_NavData_ENG: test_dataCompare > [JPN] info: Serial Number ---> 2CB8ED69526C
+2021-09-27 16:15:10,372: - INFO - Test_NavData_ENG: test_dataCompare > [JPN] info: Firmware Version > SonicOS 7.0.1-5018
+2021-09-27 16:15:10,372: - INFO - Test_NavData_ENG: test_dataCompare > --------------------------------------------------------------------
+2021-09-27 16:15:10,373: - INFO - Test_NavData_ENG: test_dataCompare > [ENG] info: Device Name -----> NSA 2700
+2021-09-27 16:15:10,373: - INFO - Test_NavData_ENG: test_dataCompare > [ENG] info: Serial Number ---> 2CB8ED8289A8
+2021-09-27 16:15:10,373: - INFO - Test_NavData_ENG: test_dataCompare > [ENG] info: Firmware Version > SonicOS 7.0.1-5023
+2021-09-27 16:15:10,373: - INFO - Test_NavData_ENG: test_dataCompare > --------------------------------------------------------------------
+2021-09-27 16:15:10,373: - INFO - Test_NavData_ENG: missing_page > [ENG] version missing: HOME > Dashboard > Capture ATP
+2021-09-27 16:15:10,374: - INFO - Test_NavData_ENG: missing_page > [JPN] version missing: DEVICE > Users > Partitions
+2021-09-27 16:15:10,374: - INFO - Test_NavData_ENG: missing_page > [ENG] version missing: DEVICE > Diagnostics > MX and Banner
+2021-09-27 16:15:10,374: - INFO - Test_NavData_ENG: missing_page > [ENG] version missing: DEVICE > Diagnostics > GRID Check
+2021-09-27 16:15:10,375: - INFO - Test_NavData_ENG: missing_page > [JPN] version missing: NETWORK > Switching
+2021-09-27 16:15:10,375: - INFO - Test_NavData_ENG: missing_page > [JPN] version missing: NETWORK > Switching > VLAN Trunking
+2021-09-27 16:15:10,375: - INFO - Test_NavData_ENG: missing_page > [JPN] version missing: NETWORK > Switching > L2 Discovery
+2021-09-27 16:15:10,375: - INFO - Test_NavData_ENG: missing_page > [JPN] version missing: NETWORK > Switching > Link Aggregation
+2021-09-27 16:15:10,375: - INFO - Test_NavData_ENG: missing_page > [JPN] version missing: NETWORK > Switching > Port Mirroring
+2021-09-27 16:15:10,375: - INFO - Test_NavData_ENG: missing_page > [ENG] version missing: POLICY > Capture ATP > Scanning History

@@ -4,7 +4,7 @@ import java.io.File;
 
 public class iData_ENG {
 	// --- Base ---
-	public static String baseUrl = "https://10.8.34.196/"; // [NSa 6700]
+	public static String baseUrl = "https://10.8.51.169/"; // [NSa 2700]
 	public static File my_path = new File(System.getProperty("user.dir"));
 //	public static String baseUrl = "https://10.8.75.196/"; //[TZ 570W]
 //	public static String baseUrl = "https://10.8.135.150/"; [TZ 570W]

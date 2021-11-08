@@ -3,8 +3,8 @@
 	thread-count="2">
 	<test name="Menu Test JPN/ENG">
 		<classes>
-			<class name="test.Test_NavData_JPN"></class>
 			<class name="test.Test_NavData_ENG"></class>
+			<class name="test.Test_NavData_JPN"></class>
 		</classes>
 	</test>
 	<test name="Menu Compare JPN/ENG">

@@ -95,7 +95,7 @@ public class Func_JPN {
 		String file_all = file_path + file_name;
 		return file_all;
 	}
-	
+
 	// Add screenshot > extent report
 	public void extent_screenshot(String path) {
 		String img_path = exTest.addScreenCapture(path);
@@ -148,14 +148,12 @@ public class Func_JPN {
 
 	// Wait element (short time) > preempt
 	public WebElement wait_element_short(String type, String path) {
-		WebDriverWait wait = new WebDriverWait(driver, 30);
+		WebDriverWait wait = new WebDriverWait(driver, 60);
 		try {
 			if (type.equals("xpath")) {
 				we = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(path)));
 			}
 		} catch (Exception e) {
-			log_message(class_name, "Ready to preempt...");
-//			System.out.println("[P]Print out >> Ready to preempt...");
 			return null;
 		}
 		return we;
@@ -163,7 +161,7 @@ public class Func_JPN {
 
 	// Wait element (long time)
 	public WebElement wait_element(String type, String path) {
-		WebDriverWait wait = new WebDriverWait(driver, 60);
+		WebDriverWait wait = new WebDriverWait(driver, 90);
 		try {
 			if (type.equals("id")) {
 				we = wait.until(ExpectedConditions.presenceOfElementLocated(By.id(path)));
@@ -176,7 +174,6 @@ public class Func_JPN {
 			}
 		} catch (Exception e) {
 			log_message(class_name, "Element Not Found!");
-//			System.out.println("[P]Print out >> Element Not Found!");
 		}
 		return we;
 	}
@@ -195,21 +192,84 @@ public class Func_JPN {
 			}
 		} catch (Exception e) {
 			log_message(class_name, "Element Not Found!");
-//			System.out.println("[P]Print out >> Element Not Found!");
 		}
 		return ges;
 	}
 
 	// Expand menu
-	public void expand_menu(List<WebElement> expand_Menus, String top_menu) throws InterruptedException {
+	public List<String> expand_menu(List<WebElement> expand_Menus, String top_menu) throws InterruptedException {
+		List<String> actual_data = new ArrayList<String>();
 		log_message(class_name,
-				"'" + top_menu + "'" + " left menu expanded " + "(" + expand_Menus.size() + ")" + ". Please wait...");
-//		System.out.println("[P]Print out >> " + "'" + top_menu + "'" + " left menu expanded " + "("
-//				+ expand_Menus.size() + ")" + ". Please wait...");
-		for (WebElement expand_Menu : expand_Menus) {
-			expand_Menu.click();
-			Thread.sleep(1000);
+				"'" + top_menu + "'" + " has sub closed menu " + "(" + expand_Menus.size() + ")" + ". Please wait...");
+
+		// Show DarkMenu_LeftPane_path menus (not opened)
+		for (WebElement expand_Menu_text : expand_Menus) {
+			log_message(class_name, expand_Menu_text.getText());
 		}
+
+		log_message(class_name, "*************************************************");
+
+		// Add not opened menus to the list
+		int leftPaneMenus_minus_temp = 1;
+		for (int i = expand_Menus.size() - 1; i >= 0; i--) {
+			Boolean isCheck = expand_Menus.get(i).isSelected();
+			if (!isCheck) {
+				// Click sub closed menu
+				List<WebElement> leftPaneMenus_before = find_elements("xpath", iData_JPN.LeftPane_path);
+				int leftPaneMenus_before_no = leftPaneMenus_before.size();
+				expand_Menus.get(i).click();
+				log_message(class_name, ">>>>>>>>>>>>>>>>>>>");
+				log_message(class_name, expand_Menus.get(i).getText() + " is clicked!");
+				Thread.sleep(1000);
+
+				// Add sub closed menu to the list
+				List<WebElement> leftPaneMenus_after = find_elements("xpath", iData_JPN.LeftPane_path);
+				int leftPaneMenus_after_no = leftPaneMenus_after.size();
+				int leftPaneMenus_minus = leftPaneMenus_after_no - leftPaneMenus_before_no;
+				log_message(class_name, "'" + top_menu + "'" + " sub-menu " + expand_Menus.get(i).getText() + " total: "
+						+ leftPaneMenus_minus);
+				for (int k = leftPaneMenus_after_no - leftPaneMenus_minus
+						- leftPaneMenus_minus_temp; k <= leftPaneMenus_after_no - leftPaneMenus_minus_temp; k++) {
+					log_message(class_name, "Menu Index: " + k);
+					log_message(class_name, "Add sub closed menu: " + leftPaneMenus_after.get(k).getText());
+
+					// Switch sub closed menu JPN >> ENG
+					actual_data.addAll(switch_menu(leftPaneMenus_after.get(k).getText(), top_menu));
+				}
+				leftPaneMenus_minus_temp += leftPaneMenus_minus + 1;
+			}
+		}
+
+		// Count the number of all left pane menus
+		wait_element("xpath", iData_JPN.LeftPane_path);
+		List<WebElement> leftPaneMenus = find_elements("xpath", iData_JPN.LeftPane_path);
+		int leftPaneMenus_no = leftPaneMenus.size();
+
+		log_message(class_name, "+++++++++++++++++++++++++++++++++++++++++++++++++");
+
+		// Add top opened menu to the list
+		int topPaneMenus_no = leftPaneMenus_no - actual_data.size();
+		for (int t = 0; t < topPaneMenus_no; t++) {
+			log_message(class_name, "Add top opened menu: " + leftPaneMenus.get(t).getText());
+			// Switch top opened menu JPN >> ENG
+			actual_data.addAll(switch_menu(leftPaneMenus.get(t).getText(), top_menu));
+		}
+
+		// Show all left pane menu
+		log_message(class_name, "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@");
+		for (int j = 0; j < actual_data.size(); j++) {
+			// --- Reset each main menu >> xx (TOP) ---
+			// "DEVICE > Settings" >> "DEVICE > Settings (TOP)"
+			if (actual_data.get(j).equals("Settings") && actual_data.get(j + 1).equals("Licenses")) {
+				actual_data.set(j, "Settings (TOP)");
+			}
+			log_message(class_name, "MENU: " + actual_data.get(j));
+		}
+
+		// Show all left pane menu no
+		log_message(class_name, "ALL MENU: " + actual_data.size());
+
+		return actual_data;
 	}
 
 	// Create data (info)
@@ -297,50 +357,57 @@ public class Func_JPN {
 	}
 
 	// VS menu
-	public List<String> vs_elements(List<WebElement> left_Menus, String top_menu) {
+	public List<String> switch_menu(String leftPaneMenus_text, String top_menu) throws InterruptedException {
 		List<String> vs_leftMenus = new ArrayList<String>();
-		log_message(class_name, "'" + top_menu + "'" + " menu total: " + left_Menus.size());
-//		System.out.println("[P]Print out >> " + "'" + top_menu + "'" + " menu total: " + left_Menus.size());
-		// Add menu JPN >> ENG
-		for (WebElement left_Menu : left_Menus) {
-			log_message(class_name, "'" + top_menu + "'" + " left menu: " + left_Menu.getText());
-//			System.out.println("[P]Print out >> " + "'" + top_menu + "'" + " left menu: " + left_Menu.getText());
-			// HOME
-			if (top_menu.equals("HOME")) {
-				int menuIndex = Arrays.asList(iData_JPN.leftPane_HOME).indexOf(left_Menu.getText());
-				vs_leftMenus.add(iData_ENG.homeList[menuIndex]);
-			}
-
-			// MONITOR
-			if (top_menu.equals("MONITOR")) {
-				int menuIndex = Arrays.asList(iData_JPN.leftPane_MONITOR).indexOf(left_Menu.getText());
-				vs_leftMenus.add(iData_ENG.monitorList[menuIndex]);
-			}
-
-			// DEVICE
-			if (top_menu.equals("DEVICE")) {
-				int menuIndex = Arrays.asList(iData_JPN.leftPane_DEVICE).indexOf(left_Menu.getText());
-				vs_leftMenus.add(iData_ENG.deviceList[menuIndex]);
-			}
-
-			// NETWORK
-			if (top_menu.equals("NETWORK")) {
-				int menuIndex = Arrays.asList(iData_JPN.leftPane_NETWORK).indexOf(left_Menu.getText());
-				vs_leftMenus.add(iData_ENG.networkList[menuIndex]);
-			}
-
-			// OBJECT
-			if (top_menu.equals("OBJECT")) {
-				int menuIndex = Arrays.asList(iData_JPN.leftPane_OBJECT).indexOf(left_Menu.getText());
-				vs_leftMenus.add(iData_ENG.objectList[menuIndex]);
-			}
-
-			// POLICY
-			if (top_menu.equals("POLICY")) {
-				int menuIndex = Arrays.asList(iData_JPN.leftPane_POLICY).indexOf(left_Menu.getText());
-				vs_leftMenus.add(iData_ENG.policyList[menuIndex]);
-			}
+		// --- Add menu JPN >> ENG ---
+		// HOME
+		if (top_menu.equals("HOME")) {
+			int menuIndex = Arrays.asList(iData_JPN.leftPane_HOME).indexOf(leftPaneMenus_text);
+			vs_leftMenus.add(iData_ENG.homeList[menuIndex]);
+			log_message(class_name,
+					"'" + top_menu + "'" + " Change sub closed menu >> " + iData_ENG.homeList[menuIndex]);
 		}
+
+		// MONITOR
+		if (top_menu.equals("MONITOR")) {
+			int menuIndex = Arrays.asList(iData_JPN.leftPane_MONITOR).indexOf(leftPaneMenus_text);
+			vs_leftMenus.add(iData_ENG.monitorList[menuIndex]);
+			log_message(class_name,
+					"'" + top_menu + "'" + " Change sub closed menu >> " + iData_ENG.monitorList[menuIndex]);
+		}
+
+		// DEVICE
+		if (top_menu.equals("DEVICE")) {
+			int menuIndex = Arrays.asList(iData_JPN.leftPane_DEVICE).indexOf(leftPaneMenus_text);
+			vs_leftMenus.add(iData_ENG.deviceList[menuIndex]);
+			log_message(class_name,
+					"'" + top_menu + "'" + " Change sub closed menu >> " + iData_ENG.deviceList[menuIndex]);
+		}
+
+		// NETWORK
+		if (top_menu.equals("NETWORK")) {
+			int menuIndex = Arrays.asList(iData_JPN.leftPane_NETWORK).indexOf(leftPaneMenus_text);
+			vs_leftMenus.add(iData_ENG.networkList[menuIndex]);
+			log_message(class_name,
+					"'" + top_menu + "'" + " Change sub closed menu >> " + iData_ENG.networkList[menuIndex]);
+		}
+
+		// OBJECT
+		if (top_menu.equals("OBJECT")) {
+			int menuIndex = Arrays.asList(iData_JPN.leftPane_OBJECT).indexOf(leftPaneMenus_text);
+			vs_leftMenus.add(iData_ENG.objectList[menuIndex]);
+			log_message(class_name,
+					"'" + top_menu + "'" + " Change sub closed menu >> " + iData_ENG.objectList[menuIndex]);
+		}
+
+		// POLICY
+		if (top_menu.equals("POLICY")) {
+			int menuIndex = Arrays.asList(iData_JPN.leftPane_POLICY).indexOf(leftPaneMenus_text);
+			vs_leftMenus.add(iData_ENG.policyList[menuIndex]);
+			log_message(class_name,
+					"'" + top_menu + "'" + " Change sub closed menu >> " + iData_ENG.policyList[menuIndex]);
+		}
+
 		return vs_leftMenus;
 	}
 

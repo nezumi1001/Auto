@@ -183,21 +183,22 @@ public class Test_vsDATA {
 		List<String> NETWORK_MenusJPNs = new ArrayList<String>();
 		List<String> OBJECT_MenusJPNs = new ArrayList<String>();
 		List<String> POLICY_MenusJPNs = new ArrayList<String>();
+
 		// HOME JPN
-		String[] HOME_Menus_JPN = { "Dashboard (TOP)", "Legal Information", "API" };
+		String[] HOME_Menus_JPN = { "Dashboard", "Legal Information", "API" };
 		// MONITOR JPN
-		String[] MONITOR_Menus_JPN = { "Real-Time Charts (TOP)", "AppFlow", "SDWAN", "Logs", "Tools & Monitors" };
+		String[] MONITOR_Menus_JPN = { "Real-Time Charts", "AppFlow", "SDWAN", "Logs", "Tools & Monitors" };
 		// DEVICE JPN
 		String[] DEVICE_Menus_JPN = { "Settings (TOP)", "Internal Wireless", "High Availability", "Users", "AppFlow",
 				"Network Access Control", "Log", "Diagnostics", "Switch Network", "Access Points", "WWAN" };
 		// NETWORK JPN
-		String[] NETWORK_Menus_JPN = { "System (TOP)", "Firewall", "VoIP", "DNS", "Switching", "SDWAN", "IPSec VPN",
+		String[] NETWORK_Menus_JPN = { "System", "Firewall", "VoIP", "DNS", "Switching", "SDWAN", "IPSec VPN",
 				"SSL VPN" };
 		// OBJECT JPN
-		String[] OBJECT_Menus_JPN = { "Match Objects (TOP)", "Profile Objects", "Action Objects" };
+		String[] OBJECT_Menus_JPN = { "Match Objects", "Profile Objects", "Action Objects", "Signatures" };
 		// POLICY JPN
-		String[] POLICY_Menus_JPN = { "Rules and Policies (TOP)", "DPI-SSL", "DPI-SSH", "Security Services",
-				"Anti-Spam", "Capture ATP", "Endpoint Security" };
+		String[] POLICY_Menus_JPN = { "Rules and Policies", "DPI-SSL", "DPI-SSH", "Security Services", "Anti-Spam",
+				"Capture ATP", "Endpoint Security" };
 		// ------------------------------------------------------------------------------------------------------------------------------
 		// New menu ENG
 		List<String> HOME_MenusENGs = new ArrayList<String>();
@@ -207,20 +208,20 @@ public class Test_vsDATA {
 		List<String> OBJECT_MenusENGs = new ArrayList<String>();
 		List<String> POLICY_MenusENGs = new ArrayList<String>();
 		// HOME ENG
-		String[] HOME_Menus_ENG = { "Dashboard (TOP)", "Legal Information", "API" };
+		String[] HOME_Menus_ENG = { "Dashboard", "Legal Information", "API" };
 		// MONITOR ENG
-		String[] MONITOR_Menus_ENG = { "Real-Time Charts (TOP)", "AppFlow", "SDWAN", "Logs", "Tools & Monitors" };
+		String[] MONITOR_Menus_ENG = { "Real-Time Charts", "AppFlow", "SDWAN", "Logs", "Tools & Monitors" };
 		// DEVICE ENG
 		String[] DEVICE_Menus_ENG = { "Settings (TOP)", "Internal Wireless", "High Availability", "Users", "AppFlow",
 				"Network Access Control", "Log", "Diagnostics", "Switch Network", "Access Points", "WWAN" };
 		// NETWORK ENG
-		String[] NETWORK_Menus_ENG = { "System (TOP)", "Firewall", "VoIP", "DNS", "Switching", "SDWAN", "IPSec VPN",
+		String[] NETWORK_Menus_ENG = { "System", "Firewall", "VoIP", "DNS", "Switching", "SDWAN", "IPSec VPN",
 				"SSL VPN" };
 		// OBJECT ENG
-		String[] OBJECT_Menus_ENG = { "Match Objects (TOP)", "Profile Objects", "Action Objects" };
+		String[] OBJECT_Menus_ENG = { "Match Objects", "Profile Objects", "Action Objects", "Signatures" };
 		// POLICY ENG
-		String[] POLICY_Menus_ENG = { "Rules and Policies (TOP)", "DPI-SSL", "DPI-SSH", "Security Services",
-				"Anti-Spam", "Capture ATP", "Endpoint Security" };
+		String[] POLICY_Menus_ENG = { "Rules and Policies", "DPI-SSL", "DPI-SSH", "Security Services", "Anti-Spam",
+				"Capture ATP", "Endpoint Security" };
 
 		// --- Make new menu ---
 		main_menu = column_name[column_no];
@@ -228,13 +229,9 @@ public class Test_vsDATA {
 		for (int i = 0; i < MenusJPNs.size(); i++) {
 			// HOME JPN
 			if (main_menu.equals("HOME")) {
-				// Change top menu >> xx (TOP)
-				if (MenusJPNs.get(0).equals("Dashboard")) {
-					MenusJPNs.set(0, "Dashboard (TOP)");
-				}
 				String MenusJPN_temp = MenusJPNs.get(i);
 				int iTemp = i;
-				while (!MenusJPN_temp.equals("Dashboard (TOP)") && !MenusJPN_temp.equals("Legal Information")
+				while (!MenusJPN_temp.equals("Dashboard") && !MenusJPN_temp.equals("Legal Information")
 						&& !MenusJPN_temp.equals("API")) {
 					iTemp = iTemp - 1;
 					MenusJPN_temp = MenusJPNs.get(iTemp);
@@ -252,13 +249,9 @@ public class Test_vsDATA {
 
 			// MONITOR JPN
 			if (main_menu.equals("MONITOR")) {
-				// Change top menu >> xx (TOP)
-				if (MenusJPNs.get(0).equals("Real-Time Charts")) {
-					MenusJPNs.set(0, "Real-Time Charts (TOP)");
-				}
 				String MenusJPN_temp = MenusJPNs.get(i);
 				int iTemp = i;
-				while (!MenusJPN_temp.equals("Real-Time Charts (TOP)") && !MenusJPN_temp.equals("AppFlow")
+				while (!MenusJPN_temp.equals("Real-Time Charts") && !MenusJPN_temp.equals("AppFlow")
 						&& !MenusJPN_temp.equals("SDWAN") && !MenusJPN_temp.equals("Logs")
 						&& !MenusJPN_temp.equals("Tools & Monitors")) {
 					iTemp = iTemp - 1;
@@ -277,10 +270,6 @@ public class Test_vsDATA {
 
 			// DEVICE JPN
 			if (main_menu.equals("DEVICE")) {
-				// Change top menu >> xx (TOP)
-				if (MenusJPNs.get(0).equals("Settings")) {
-					MenusJPNs.set(0, "Settings (TOP)");
-				}
 				String MenusJPN_temp = MenusJPNs.get(i);
 				int iTemp = i;
 				while (!MenusJPN_temp.equals("Settings (TOP)") && !MenusJPN_temp.equals("Internal Wireless")
@@ -305,13 +294,9 @@ public class Test_vsDATA {
 
 			// NETWORK JPN
 			if (main_menu.equals("NETWORK")) {
-				// Change top menu >> xx (TOP)
-				if (MenusJPNs.get(0).equals("System")) {
-					MenusJPNs.set(0, "System (TOP)");
-				}
 				String MenusJPN_temp = MenusJPNs.get(i);
 				int iTemp = i;
-				while (!MenusJPN_temp.equals("System (TOP)") && !MenusJPN_temp.equals("Firewall")
+				while (!MenusJPN_temp.equals("System") && !MenusJPN_temp.equals("Firewall")
 						&& !MenusJPN_temp.equals("VoIP") && !MenusJPN_temp.equals("DNS")
 						&& !MenusJPN_temp.equals("Switching") && !MenusJPN_temp.equals("SDWAN")
 						&& !MenusJPN_temp.equals("IPSec VPN") && !MenusJPN_temp.equals("SSL VPN")) {
@@ -331,14 +316,10 @@ public class Test_vsDATA {
 
 			// OBJECT JPN
 			if (main_menu.equals("OBJECT")) {
-				// Change top menu >> xx (TOP)
-				if (MenusJPNs.get(0).equals("Match Objects")) {
-					MenusJPNs.set(0, "Match Objects (TOP)");
-				}
 				String MenusJPN_temp = MenusJPNs.get(i);
 				int iTemp = i;
-				while (!MenusJPN_temp.equals("Match Objects (TOP)") && !MenusJPN_temp.equals("Profile Objects")
-						&& !MenusJPN_temp.equals("Action Objects")) {
+				while (!MenusJPN_temp.equals("Match Objects") && !MenusJPN_temp.equals("Profile Objects")
+						&& !MenusJPN_temp.equals("Action Objects") && !MenusJPN_temp.equals("Signatures")) {
 					iTemp = iTemp - 1;
 					MenusJPN_temp = MenusJPNs.get(iTemp);
 				}
@@ -355,13 +336,9 @@ public class Test_vsDATA {
 
 			// POLICY JPN
 			if (main_menu.equals("POLICY")) {
-				// Change top menu >> xx (TOP)
-				if (MenusJPNs.get(0).equals("Rules and Policies")) {
-					MenusJPNs.set(0, "Rules and Policies (TOP)");
-				}
 				String MenusJPN_temp = MenusJPNs.get(i);
 				int iTemp = i;
-				while (!MenusJPN_temp.equals("Rules and Policies (TOP)") && !MenusJPN_temp.equals("DPI-SSL")
+				while (!MenusJPN_temp.equals("Rules and Policies") && !MenusJPN_temp.equals("DPI-SSL")
 						&& !MenusJPN_temp.equals("DPI-SSH") && !MenusJPN_temp.equals("Security Services")
 						&& !MenusJPN_temp.equals("Anti-Spam") && !MenusJPN_temp.equals("Capture ATP")
 						&& !MenusJPN_temp.equals("Endpoint Security")) {
@@ -385,13 +362,9 @@ public class Test_vsDATA {
 		for (int i = 0; i < MenusENGs.size(); i++) {
 			// HOME ENG
 			if (main_menu.equals("HOME")) {
-				// Change top menu >> xx (TOP)
-				if (MenusENGs.get(0).equals("Dashboard")) {
-					MenusENGs.set(0, "Dashboard (TOP)");
-				}
 				String MenusENG_temp = MenusENGs.get(i);
 				int iTemp = i;
-				while (!MenusENG_temp.equals("Dashboard (TOP)") && !MenusENG_temp.equals("Legal Information")
+				while (!MenusENG_temp.equals("Dashboard") && !MenusENG_temp.equals("Legal Information")
 						&& !MenusENG_temp.equals("API")) {
 					iTemp = iTemp - 1;
 					MenusENG_temp = MenusENGs.get(iTemp);
@@ -409,13 +382,9 @@ public class Test_vsDATA {
 
 			// MONITOR ENG
 			if (main_menu.equals("MONITOR")) {
-				// Change top menu >> xx (TOP)
-				if (MenusENGs.get(0).equals("Real-Time Charts")) {
-					MenusENGs.set(0, "Real-Time Charts (TOP)");
-				}
 				String MenusENG_temp = MenusENGs.get(i);
 				int iTemp = i;
-				while (!MenusENG_temp.equals("Real-Time Charts (TOP)") && !MenusENG_temp.equals("AppFlow")
+				while (!MenusENG_temp.equals("Real-Time Charts") && !MenusENG_temp.equals("AppFlow")
 						&& !MenusENG_temp.equals("SDWAN") && !MenusENG_temp.equals("Logs")
 						&& !MenusENG_temp.equals("Tools & Monitors")) {
 					iTemp = iTemp - 1;
@@ -434,10 +403,6 @@ public class Test_vsDATA {
 
 			// DEVICE ENG
 			if (main_menu.equals("DEVICE")) {
-				// Change top menu >> xx (TOP)
-				if (MenusENGs.get(0).equals("Settings")) {
-					MenusENGs.set(0, "Settings (TOP)");
-				}
 				String MenusENG_temp = MenusENGs.get(i);
 				int iTemp = i;
 				while (!MenusENG_temp.equals("Settings (TOP)") && !MenusENG_temp.equals("Internal Wireless")
@@ -462,13 +427,9 @@ public class Test_vsDATA {
 
 			// NETWORK ENG
 			if (main_menu.equals("NETWORK")) {
-				// Change top menu >> xx (TOP)
-				if (MenusENGs.get(0).equals("System")) {
-					MenusENGs.set(0, "System (TOP)");
-				}
 				String MenusENG_temp = MenusENGs.get(i);
 				int iTemp = i;
-				while (!MenusENG_temp.equals("System (TOP)") && !MenusENG_temp.equals("Firewall")
+				while (!MenusENG_temp.equals("System") && !MenusENG_temp.equals("Firewall")
 						&& !MenusENG_temp.equals("VoIP") && !MenusENG_temp.equals("DNS")
 						&& !MenusENG_temp.equals("Switching") && !MenusENG_temp.equals("SDWAN")
 						&& !MenusENG_temp.equals("IPSec VPN") && !MenusENG_temp.equals("SSL VPN")) {
@@ -488,14 +449,10 @@ public class Test_vsDATA {
 
 			// OBJECT ENG
 			if (main_menu.equals("OBJECT")) {
-				// Change top menu >> xx (TOP)
-				if (MenusENGs.get(0).equals("Match Objects")) {
-					MenusENGs.set(0, "Match Objects (TOP)");
-				}
 				String MenusENG_temp = MenusENGs.get(i);
 				int iTemp = i;
-				while (!MenusENG_temp.equals("Match Objects (TOP)") && !MenusENG_temp.equals("Profile Objects")
-						&& !MenusENG_temp.equals("Action Objects")) {
+				while (!MenusENG_temp.equals("Match Objects") && !MenusENG_temp.equals("Profile Objects")
+						&& !MenusENG_temp.equals("Action Objects") && !MenusENG_temp.equals("Signatures")) {
 					iTemp = iTemp - 1;
 					MenusENG_temp = MenusENGs.get(iTemp);
 				}
@@ -512,13 +469,9 @@ public class Test_vsDATA {
 
 			// POLICY ENG
 			if (main_menu.equals("POLICY")) {
-				// Change top menu >> xx (TOP)
-				if (MenusENGs.get(0).equals("Rules and Policies")) {
-					MenusENGs.set(0, "Rules and Policies (TOP)");
-				}
 				String MenusENG_temp = MenusENGs.get(i);
 				int iTemp = i;
-				while (!MenusENG_temp.equals("Rules and Policies (TOP)") && !MenusENG_temp.equals("DPI-SSL")
+				while (!MenusENG_temp.equals("Rules and Policies") && !MenusENG_temp.equals("DPI-SSL")
 						&& !MenusENG_temp.equals("DPI-SSH") && !MenusENG_temp.equals("Security Services")
 						&& !MenusENG_temp.equals("Anti-Spam") && !MenusENG_temp.equals("Capture ATP")
 						&& !MenusENG_temp.equals("Endpoint Security")) {
@@ -615,7 +568,7 @@ public class Test_vsDATA {
 	public void test_dataCompare() throws IOException {
 		String testName = Thread.currentThread().getStackTrace()[1].getMethodName();
 		start_exReport();
-		
+
 		// Get data JPN & ENG
 		String[][] Menus_JPNs = box_JPN();
 		String[][] Menus_ENGs = box_ENG();
@@ -655,7 +608,7 @@ public class Test_vsDATA {
 			log_message(testName, "********** All matched! **********");
 //			System.out.println("********** All matched! **********");
 		}
-		
+
 		close_exReport();
 	}
 

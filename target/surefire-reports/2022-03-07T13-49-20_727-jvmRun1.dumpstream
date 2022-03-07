@@ -1,0 +1,173 @@
+# Created at 2022-03-07T13:50:14.813
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+
+# Created at 2022-03-07T13:50:43.018
+Unexpected IOException: 6,1,test.Test_NavData_JPN,test_Step01_Login_JPN(test.Test_NavData_JPN),null,null,null
+
+
+# Created at 2022-03-07T13:50:43.056
+Unexpected IOException: 6,1,test.Test_NavData_ENG,test_Step01_Login_ENG(test.Test_NavData_ENG),null,null,null
+
+
+# Created at 2022-03-07T13:50:43.413
+Unexpected IOException with stream: [S]ReportLog >> test_Step01_Login_JPN > [Pass]Take screenshot...
+
+
+# Created at 2022-03-07T13:50:43.421
+Unexpected IOException with stream: [S]ReportLog >> test_Step01_Login_ENG > [Pass]Take screenshot...
+
+
+# Created at 2022-03-07T13:50:43.429
+Unexpected IOException: 5,1,test.Test_NavData_JPN,test_Step02_MenuTop_JPN(test.Test_NavData_JPN),test.Test_NavData_JPN,null,null
+
+
+# Created at 2022-03-07T13:50:43.437
+Unexpected IOException: 5,1,test.Test_NavData_ENG,test_Step02_MenuTop_ENG(test.Test_NavData_ENG),test.Test_NavData_ENG,null,null
+
+
+# Created at 2022-03-07T13:50:43.552
+Unexpected IOException with stream: [S]ReportLog >> test_Step02_MenuTop_ENG > Switch to 'Non-Config' mode...
+
+
+# Created at 2022-03-07T13:50:43.593
+Unexpected IOException with stream: [S]ReportLog >> test_Step02_MenuTop_JPN > Switch to 'Non-Config' mode...
+
+
+# Created at 2022-03-07T13:50:45.611
+Unexpected IOException with stream: [S]ReportLog >> test_Step02_MenuTop_ENG > Got info for [ENG]!
+
+
+# Created at 2022-03-07T13:50:46.189
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'HOME' has sub closed menu (2). Please wait...
+
+
+# Created at 2022-03-07T13:50:46.239
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > Legal Information
+
+
+# Created at 2022-03-07T13:50:46.269
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > API
+
+
+# Created at 2022-03-07T13:50:46.278
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > *************************************************
+
+
+# Created at 2022-03-07T13:50:46.393
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > >>>>>>>>>>>>>>>>>>>
+
+
+# Created at 2022-03-07T13:50:46.458
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > API is clicked!
+
+
+# Created at 2022-03-07T13:50:47.502
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'HOME' sub-menu API total: 0
+
+
+# Created at 2022-03-07T13:50:47.510
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > Menu Index: 6
+
+
+# Created at 2022-03-07T13:50:47.527
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: API
+
+
+# Created at 2022-03-07T13:50:47.610
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > >>>>>>>>>>>>>>>>>>>
+
+
+# Created at 2022-03-07T13:50:47.628
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > Legal Information is clicked!
+
+
+# Created at 2022-03-07T13:50:48.671
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'HOME' sub-menu Legal Information total: 0
+
+
+# Created at 2022-03-07T13:50:48.679
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > Menu Index: 5
+
+
+# Created at 2022-03-07T13:50:48.696
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Legal Information
+
+
+# Created at 2022-03-07T13:50:48.754
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > +++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+# Created at 2022-03-07T13:50:48.774
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > Add top opened menu: Dashboard
+
+
+# Created at 2022-03-07T13:50:48.809
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > Add top opened menu: System
+
+
+# Created at 2022-03-07T13:50:48.870
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > Add top opened menu: Access Points
+
+
+# Created at 2022-03-07T13:50:48.920
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > Add top opened menu: Capture ATP
+
+
+# Created at 2022-03-07T13:50:49.053
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > Add top opened menu: Topology
+
+
+# Created at 2022-03-07T13:50:49.103
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+# Created at 2022-03-07T13:50:49.152
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > MENU: API
+
+
+# Created at 2022-03-07T13:50:49.177
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > MENU: Legal Information
+
+
+# Created at 2022-03-07T13:50:49.211
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > MENU: Dashboard
+
+
+# Created at 2022-03-07T13:50:49.313
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > MENU: System
+
+
+# Created at 2022-03-07T13:50:49.352
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > MENU: Access Points
+
+
+# Created at 2022-03-07T13:50:49.435
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > MENU: Capture ATP
+
+
+# Created at 2022-03-07T13:50:49.460
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > MENU: Topology
+
+
+# Created at 2022-03-07T13:50:49.561
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > ALL MENU: 7
+
+
+# Created at 2022-03-07T13:50:49.611
+Unexpected IOException with stream: [S]ReportLog >> test_Step02_MenuTop_ENG > Data created!
+
+
+# Created at 2022-03-07T13:50:49.947
+Unexpected IOException with stream: [S]ReportLog >> test_Step02_MenuTop_ENG > Data updated!
+
+
+# Created at 2022-03-07T13:50:50.186
+Unexpected IOException with stream: [S]ReportLog >> test_Step02_MenuTop_ENG > Top menu 'HOME' is done!
+
+

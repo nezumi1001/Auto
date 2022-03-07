@@ -1,0 +1,49 @@
+2022-03-07 13:42:24,839: - INFO - Test_NavData_JPN: beforeClass > Before Navigate To...https://10.103.50.159/[JPN]
+2022-03-07 13:42:24,839: - INFO - Test_NavData_ENG: beforeClass > Before Navigate To...https://10.103.50.215/[ENG]
+2022-03-07 13:42:25,316: - INFO - Test_NavData_ENG: test_Step01_Login_ENG > Login to main page...
+2022-03-07 13:42:25,316: - INFO - Test_NavData_JPN: test_Step01_Login_JPN > Login to main page...
+2022-03-07 13:45:05,661: - INFO - Test_NavData_JPN: beforeClass > Before Navigate To...https://10.103.50.159/[JPN]
+2022-03-07 13:45:05,932: - INFO - Test_NavData_JPN: test_Step01_Login_JPN > Login to main page...
+2022-03-07 13:45:08,489: - INFO - Test_NavData_ENG: beforeClass > Before Navigate To...https://10.103.50.215/[ENG]
+2022-03-07 13:45:08,858: - INFO - Test_NavData_ENG: test_Step01_Login_ENG > Login to main page...
+2022-03-07 13:49:42,248: - INFO - Test_NavData_JPN: beforeClass > Before Navigate To...https://10.103.50.159/[JPN]
+2022-03-07 13:49:42,348: - INFO - Test_NavData_ENG: beforeClass > Before Navigate To...https://10.103.50.215/[ENG]
+2022-03-07 13:49:42,669: - INFO - Test_NavData_JPN: test_Step01_Login_JPN > Login to main page...
+2022-03-07 13:49:42,710: - INFO - Test_NavData_ENG: test_Step01_Login_ENG > Login to main page...
+2022-03-07 13:50:43,406: - INFO - Test_NavData_JPN: test_Step01_Login_JPN > [Pass]Take screenshot...
+2022-03-07 13:50:43,408: - INFO - Test_NavData_ENG: test_Step01_Login_ENG > [Pass]Take screenshot...
+2022-03-07 13:50:43,541: - INFO - Test_NavData_ENG: test_Step02_MenuTop_ENG > Switch to 'Non-Config' mode...
+2022-03-07 13:50:43,545: - INFO - Test_NavData_JPN: test_Step02_MenuTop_JPN > Switch to 'Non-Config' mode...
+2022-03-07 13:50:45,583: - INFO - Test_NavData_ENG: test_Step02_MenuTop_ENG > Got info for [ENG]!
+2022-03-07 13:50:46,180: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'HOME' has sub closed menu (2). Please wait...
+2022-03-07 13:50:46,207: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > Legal Information
+2022-03-07 13:50:46,253: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > API
+2022-03-07 13:50:46,270: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > *************************************************
+2022-03-07 13:50:46,380: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > >>>>>>>>>>>>>>>>>>>
+2022-03-07 13:50:46,435: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > API is clicked!
+2022-03-07 13:50:47,494: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'HOME' sub-menu API total: 0
+2022-03-07 13:50:47,503: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > Menu Index: 6
+2022-03-07 13:50:47,519: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > Add sub closed menu: API
+2022-03-07 13:50:47,603: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > >>>>>>>>>>>>>>>>>>>
+2022-03-07 13:50:47,620: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > Legal Information is clicked!
+2022-03-07 13:50:48,663: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'HOME' sub-menu Legal Information total: 0
+2022-03-07 13:50:48,672: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > Menu Index: 5
+2022-03-07 13:50:48,688: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > Add sub closed menu: Legal Information
+2022-03-07 13:50:48,745: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > +++++++++++++++++++++++++++++++++++++++++++++++++
+2022-03-07 13:50:48,767: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > Add top opened menu: Dashboard
+2022-03-07 13:50:48,801: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > Add top opened menu: System
+2022-03-07 13:50:48,832: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > Add top opened menu: Access Points
+2022-03-07 13:50:48,899: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > Add top opened menu: Capture ATP
+2022-03-07 13:50:48,945: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > Add top opened menu: Topology
+2022-03-07 13:50:49,064: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+2022-03-07 13:50:49,104: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > MENU: API
+2022-03-07 13:50:49,153: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > MENU: Legal Information
+2022-03-07 13:50:49,178: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > MENU: Dashboard
+2022-03-07 13:50:49,212: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > MENU: System
+2022-03-07 13:50:49,313: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > MENU: Access Points
+2022-03-07 13:50:49,353: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > MENU: Capture ATP
+2022-03-07 13:50:49,436: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > MENU: Topology
+2022-03-07 13:50:49,461: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > ALL MENU: 7
+2022-03-07 13:50:49,567: - INFO - Test_NavData_ENG: test_Step02_MenuTop_ENG > Data created!
+2022-03-07 13:50:49,748: - INFO - Test_NavData_ENG: test_Step02_MenuTop_ENG > Data updated!
+2022-03-07 13:50:49,948: - INFO - Test_NavData_ENG: test_Step02_MenuTop_ENG > Top menu 'HOME' is done!

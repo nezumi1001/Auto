@@ -4,8 +4,8 @@ import java.io.File;
 
 public class iData_ENG {
 	// --- Base ---
-//	public static String baseUrl = "https://10.103.50.215/"; // TZ 270W
-	public static String baseUrl = "https://10.8.163.166/"; // NSa 2700
+	public static String baseUrl = "https://10.103.50.215/"; // TZ 370W
+//	public static String baseUrl = "https://10.8.163.166/"; // NSa 2700
 //	public static String baseUrl = "https://10.8.164.161/"; // NSa 5700
 //	public static String baseUrl = "https://10.8.89.153/"; // TZ 570P
 //	public static String baseUrl = "https://10.8.95.102/"; // TZ 370W

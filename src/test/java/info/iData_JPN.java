@@ -4,8 +4,8 @@ import java.io.File;
 
 public class iData_JPN {
 	// --- Base ---
-	public static String baseUrl = "https://10.103.50.86/"; // TZ 370W
-//	public static String baseUrl = "https://10.8.162.158/"; // TZ 570P
+	public static String baseUrl = "https://10.103.50.66/"; // TZ 370W
+//	public static String baseUrl = "https://10.8.162.169/"; // TZ 570P
 
 	public static File my_path = new File(System.getProperty("user.dir"));
 	public static String[] chromeDriver_data = { "webdriver.chrome.driver",

@@ -2,10 +2,10 @@
 <testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[[S]ReportLog >> beforeClass > Before Navigate To...https://10.103.50.86/[JPN]]]>
+      <![CDATA[[S]ReportLog >> beforeClass > Before Navigate To...https://10.103.50.66/[JPN]]]>
     </line>
     <line>
-      <![CDATA[[S]ReportLog >> beforeClass > Before Navigate To...https://10.8.163.153/[ENG]]]>
+      <![CDATA[[S]ReportLog >> beforeClass > Before Navigate To...https://10.8.163.166/[ENG]]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test_Step01_Login_JPN > Login to main page...]]>
@@ -14,13 +14,13 @@
       <![CDATA[[S]ReportLog >> test_Step01_Login_ENG > Login to main page...]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test_Step01_Login_ENG > [Pass]Take screenshot...]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test_Step01_Login_JPN > [Pass]Take screenshot...]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test_Step02_MenuTop_JPN > Switch to 'Non-Config' mode...]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test_Step01_Login_ENG > [Pass]Take screenshot...]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test_Step02_MenuTop_ENG > Switch to 'Non-Config' mode...]]>
@@ -44,10 +44,10 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > >>>>>>>>>>>>>>>>>>>]]>
     </line>
     <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > API is clicked!]]>
+      <![CDATA[[S]ReportLog >> test_Step02_MenuTop_ENG > Got info for [ENG]!]]>
     </line>
     <line>
-      <![CDATA[[S]ReportLog >> test_Step02_MenuTop_ENG > Got info for [ENG]!]]>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > API is clicked!]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'HOME' has sub closed menu (2). Please wait...]]>
@@ -266,10 +266,13 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'MONITOR' has sub closed menu (4). Please wait...]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > >>>>>>>>>>>>>>>>>>>]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > AppFlow]]>
     </line>
     <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > >>>>>>>>>>>>>>>>>>>]]>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > ツールと監視 is clicked!]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > SDWAN]]>
@@ -278,13 +281,16 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Logs]]>
     </line>
     <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > ツールと監視 is clicked!]]>
-    </line>
-    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Tools & Monitors]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > *************************************************]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > >>>>>>>>>>>>>>>>>>>]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Tools & Monitors is clicked!]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'MONITOR' sub-menu ツールと監視 total: 4]]>
@@ -302,13 +308,7 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Menu Index: 9]]>
     </line>
     <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > >>>>>>>>>>>>>>>>>>>]]>
-    </line>
-    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: パケット監視]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Tools & Monitors is clicked!]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'MONITOR' Change sub closed menu >> Packet Monitor]]>
@@ -365,34 +365,31 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 10]]>
     </line>
     <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Connections]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 11]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Core 0 Processes]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 12]]>
-    </line>
-    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'MONITOR' sub-menu ログ total: 2]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Menu Index: 7]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Connections]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: ログ]]>
     </line>
     <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Packet Replay]]>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 11]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'MONITOR' Change sub closed menu >> Logs]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Menu Index: 8]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Core 0 Processes]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 12]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: システム ログ]]>
@@ -402,6 +399,9 @@
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Menu Index: 9]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Packet Replay]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: 監査ログ]]>
@@ -431,22 +431,19 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Logs]]>
     </line>
     <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 8]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: System Logs]]>
-    </line>
-    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'MONITOR' sub-menu SDWAN total: 2]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 8]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Menu Index: 6]]>
     </line>
     <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 9]]>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: SDWAN]]>
     </line>
     <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: SDWAN]]>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: System Logs]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'MONITOR' Change sub closed menu >> SDWAN]]>
@@ -455,10 +452,13 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Menu Index: 7]]>
     </line>
     <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Auditing Logs]]>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 9]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: SDWAN 監視]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Auditing Logs]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'MONITOR' Change sub closed menu >> SDWAN Monitor]]>
@@ -497,15 +497,6 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 7]]>
     </line>
     <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: SDWAN Monitor]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 8]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: SD-WAN Connections]]>
-    </line>
-    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'MONITOR' sub-menu AppFlow total: 3]]>
     </line>
     <line>
@@ -515,10 +506,19 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: AppFlow]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: SDWAN Monitor]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'MONITOR' Change sub closed menu >> AppFlow]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Menu Index: 6]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 8]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: SD-WAN Connections]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: AppFlow 報告]]>
@@ -539,16 +539,16 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Menu Index: 8]]>
     </line>
     <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > >>>>>>>>>>>>>>>>>>>]]>
-    </line>
-    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: CTA レポート]]>
     </line>
     <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > AppFlow is clicked!]]>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'MONITOR' Change sub closed menu >> CTA Report]]>
     </line>
     <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'MONITOR' Change sub closed menu >> CTA Report]]>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > >>>>>>>>>>>>>>>>>>>]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > AppFlow is clicked!]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > +++++++++++++++++++++++++++++++++++++++++++++++++]]>
@@ -665,46 +665,34 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 高可用性]]>
     </line>
     <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > ユーザ]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > AppFlow]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > ログ]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 診断]]>
-    </line>
-    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'MONITOR' sub-menu AppFlow total: 3]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 5]]>
     </line>
     <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > スイッチ ネットワーク]]>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > ユーザ]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: AppFlow]]>
     </line>
     <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 6]]>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > AppFlow]]>
     </line>
     <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > アクセス ポイント]]>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 6]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: AppFlow Report]]>
     </line>
     <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > WWAN]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > *************************************************]]>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > ログ]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 7]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 診断]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: AppFlow Monitor]]>
@@ -713,10 +701,19 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 8]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > スイッチ ネットワーク]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: CTA Report]]>
     </line>
     <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > >>>>>>>>>>>>>>>>>>>]]>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > アクセス ポイント]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > WWAN]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > *************************************************]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > +++++++++++++++++++++++++++++++++++++++++++++++++]]>
@@ -725,13 +722,16 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add top opened menu: Real-Time Charts]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > >>>>>>>>>>>>>>>>>>>]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add top opened menu: System Monitor]]>
     </line>
     <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add top opened menu: Protocol Monitor]]>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > WWAN is clicked!]]>
     </line>
     <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > WWAN is clicked!]]>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add top opened menu: Protocol Monitor]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add top opened menu: User Monitor]]>
@@ -818,7 +818,19 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > High Availability]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' sub-menu WWAN total: 0]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Menu Index: 17]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: WWAN]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Users]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> WWAN]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > AppFlow]]>
@@ -833,18 +845,6 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Switch Network]]>
     </line>
     <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' sub-menu WWAN total: 0]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Menu Index: 17]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: WWAN]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> WWAN]]>
-    </line>
-    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Access Points]]>
     </line>
     <line>
@@ -854,25 +854,16 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > *************************************************]]>
     </line>
     <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > >>>>>>>>>>>>>>>>>>>]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > WWAN is clicked!]]>
-    </line>
-    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > >>>>>>>>>>>>>>>>>>>]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > アクセス ポイント is clicked!]]>
     </line>
     <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' sub-menu WWAN total: 0]]>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > >>>>>>>>>>>>>>>>>>>]]>
     </line>
     <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 16]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: WWAN]]>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > WWAN is clicked!]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' sub-menu アクセス ポイント total: 16]]>
@@ -893,25 +884,28 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: 設定]]>
     </line>
     <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > >>>>>>>>>>>>>>>>>>>]]>
-    </line>
-    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> Settings]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Menu Index: 18]]>
     </line>
     <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Access Points is clicked!]]>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: ファームウェア管理]]>
     </line>
     <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: ファームウェア管理]]>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' sub-menu WWAN total: 0]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 16]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> Firmware Management]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Menu Index: 19]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: WWAN]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: フロア プラン表示]]>
@@ -944,7 +938,13 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: 高度な IDP]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > >>>>>>>>>>>>>>>>>>>]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> Advanced IDP]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Access Points is clicked!]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Menu Index: 23]]>
@@ -1133,25 +1133,13 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 29]]>
     </line>
     <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: 3G/4G/LTE WWAN]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 30]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Bluetooth LE]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 31]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Radio Management]]>
-    </line>
-    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' sub-menu スイッチ ネットワーク total: 2]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Menu Index: 15]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: 3G/4G/LTE WWAN]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: スイッチ ネットワーク]]>
@@ -1160,10 +1148,19 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> Switch Network]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 30]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Menu Index: 16]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Bluetooth LE]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: 概要]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 31]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> Overview]]>
@@ -1175,10 +1172,13 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: スイッチ]]>
     </line>
     <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > >>>>>>>>>>>>>>>>>>>]]>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Radio Management]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> Switches]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > >>>>>>>>>>>>>>>>>>>]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Switch Network is clicked!]]>
@@ -1199,19 +1199,10 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Switch Network]]>
     </line>
     <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 15]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Overview]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 16]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Switches]]>
-    </line>
-    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' sub-menu 診断 total: 15]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 15]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Menu Index: 14]]>
@@ -1220,10 +1211,16 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: 診断]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Overview]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> Diagnostics]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Menu Index: 15]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 16]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: テクニカル サポート レポート]]>
@@ -1235,13 +1232,10 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Menu Index: 16]]>
     </line>
     <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > >>>>>>>>>>>>>>>>>>>]]>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Switches]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: ネットワーク設定の確認]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Diagnostics is clicked!]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> Check Network Settings]]>
@@ -1271,10 +1265,16 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: Ping]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > >>>>>>>>>>>>>>>>>>>]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> Ping]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Menu Index: 20]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Diagnostics is clicked!]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: ルート追跡]]>
@@ -1454,27 +1454,6 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 26]]>
     </line>
     <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: URL Rating Request]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 27]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: PMTU Discovery]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 28]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Switch Diagnostics]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > >>>>>>>>>>>>>>>>>>>]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Log is clicked!]]>
-    </line>
-    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' sub-menu ログ total: 6]]>
     </line>
     <line>
@@ -1484,13 +1463,22 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: ログ]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: URL Rating Request]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> Log]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Menu Index: 14]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 27]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: 設定]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: PMTU Discovery]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> Settings]]>
@@ -1499,7 +1487,13 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Menu Index: 15]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 28]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: Syslog]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Switch Diagnostics]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> Syslog]]>
@@ -1541,6 +1535,12 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> AWS]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > >>>>>>>>>>>>>>>>>>>]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Log is clicked!]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > >>>>>>>>>>>>>>>>>>>]]>
     </line>
     <line>
@@ -1574,31 +1574,10 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Automation]]>
     </line>
     <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 16]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Name Resolution]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 17]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Reports]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 18]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: AWS]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > >>>>>>>>>>>>>>>>>>>]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > AppFlow is clicked!]]>
-    </line>
-    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' sub-menu AppFlow total: 2]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 16]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Menu Index: 12]]>
@@ -1607,13 +1586,25 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: AppFlow]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Name Resolution]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> AppFlow]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Menu Index: 13]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 17]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Reports]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: フロー報告]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 18]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> Flow Reporting]]>
@@ -1622,10 +1613,19 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Menu Index: 14]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: AWS]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: AppFlow エージェント]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> AppFlow Agent]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > >>>>>>>>>>>>>>>>>>>]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > AppFlow is clicked!]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > >>>>>>>>>>>>>>>>>>>]]>
@@ -1649,22 +1649,13 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Flow Reporting]]>
     </line>
     <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 13]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: AppFlow Agent]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > >>>>>>>>>>>>>>>>>>>]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Users is clicked!]]>
-    </line>
-    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' sub-menu ユーザ total: 6]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Menu Index: 11]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 13]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: ユーザ]]>
@@ -1674,6 +1665,9 @@
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Menu Index: 12]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: AppFlow Agent]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: 状況]]>
@@ -1706,10 +1700,16 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: ゲスト サービス]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > >>>>>>>>>>>>>>>>>>>]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> Guest Services]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Menu Index: 16]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Users is clicked!]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: ゲスト アカウント]]>
@@ -1769,27 +1769,6 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 15]]>
     </line>
     <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Guest Services]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 16]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Guest Accounts]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 17]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Guest Status]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > >>>>>>>>>>>>>>>>>>>]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > High Availability is clicked!]]>
-    </line>
-    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' sub-menu 高可用性 total: 4]]>
     </line>
     <line>
@@ -1799,13 +1778,25 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: 高可用性]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Guest Services]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> High Availability]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 16]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Menu Index: 11]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Guest Accounts]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: 状況]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 17]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> Status]]>
@@ -1815,6 +1806,9 @@
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: 設定]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Guest Status]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> Settings]]>
@@ -1838,6 +1832,12 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> Monitoring]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > >>>>>>>>>>>>>>>>>>>]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > High Availability is clicked!]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > >>>>>>>>>>>>>>>>>>>]]>
     </line>
     <line>
@@ -1856,28 +1856,88 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 10]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' sub-menu 内部無線 total: 7]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Menu Index: 9]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Status]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: 内部無線]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> Internal Wireless]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 11]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Menu Index: 10]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Settings]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: 状況]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 12]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> Status]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Menu Index: 11]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Advanced]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: 設定]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 13]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> Settings]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Menu Index: 12]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Monitoring]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: セキュリティ]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> Security]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Menu Index: 13]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: 詳細]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> Advanced]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Menu Index: 14]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > +++++++++++++++++++++++++++++++++++++++++++++++++]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: MAC フィルタ リスト]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> MAC Filter List]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Menu Index: 15]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add top opened menu: Settings]]>
@@ -1886,7 +1946,22 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add top opened menu: Licenses]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: IDS]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> IDS]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Menu Index: 16]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add top opened menu: Administration]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: 仮想アクセス ポイント]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> Virtual Access Point]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add top opened menu: Time]]>
@@ -1895,40 +1970,43 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add top opened menu: Certificates]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > +++++++++++++++++++++++++++++++++++++++++++++++++]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Add top opened menu: 設定]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add top opened menu: SNMP]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> Settings]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add top opened menu: Firmware and Settings]]>
     </line>
     <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' sub-menu 内部無線 total: 7]]>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Add top opened menu: ライセンス]]>
     </line>
     <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Menu Index: 9]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: 内部無線]]>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> Licenses]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add top opened menu: Storage]]>
     </line>
     <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> Internal Wireless]]>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Add top opened menu: 管理]]>
     </line>
     <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Menu Index: 10]]>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> Administration]]>
     </line>
     <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: 状況]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> Status]]>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Add top opened menu: 時間]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add top opened menu: Restart]]>
     </line>
     <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Menu Index: 11]]>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> Time]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@]]>
@@ -2114,9 +2192,6 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > MENU: Monitoring]]>
     </line>
     <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: 設定]]>
-    </line>
-    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > MENU: Settings (TOP)]]>
     </line>
     <line>
@@ -2147,91 +2222,16 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > ALL MENU: 69]]>
     </line>
     <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> Settings]]>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Add top opened menu: 証明書]]>
     </line>
     <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Menu Index: 12]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: セキュリティ]]>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> Certificates]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test_Step02_MenuTop_ENG > Data updated!]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test_Step02_MenuTop_ENG > Top menu 'DEVICE' is done!]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> Security]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Menu Index: 13]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: 詳細]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> Advanced]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Menu Index: 14]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: MAC フィルタ リスト]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> MAC Filter List]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Menu Index: 15]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: IDS]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> IDS]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Menu Index: 16]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: 仮想アクセス ポイント]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> Virtual Access Point]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > +++++++++++++++++++++++++++++++++++++++++++++++++]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Add top opened menu: 設定]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> Settings]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Add top opened menu: ライセンス]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> Licenses]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Add top opened menu: 管理]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> Administration]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Add top opened menu: 時間]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> Time]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Add top opened menu: 証明書]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> Certificates]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Add top opened menu: SNMP]]>
@@ -2504,13 +2504,16 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Firewall]]>
     </line>
     <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > VoIP]]>
-    </line>
-    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' has sub closed menu (6). Please wait...]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > VoIP]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > ファイアウォール]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > VoIP]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > DNS]]>
@@ -2519,16 +2522,19 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Switching]]>
     </line>
     <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > VoIP]]>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > DNS]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > SDWAN]]>
     </line>
     <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > DNS]]>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > SDWAN]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > IPSec VPN]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > IPSec VPN]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > SSL VPN]]>
@@ -2537,25 +2543,19 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > *************************************************]]>
     </line>
     <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > SDWAN]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > IPSec VPN]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > >>>>>>>>>>>>>>>>>>>]]>
-    </line>
-    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > SSL VPN]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > *************************************************]]>
     </line>
     <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > SSL VPN is clicked!]]>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > >>>>>>>>>>>>>>>>>>>]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > >>>>>>>>>>>>>>>>>>>]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > SSL VPN is clicked!]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > SSL VPN is clicked!]]>
@@ -2564,52 +2564,16 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' sub-menu SSL VPN total: 5]]>
     </line>
     <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 21]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: SSL VPN]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 22]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Status]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 23]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Server Settings]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 24]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Client Settings]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 25]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Portal Settings]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 26]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Virtual Office]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > >>>>>>>>>>>>>>>>>>>]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > IPSec VPN is clicked!]]>
-    </line>
-    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' sub-menu SSL VPN total: 5]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 21]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Menu Index: 20]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: SSL VPN]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: SSL VPN]]>
@@ -2618,10 +2582,19 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Change sub closed menu >> SSL VPN]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 22]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Menu Index: 21]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: 状況]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Status]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 23]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Change sub closed menu >> Status]]>
@@ -2633,10 +2606,19 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: サーバ設定]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Server Settings]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 24]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Change sub closed menu >> Server Settings]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Menu Index: 23]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Client Settings]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: クライアント設定]]>
@@ -2645,16 +2627,28 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Change sub closed menu >> Client Settings]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 25]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Menu Index: 24]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Portal Settings]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: ポータル設定]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 26]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Change sub closed menu >> Portal Settings]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Menu Index: 25]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Virtual Office]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: 仮想オフィス]]>
@@ -2666,10 +2660,22 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > >>>>>>>>>>>>>>>>>>>]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > >>>>>>>>>>>>>>>>>>>]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > IPSec VPN is clicked!]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > IPSec VPN is clicked!]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' sub-menu IPSec VPN total: 5]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' sub-menu IPSec VPN total: 5]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Menu Index: 19]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 20]]>
@@ -2678,52 +2684,13 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: IPSec VPN]]>
     </line>
     <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 21]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Rules and Settings]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 22]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Advanced]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 23]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: DHCP over VPN]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 24]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: L2TP Server]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 25]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: AWS VPN]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > >>>>>>>>>>>>>>>>>>>]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > SDWAN is clicked!]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' sub-menu IPSec VPN total: 5]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Menu Index: 19]]>
-    </line>
-    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: IPSec VPN]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Change sub closed menu >> IPSec VPN]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 21]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Menu Index: 20]]>
@@ -2732,13 +2699,25 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: ルールと設定]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Rules and Settings]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Change sub closed menu >> Rules and Settings]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Menu Index: 21]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 22]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: 詳細]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Advanced]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 23]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Change sub closed menu >> Advanced]]>
@@ -2750,10 +2729,19 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: VPN を越えた DHCP]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: DHCP over VPN]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 24]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Change sub closed menu >> DHCP over VPN]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Menu Index: 23]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: L2TP Server]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: L2TP サーバ]]>
@@ -2762,13 +2750,22 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Change sub closed menu >> L2TP Server]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 25]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Menu Index: 24]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: AWS VPN]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: AWS VPN]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Change sub closed menu >> AWS VPN]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > >>>>>>>>>>>>>>>>>>>]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > >>>>>>>>>>>>>>>>>>>]]>
@@ -2777,58 +2774,28 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > SDWAN is clicked!]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > SDWAN is clicked!]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' sub-menu SDWAN total: 5]]>
     </line>
     <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 19]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: SDWAN]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 20]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Groups]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 21]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: SLA Probes]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 22]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: SLA Class Objects]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 23]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Path Selection Profiles]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 24]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Rules]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > >>>>>>>>>>>>>>>>>>>]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Switching is clicked!]]>
-    </line>
-    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' sub-menu SDWAN total: 5]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 19]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Menu Index: 18]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: SDWAN]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: SDWAN]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 20]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Change sub closed menu >> SDWAN]]>
@@ -2840,10 +2807,19 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: グループ]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Groups]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Change sub closed menu >> Groups]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 21]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Menu Index: 20]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: SLA Probes]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: SLA プローブ]]>
@@ -2855,10 +2831,19 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Menu Index: 21]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 22]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: SLA クラス オブジェクト]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: SLA Class Objects]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Change sub closed menu >> SLA Class Objects]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 23]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Menu Index: 22]]>
@@ -2867,16 +2852,31 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: パス選択プロファイル]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Path Selection Profiles]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 24]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Change sub closed menu >> Path Selection Profiles]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Menu Index: 23]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Rules]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: ルール]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Change sub closed menu >> Rules]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > >>>>>>>>>>>>>>>>>>>]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Switching is clicked!]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > >>>>>>>>>>>>>>>>>>>]]>
@@ -2894,37 +2894,10 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Switching]]>
     </line>
     <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 19]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: VLAN Trunking]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 20]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: L2 Discovery]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 21]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Link Aggregation]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 22]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Port Mirroring]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > >>>>>>>>>>>>>>>>>>>]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > DNS is clicked!]]>
-    </line>
-    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' sub-menu DNS total: 4]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 19]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Menu Index: 17]]>
@@ -2933,13 +2906,22 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: DNS]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: VLAN Trunking]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Change sub closed menu >> DNS]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Menu Index: 18]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 20]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: 設定]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: L2 Discovery]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Change sub closed menu >> Settings]]>
@@ -2948,7 +2930,13 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Menu Index: 19]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 21]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: 動的 DNS]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Link Aggregation]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Change sub closed menu >> Dynamic DNS]]>
@@ -2957,7 +2945,13 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Menu Index: 20]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 22]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: DNS プロキシ]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Port Mirroring]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Change sub closed menu >> DNS Proxy]]>
@@ -2970,6 +2964,12 @@
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Change sub closed menu >> DNS Security]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > >>>>>>>>>>>>>>>>>>>]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > DNS is clicked!]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > >>>>>>>>>>>>>>>>>>>]]>
@@ -2990,37 +2990,16 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 18]]>
     </line>
     <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Settings]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 19]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Dynamic DNS]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 20]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: DNS Proxy]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 21]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: DNS Security]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > >>>>>>>>>>>>>>>>>>>]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > VoIP is clicked!]]>
-    </line>
-    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' sub-menu VoIP total: 2]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Menu Index: 16]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Settings]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 19]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: VoIP]]>
@@ -3032,7 +3011,13 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Menu Index: 17]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Dynamic DNS]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: 設定]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 20]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Change sub closed menu >> Settings]]>
@@ -3041,10 +3026,19 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Menu Index: 18]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: DNS Proxy]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: 通話状況]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 21]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Change sub closed menu >> Call Status]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: DNS Security]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > >>>>>>>>>>>>>>>>>>>]]>
@@ -3053,28 +3047,10 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > ファイアウォール is clicked!]]>
     </line>
     <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' sub-menu VoIP total: 2]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 16]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: VoIP]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 17]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Settings]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 18]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Call Status]]>
-    </line>
-    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > >>>>>>>>>>>>>>>>>>>]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > VoIP is clicked!]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' sub-menu ファイアウォール total: 5]]>
@@ -3086,16 +3062,25 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: ファイアウォール]]>
     </line>
     <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Firewall is clicked!]]>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Change sub closed menu >> Firewall]]>
     </line>
     <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Change sub closed menu >> Firewall]]>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' sub-menu VoIP total: 2]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 16]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Menu Index: 16]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: VoIP]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: 詳細]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 17]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Change sub closed menu >> Advanced]]>
@@ -3104,13 +3089,22 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Menu Index: 17]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Settings]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: フラッド防御]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 18]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Change sub closed menu >> Flood Protection]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Menu Index: 18]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Call Status]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: SSL 制御]]>
@@ -3137,7 +3131,13 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Change sub closed menu >> RBL Filter]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > >>>>>>>>>>>>>>>>>>>]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > +++++++++++++++++++++++++++++++++++++++++++++++++]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Firewall is clicked!]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Add top opened menu: システム]]>
@@ -3440,22 +3440,16 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add top opened menu: ARP]]>
     </line>
     <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add top opened menu: MAC IP Anti-Spoof]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add top opened menu: Web Proxy]]>
-    </line>
-    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'OBJECT' has sub closed menu (2). Please wait...]]>
     </line>
     <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add top opened menu: PortShield Groups]]>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add top opened menu: MAC IP Anti-Spoof]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > プロファイル オブジェクト]]>
     </line>
     <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add top opened menu: VLAN Translation]]>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add top opened menu: Web Proxy]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 動作オブジェクト]]>
@@ -3464,7 +3458,19 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > *************************************************]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add top opened menu: PortShield Groups]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add top opened menu: VLAN Translation]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add top opened menu: IP Helper]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > >>>>>>>>>>>>>>>>>>>]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 動作オブジェクト is clicked!]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add top opened menu: Dynamic Routing]]>
@@ -3644,16 +3650,10 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > ALL MENU: 52]]>
     </line>
     <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > >>>>>>>>>>>>>>>>>>>]]>
-    </line>
-    <line>
       <![CDATA[[S]ReportLog >> test_Step02_MenuTop_ENG > Data updated!]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test_Step02_MenuTop_ENG > Top menu 'NETWORK' is done!]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 動作オブジェクト is clicked!]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'OBJECT' sub-menu 動作オブジェクト total: 2]]>
@@ -3665,16 +3665,10 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: 動作オブジェクト]]>
     </line>
     <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' has sub closed menu (2). Please wait...]]>
-    </line>
-    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'OBJECT' Change sub closed menu >> Action Objects]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Menu Index: 11]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Profile Objects]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: アプリケーション ルールの動作]]>
@@ -3684,12 +3678,6 @@
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Menu Index: 12]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Action Objects]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > *************************************************]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: コンテンツ フィルタの動作]]>
@@ -3702,6 +3690,18 @@
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > プロファイル オブジェクト is clicked!]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' has sub closed menu (2). Please wait...]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Profile Objects]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Action Objects]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > *************************************************]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > >>>>>>>>>>>>>>>>>>>]]>
@@ -3749,22 +3749,10 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'OBJECT' Change sub closed menu >> QoS Marking]]>
     </line>
     <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' sub-menu Action Objects total: 2]]>
-    </line>
-    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Menu Index: 13]]>
     </line>
     <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 10]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Action Objects]]>
-    </line>
-    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: コンテンツ フィルタ]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 11]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'OBJECT' Change sub closed menu >> Content Filter]]>
@@ -3773,13 +3761,19 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Menu Index: 14]]>
     </line>
     <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: App Rule Actions]]>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' sub-menu Action Objects total: 2]]>
     </line>
     <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 12]]>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 10]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: DHCP オプション]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Action Objects]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 11]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'OBJECT' Change sub closed menu >> DHCP Option]]>
@@ -3788,13 +3782,19 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Menu Index: 15]]>
     </line>
     <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Content Filter Actions]]>
-    </line>
-    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: AWS]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: App Rule Actions]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 12]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'OBJECT' Change sub closed menu >> AWS]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Content Filter Actions]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > +++++++++++++++++++++++++++++++++++++++++++++++++]]>
@@ -3812,16 +3812,16 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'OBJECT' Change sub closed menu >> Zones]]>
     </line>
     <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > >>>>>>>>>>>>>>>>>>>]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Profile Objects is clicked!]]>
-    </line>
-    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Add top opened menu: アドレス]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > >>>>>>>>>>>>>>>>>>>]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'OBJECT' Change sub closed menu >> Addresses]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Profile Objects is clicked!]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Add top opened menu: サービス]]>
@@ -3974,13 +3974,22 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: AWS]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'POLICY' has sub closed menu (6). Please wait...]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > +++++++++++++++++++++++++++++++++++++++++++++++++]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > DPI-SSL]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add top opened menu: Match Objects]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add top opened menu: Zones]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > DPI-SSH]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add top opened menu: Addresses]]>
@@ -4002,6 +4011,9 @@
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add top opened menu: Email Addresses]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > セキュリティ サービス]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@]]>
@@ -4073,18 +4085,6 @@
       <![CDATA[[S]ReportLog >> test_Step02_MenuTop_ENG > Top menu 'OBJECT' is done!]]>
     </line>
     <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'POLICY' has sub closed menu (6). Please wait...]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > DPI-SSL]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > DPI-SSH]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > セキュリティ サービス]]>
-    </line>
-    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > アンチスパム]]>
     </line>
     <line>
@@ -4101,12 +4101,6 @@
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > エンドポイント セキュリティ is clicked!]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' has sub closed menu (6). Please wait...]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > DPI-SSL]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'POLICY' sub-menu エンドポイント セキュリティ total: 0]]>
@@ -4127,6 +4121,12 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > キャプチャ ATP is clicked!]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' has sub closed menu (6). Please wait...]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > DPI-SSL]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > DPI-SSH]]>
     </line>
     <line>
@@ -4143,12 +4143,6 @@
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > *************************************************]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > >>>>>>>>>>>>>>>>>>>]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Endpoint Security is clicked!]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'POLICY' sub-menu キャプチャ ATP total: 2]]>
@@ -4187,19 +4181,10 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > アンチスパム is clicked!]]>
     </line>
     <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' sub-menu Endpoint Security total: 0]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 12]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Endpoint Security]]>
-    </line>
-    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > >>>>>>>>>>>>>>>>>>>]]>
     </line>
     <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Capture ATP is clicked!]]>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Endpoint Security is clicked!]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'POLICY' sub-menu アンチスパム total: 2]]>
@@ -4238,31 +4223,19 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > セキュリティ サービス is clicked!]]>
     </line>
     <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' sub-menu Capture ATP total: 2]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 11]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Capture ATP]]>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' sub-menu Endpoint Security total: 0]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 12]]>
     </line>
     <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Settings]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 13]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Scanning History]]>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Endpoint Security]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > >>>>>>>>>>>>>>>>>>>]]>
     </line>
     <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Anti-Spam is clicked!]]>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Capture ATP is clicked!]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'POLICY' sub-menu セキュリティ サービス total: 8]]>
@@ -4355,19 +4328,13 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > DPI-SSH is clicked!]]>
     </line>
     <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' sub-menu Anti-Spam total: 2]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 10]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Anti-Spam]]>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' sub-menu Capture ATP total: 2]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 11]]>
     </line>
     <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Status]]>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Capture ATP]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 12]]>
@@ -4376,10 +4343,16 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Settings]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 13]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Scanning History]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > >>>>>>>>>>>>>>>>>>>]]>
     </line>
     <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Security Services is clicked!]]>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Anti-Spam is clicked!]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'POLICY' sub-menu DPI-SSH total: 1]]>
@@ -4409,67 +4382,31 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > DPI-SSL is clicked!]]>
     </line>
     <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' sub-menu Security Services total: 8]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 9]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Security Services]]>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' sub-menu Anti-Spam total: 2]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 10]]>
     </line>
     <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Summary]]>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Anti-Spam]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 11]]>
     </line>
     <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Gateway Anti-Virus]]>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Status]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 12]]>
     </line>
     <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Anti-Spyware]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 13]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Intrusion Prevention]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 14]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Geo-IP Filter]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 15]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Botnet Filter]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 16]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: App Control]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 17]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Content Filter]]>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Settings]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > >>>>>>>>>>>>>>>>>>>]]>
     </line>
     <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > DPI-SSH is clicked!]]>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Security Services is clicked!]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'POLICY' sub-menu DPI-SSL total: 2]]>
@@ -4643,7 +4580,70 @@
       <![CDATA[[S]ReportLog >> test_Step02_MenuTop_JPN > Top menu 'POLICY' is done!]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' sub-menu Security Services total: 8]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 9]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Security Services]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 10]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Summary]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 11]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Gateway Anti-Virus]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 12]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Anti-Spyware]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 13]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Intrusion Prevention]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 14]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Geo-IP Filter]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 15]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Botnet Filter]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 16]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: App Control]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 17]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Content Filter]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test_Step02_MenuTop_JPN > [Pass]Take screenshot...]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > >>>>>>>>>>>>>>>>>>>]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > DPI-SSH is clicked!]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' sub-menu DPI-SSH total: 1]]>
@@ -4823,13 +4823,13 @@
       <![CDATA[[S]ReportLog >> test_dataCompare > --------------------------------------------------------------------]]>
     </line>
     <line>
-      <![CDATA[[S]ReportLog >> test_dataCompare > [JPN] info: Device Name -----> TZ 370W]]>
+      <![CDATA[[S]ReportLog >> test_dataCompare > [JPN] info: Device Name -----> TZ 270W]]>
     </line>
     <line>
-      <![CDATA[[S]ReportLog >> test_dataCompare > [JPN] info: Serial Number ---> 2CB8ED69339C]]>
+      <![CDATA[[S]ReportLog >> test_dataCompare > [JPN] info: Serial Number ---> 2CB8EDA98900]]>
     </line>
     <line>
-      <![CDATA[[S]ReportLog >> test_dataCompare > [JPN] info: Firmware Version > SonicOS 7.0.1-5030]]>
+      <![CDATA[[S]ReportLog >> test_dataCompare > [JPN] info: Firmware Version > SonicOS 7.0.1-5050]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test_dataCompare > --------------------------------------------------------------------]]>
@@ -4841,7 +4841,7 @@
       <![CDATA[[S]ReportLog >> test_dataCompare > [ENG] info: Serial Number ---> 2CB8ED8279E0]]>
     </line>
     <line>
-      <![CDATA[[S]ReportLog >> test_dataCompare > [ENG] info: Firmware Version > SonicOS 7.0.1-5030]]>
+      <![CDATA[[S]ReportLog >> test_dataCompare > [ENG] info: Firmware Version > SonicOS 7.0.1-5055]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test_dataCompare > --------------------------------------------------------------------]]>
@@ -4889,26 +4889,26 @@
       <![CDATA[[S]ReportLog >> missing_page > [JPN] version missing: NETWORK > Switching > Port Mirroring]]>
     </line>
   </reporter-output>
-  <suite started-at="2021-11-08T10:17:43 CST" name="SonicWall TestSuite" finished-at="2021-11-08T10:20:16 CST" duration-ms="153255">
+  <suite started-at="2022-03-04T14:36:48 CST" name="SonicWall TestSuite" finished-at="2022-03-04T14:39:08 CST" duration-ms="140672">
     <groups>
     </groups>
-    <test started-at="2021-11-08T10:17:43 CST" name="Menu Test JPN/ENG" finished-at="2021-11-08T10:20:16 CST" duration-ms="153143">
+    <test started-at="2022-03-04T14:36:48 CST" name="Menu Test JPN/ENG" finished-at="2022-03-04T14:39:08 CST" duration-ms="140578">
       <class name="test.Test_NavData_ENG">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:test.Test_NavData_ENG@2cdd0d4b]" started-at="2021-11-08T10:17:43 CST" name="beforeClass" finished-at="2021-11-08T10:18:05 CST" duration-ms="22116" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:test.Test_NavData_ENG@2cdd0d4b]" started-at="2022-03-04T14:36:48 CST" name="beforeClass" finished-at="2022-03-04T14:37:04 CST" duration-ms="16615" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[[S]ReportLog >> beforeClass > Before Navigate To...https://10.8.163.153/[ENG]]]>
+              <![CDATA[[S]ReportLog >> beforeClass > Before Navigate To...https://10.8.163.166/[ENG]]]>
             </line>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="test_Step01_Login_ENG()[pri:0, instance:test.Test_NavData_ENG@2cdd0d4b]" started-at="2021-11-08T10:18:05 CST" name="test_Step01_Login_ENG" finished-at="2021-11-08T10:19:07 CST" duration-ms="61873" status="PASS">
+        <test-method signature="test_Step01_Login_ENG()[pri:0, instance:test.Test_NavData_ENG@2cdd0d4b]" started-at="2022-03-04T14:37:04 CST" name="test_Step01_Login_ENG" finished-at="2022-03-04T14:38:06 CST" duration-ms="61156" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[[S]ReportLog >> test_Step01_Login_ENG > Login to main page...]]>
             </line>
           </reporter-output>
         </test-method> <!-- test_Step01_Login_ENG -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.Test_NavData_ENG@2cdd0d4b]" started-at="2021-11-08T10:19:07 CST" name="afterMethod" finished-at="2021-11-08T10:19:07 CST" duration-ms="373" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.Test_NavData_ENG@2cdd0d4b]" started-at="2022-03-04T14:38:06 CST" name="afterMethod" finished-at="2022-03-04T14:38:06 CST" duration-ms="528" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -4922,7 +4922,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method signature="test_Step02_MenuTop_ENG()[pri:0, instance:test.Test_NavData_ENG@2cdd0d4b]" started-at="2021-11-08T10:19:07 CST" name="test_Step02_MenuTop_ENG" finished-at="2021-11-08T10:20:12 CST" duration-ms="64566" status="PASS">
+        <test-method signature="test_Step02_MenuTop_ENG()[pri:0, instance:test.Test_NavData_ENG@2cdd0d4b]" started-at="2022-03-04T14:38:06 CST" name="test_Step02_MenuTop_ENG" finished-at="2022-03-04T14:39:04 CST" duration-ms="57779" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[[S]ReportLog >> test_Step02_MenuTop_ENG > Switch to 'Non-Config' mode...]]>
@@ -7014,7 +7014,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- test_Step02_MenuTop_ENG -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.Test_NavData_ENG@2cdd0d4b]" started-at="2021-11-08T10:20:12 CST" name="afterMethod" finished-at="2021-11-08T10:20:12 CST" duration-ms="206" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.Test_NavData_ENG@2cdd0d4b]" started-at="2022-03-04T14:39:04 CST" name="afterMethod" finished-at="2022-03-04T14:39:04 CST" duration-ms="547" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -7028,27 +7028,27 @@
             </line>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:test.Test_NavData_ENG@2cdd0d4b]" started-at="2021-11-08T10:20:12 CST" name="afterClass" finished-at="2021-11-08T10:20:16 CST" duration-ms="3984" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:test.Test_NavData_ENG@2cdd0d4b]" started-at="2022-03-04T14:39:04 CST" name="afterClass" finished-at="2022-03-04T14:39:08 CST" duration-ms="3915" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- test.Test_NavData_ENG -->
       <class name="test.Test_NavData_JPN">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:test.Test_NavData_JPN@4ef37659]" started-at="2021-11-08T10:17:43 CST" name="beforeClass" finished-at="2021-11-08T10:18:01 CST" duration-ms="18608" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:test.Test_NavData_JPN@4ef37659]" started-at="2022-03-04T14:36:48 CST" name="beforeClass" finished-at="2022-03-04T14:37:01 CST" duration-ms="12779" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[[S]ReportLog >> beforeClass > Before Navigate To...https://10.103.50.86/[JPN]]]>
+              <![CDATA[[S]ReportLog >> beforeClass > Before Navigate To...https://10.103.50.66/[JPN]]]>
             </line>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="test_Step01_Login_JPN()[pri:0, instance:test.Test_NavData_JPN@4ef37659]" started-at="2021-11-08T10:18:01 CST" name="test_Step01_Login_JPN" finished-at="2021-11-08T10:19:06 CST" duration-ms="64858" status="PASS">
+        <test-method signature="test_Step01_Login_JPN()[pri:0, instance:test.Test_NavData_JPN@4ef37659]" started-at="2022-03-04T14:37:01 CST" name="test_Step01_Login_JPN" finished-at="2022-03-04T14:38:06 CST" duration-ms="64966" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[[S]ReportLog >> test_Step01_Login_JPN > Login to main page...]]>
             </line>
           </reporter-output>
         </test-method> <!-- test_Step01_Login_JPN -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.Test_NavData_JPN@4ef37659]" started-at="2021-11-08T10:19:06 CST" name="afterMethod" finished-at="2021-11-08T10:19:07 CST" duration-ms="324" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.Test_NavData_JPN@4ef37659]" started-at="2022-03-04T14:38:06 CST" name="afterMethod" finished-at="2022-03-04T14:38:06 CST" duration-ms="528" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -7062,7 +7062,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method signature="test_Step02_MenuTop_JPN()[pri:0, instance:test.Test_NavData_JPN@4ef37659]" started-at="2021-11-08T10:19:07 CST" name="test_Step02_MenuTop_JPN" finished-at="2021-11-08T10:20:10 CST" duration-ms="63047" status="PASS">
+        <test-method signature="test_Step02_MenuTop_JPN()[pri:0, instance:test.Test_NavData_JPN@4ef37659]" started-at="2022-03-04T14:38:06 CST" name="test_Step02_MenuTop_JPN" finished-at="2022-03-04T14:39:01 CST" duration-ms="54962" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[[S]ReportLog >> test_Step02_MenuTop_JPN > Switch to 'Non-Config' mode...]]>
@@ -9763,7 +9763,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- test_Step02_MenuTop_JPN -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.Test_NavData_JPN@4ef37659]" started-at="2021-11-08T10:20:10 CST" name="afterMethod" finished-at="2021-11-08T10:20:10 CST" duration-ms="393" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.Test_NavData_JPN@4ef37659]" started-at="2022-03-04T14:39:01 CST" name="afterMethod" finished-at="2022-03-04T14:39:01 CST" duration-ms="267" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -9777,15 +9777,15 @@
             </line>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:test.Test_NavData_JPN@4ef37659]" started-at="2021-11-08T10:20:10 CST" name="afterClass" finished-at="2021-11-08T10:20:14 CST" duration-ms="4369" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:test.Test_NavData_JPN@4ef37659]" started-at="2022-03-04T14:39:01 CST" name="afterClass" finished-at="2022-03-04T14:39:06 CST" duration-ms="4353" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- test.Test_NavData_JPN -->
     </test> <!-- Menu Test JPN/ENG -->
-    <test started-at="2021-11-08T10:20:16 CST" name="Menu Compare JPN/ENG" finished-at="2021-11-08T10:20:16 CST" duration-ms="74">
+    <test started-at="2022-03-04T14:39:08 CST" name="Menu Compare JPN/ENG" finished-at="2022-03-04T14:39:08 CST" duration-ms="53">
       <class name="test.Test_vsDATA">
-        <test-method signature="test_dataCompare()[pri:0, instance:test.Test_vsDATA@1f2f9244]" started-at="2021-11-08T10:20:16 CST" name="test_dataCompare" finished-at="2021-11-08T10:20:16 CST" duration-ms="71" status="PASS">
+        <test-method signature="test_dataCompare()[pri:0, instance:test.Test_vsDATA@79145d5a]" started-at="2022-03-04T14:39:08 CST" name="test_dataCompare" finished-at="2022-03-04T14:39:08 CST" duration-ms="51" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[[S]ReportLog >> box_JPN > Got data!]]>
@@ -9800,13 +9800,13 @@
               <![CDATA[[S]ReportLog >> test_dataCompare > --------------------------------------------------------------------]]>
             </line>
             <line>
-              <![CDATA[[S]ReportLog >> test_dataCompare > [JPN] info: Device Name -----> TZ 370W]]>
+              <![CDATA[[S]ReportLog >> test_dataCompare > [JPN] info: Device Name -----> TZ 270W]]>
             </line>
             <line>
-              <![CDATA[[S]ReportLog >> test_dataCompare > [JPN] info: Serial Number ---> 2CB8ED69339C]]>
+              <![CDATA[[S]ReportLog >> test_dataCompare > [JPN] info: Serial Number ---> 2CB8EDA98900]]>
             </line>
             <line>
-              <![CDATA[[S]ReportLog >> test_dataCompare > [JPN] info: Firmware Version > SonicOS 7.0.1-5030]]>
+              <![CDATA[[S]ReportLog >> test_dataCompare > [JPN] info: Firmware Version > SonicOS 7.0.1-5050]]>
             </line>
             <line>
               <![CDATA[[S]ReportLog >> test_dataCompare > --------------------------------------------------------------------]]>
@@ -9818,7 +9818,7 @@
               <![CDATA[[S]ReportLog >> test_dataCompare > [ENG] info: Serial Number ---> 2CB8ED8279E0]]>
             </line>
             <line>
-              <![CDATA[[S]ReportLog >> test_dataCompare > [ENG] info: Firmware Version > SonicOS 7.0.1-5030]]>
+              <![CDATA[[S]ReportLog >> test_dataCompare > [ENG] info: Firmware Version > SonicOS 7.0.1-5055]]>
             </line>
             <line>
               <![CDATA[[S]ReportLog >> test_dataCompare > --------------------------------------------------------------------]]>

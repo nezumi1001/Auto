@@ -1,0 +1,668 @@
+# Created at 2022-07-20T15:20:31.174
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+
+# Created at 2022-07-20T15:20:33.531
+Unexpected IOException with stream: [
+
+# Created at 2022-07-20T15:20:33.532
+Unexpected IOException with stream: 1
+
+# Created at 2022-07-20T15:20:33.533
+Unexpected IOException with stream: 6
+
+# Created at 2022-07-20T15:20:33.533
+Unexpected IOException with stream: 5
+
+# Created at 2022-07-20T15:20:33.534
+Unexpected IOException with stream: 8
+
+# Created at 2022-07-20T15:20:33.534
+Unexpected IOException with stream: 3
+
+# Created at 2022-07-20T15:20:33.534
+Unexpected IOException with stream: 0
+
+# Created at 2022-07-20T15:20:33.535
+Unexpected IOException with stream: 1
+
+# Created at 2022-07-20T15:20:33.535
+Unexpected IOException with stream: 6
+
+# Created at 2022-07-20T15:20:33.536
+Unexpected IOException with stream: 3
+
+# Created at 2022-07-20T15:20:33.536
+Unexpected IOException with stream: 3
+
+# Created at 2022-07-20T15:20:33.536
+Unexpected IOException with stream: .
+
+# Created at 2022-07-20T15:20:33.537
+Unexpected IOException with stream: 5
+
+# Created at 2022-07-20T15:20:33.537
+Unexpected IOException with stream: 3
+
+# Created at 2022-07-20T15:20:33.537
+Unexpected IOException with stream: 0
+
+# Created at 2022-07-20T15:20:33.538
+Unexpected IOException with stream: ]
+
+# Created at 2022-07-20T15:20:33.538
+Unexpected IOException with stream: [
+
+# Created at 2022-07-20T15:20:33.538
+Unexpected IOException with stream: W
+
+# Created at 2022-07-20T15:20:33.538
+Unexpected IOException with stream: A
+
+# Created at 2022-07-20T15:20:33.539
+Unexpected IOException with stream: R
+
+# Created at 2022-07-20T15:20:33.539
+Unexpected IOException with stream: N
+
+# Created at 2022-07-20T15:20:33.539
+Unexpected IOException with stream: I
+
+# Created at 2022-07-20T15:20:33.539
+Unexpected IOException with stream: N
+
+# Created at 2022-07-20T15:20:33.540
+Unexpected IOException with stream: G
+
+# Created at 2022-07-20T15:20:33.540
+Unexpected IOException with stream: ]
+
+# Created at 2022-07-20T15:20:33.540
+Unexpected IOException with stream: :
+
+# Created at 2022-07-20T15:20:33.540
+Unexpected IOException with stream:  
+
+# Created at 2022-07-20T15:20:33.541
+Unexpected IOException with stream: T
+
+# Created at 2022-07-20T15:20:33.541
+Unexpected IOException with stream: i
+
+# Created at 2022-07-20T15:20:33.541
+Unexpected IOException with stream: m
+
+# Created at 2022-07-20T15:20:33.541
+Unexpected IOException with stream: e
+
+# Created at 2022-07-20T15:20:33.541
+Unexpected IOException with stream: d
+
+# Created at 2022-07-20T15:20:33.542
+Unexpected IOException with stream:  
+
+# Created at 2022-07-20T15:20:33.542
+Unexpected IOException with stream: o
+
+# Created at 2022-07-20T15:20:33.542
+Unexpected IOException with stream: u
+
+# Created at 2022-07-20T15:20:33.542
+Unexpected IOException with stream: t
+
+# Created at 2022-07-20T15:20:33.543
+Unexpected IOException with stream:  
+
+# Created at 2022-07-20T15:20:33.543
+Unexpected IOException with stream: c
+
+# Created at 2022-07-20T15:20:33.543
+Unexpected IOException with stream: o
+
+# Created at 2022-07-20T15:20:33.543
+Unexpected IOException with stream: n
+
+# Created at 2022-07-20T15:20:33.543
+Unexpected IOException with stream: n
+
+# Created at 2022-07-20T15:20:33.544
+Unexpected IOException with stream: e
+
+# Created at 2022-07-20T15:20:33.544
+Unexpected IOException with stream: c
+
+# Created at 2022-07-20T15:20:33.544
+Unexpected IOException with stream: t
+
+# Created at 2022-07-20T15:20:33.544
+Unexpected IOException with stream: i
+
+# Created at 2022-07-20T15:20:33.545
+Unexpected IOException with stream: n
+
+# Created at 2022-07-20T15:20:33.545
+Unexpected IOException with stream: g
+
+# Created at 2022-07-20T15:20:33.545
+Unexpected IOException with stream:  
+
+# Created at 2022-07-20T15:20:33.545
+Unexpected IOException with stream: t
+
+# Created at 2022-07-20T15:20:33.545
+Unexpected IOException with stream: o
+
+# Created at 2022-07-20T15:20:33.546
+Unexpected IOException with stream:  
+
+# Created at 2022-07-20T15:20:33.546
+Unexpected IOException with stream: C
+
+# Created at 2022-07-20T15:20:33.546
+Unexpected IOException with stream: h
+
+# Created at 2022-07-20T15:20:33.546
+Unexpected IOException with stream: r
+
+# Created at 2022-07-20T15:20:33.547
+Unexpected IOException with stream: o
+
+# Created at 2022-07-20T15:20:33.547
+Unexpected IOException with stream: m
+
+# Created at 2022-07-20T15:20:33.547
+Unexpected IOException with stream: e
+
+# Created at 2022-07-20T15:20:33.547
+Unexpected IOException with stream: ,
+
+# Created at 2022-07-20T15:20:33.547
+Unexpected IOException with stream:  
+
+# Created at 2022-07-20T15:20:33.548
+Unexpected IOException with stream: r
+
+# Created at 2022-07-20T15:20:33.548
+Unexpected IOException with stream: e
+
+# Created at 2022-07-20T15:20:33.548
+Unexpected IOException with stream: t
+
+# Created at 2022-07-20T15:20:33.548
+Unexpected IOException with stream: r
+
+# Created at 2022-07-20T15:20:33.549
+Unexpected IOException with stream: y
+
+# Created at 2022-07-20T15:20:33.549
+Unexpected IOException with stream: i
+
+# Created at 2022-07-20T15:20:33.549
+Unexpected IOException with stream: n
+
+# Created at 2022-07-20T15:20:33.549
+Unexpected IOException with stream: g
+
+# Created at 2022-07-20T15:20:33.549
+Unexpected IOException with stream: .
+
+# Created at 2022-07-20T15:20:33.549
+Unexpected IOException with stream: .
+
+# Created at 2022-07-20T15:20:33.549
+Unexpected IOException with stream: .
+
+# Created at 2022-07-20T15:20:33.550
+Unexpected IOException with stream: 
+
+# Created at 2022-07-20T15:20:33.550
+Unexpected IOException with stream: 
+
+
+# Created at 2022-07-20T15:20:41.661
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Element Not Found!
+
+
+# Created at 2022-07-20T15:20:45.689
+Unexpected IOException with stream: [
+
+# Created at 2022-07-20T15:20:45.690
+Unexpected IOException with stream: 1
+
+# Created at 2022-07-20T15:20:45.691
+Unexpected IOException with stream: 6
+
+# Created at 2022-07-20T15:20:45.691
+Unexpected IOException with stream: 5
+
+# Created at 2022-07-20T15:20:45.692
+Unexpected IOException with stream: 8
+
+# Created at 2022-07-20T15:20:45.693
+Unexpected IOException with stream: 3
+
+# Created at 2022-07-20T15:20:45.693
+Unexpected IOException with stream: 0
+
+# Created at 2022-07-20T15:20:45.694
+Unexpected IOException with stream: 1
+
+# Created at 2022-07-20T15:20:45.694
+Unexpected IOException with stream: 6
+
+# Created at 2022-07-20T15:20:45.694
+Unexpected IOException with stream: 4
+
+# Created at 2022-07-20T15:20:45.694
+Unexpected IOException with stream: 5
+
+# Created at 2022-07-20T15:20:45.694
+Unexpected IOException with stream: .
+
+# Created at 2022-07-20T15:20:45.695
+Unexpected IOException with stream: 6
+
+# Created at 2022-07-20T15:20:45.695
+Unexpected IOException with stream: 8
+
+# Created at 2022-07-20T15:20:45.695
+Unexpected IOException with stream: 9
+
+# Created at 2022-07-20T15:20:45.695
+Unexpected IOException with stream: ]
+
+# Created at 2022-07-20T15:20:45.696
+Unexpected IOException with stream: [
+
+# Created at 2022-07-20T15:20:45.696
+Unexpected IOException with stream: W
+
+# Created at 2022-07-20T15:20:45.696
+Unexpected IOException with stream: A
+
+# Created at 2022-07-20T15:20:45.696
+Unexpected IOException with stream: R
+
+# Created at 2022-07-20T15:20:45.696
+Unexpected IOException with stream: N
+
+# Created at 2022-07-20T15:20:45.697
+Unexpected IOException with stream: I
+
+# Created at 2022-07-20T15:20:45.697
+Unexpected IOException with stream: N
+
+# Created at 2022-07-20T15:20:45.697
+Unexpected IOException with stream: G
+
+# Created at 2022-07-20T15:20:45.697
+Unexpected IOException with stream: ]
+
+# Created at 2022-07-20T15:20:45.697
+Unexpected IOException with stream: :
+
+# Created at 2022-07-20T15:20:45.698
+Unexpected IOException with stream:  
+
+# Created at 2022-07-20T15:20:45.698
+Unexpected IOException with stream: T
+
+# Created at 2022-07-20T15:20:45.698
+Unexpected IOException with stream: i
+
+# Created at 2022-07-20T15:20:45.698
+Unexpected IOException with stream: m
+
+# Created at 2022-07-20T15:20:45.699
+Unexpected IOException with stream: e
+
+# Created at 2022-07-20T15:20:45.699
+Unexpected IOException with stream: d
+
+# Created at 2022-07-20T15:20:45.699
+Unexpected IOException with stream:  
+
+# Created at 2022-07-20T15:20:45.699
+Unexpected IOException with stream: o
+
+# Created at 2022-07-20T15:20:45.699
+Unexpected IOException with stream: u
+
+# Created at 2022-07-20T15:20:45.700
+Unexpected IOException with stream: t
+
+# Created at 2022-07-20T15:20:45.700
+Unexpected IOException with stream:  
+
+# Created at 2022-07-20T15:20:45.700
+Unexpected IOException with stream: c
+
+# Created at 2022-07-20T15:20:45.700
+Unexpected IOException with stream: o
+
+# Created at 2022-07-20T15:20:45.701
+Unexpected IOException with stream: n
+
+# Created at 2022-07-20T15:20:45.701
+Unexpected IOException with stream: n
+
+# Created at 2022-07-20T15:20:45.701
+Unexpected IOException with stream: e
+
+# Created at 2022-07-20T15:20:45.701
+Unexpected IOException with stream: c
+
+# Created at 2022-07-20T15:20:45.701
+Unexpected IOException with stream: t
+
+# Created at 2022-07-20T15:20:45.702
+Unexpected IOException with stream: i
+
+# Created at 2022-07-20T15:20:45.702
+Unexpected IOException with stream: n
+
+# Created at 2022-07-20T15:20:45.702
+Unexpected IOException with stream: g
+
+# Created at 2022-07-20T15:20:45.702
+Unexpected IOException with stream:  
+
+# Created at 2022-07-20T15:20:45.702
+Unexpected IOException with stream: t
+
+# Created at 2022-07-20T15:20:45.702
+Unexpected IOException with stream: o
+
+# Created at 2022-07-20T15:20:45.703
+Unexpected IOException with stream:  
+
+# Created at 2022-07-20T15:20:45.703
+Unexpected IOException with stream: C
+
+# Created at 2022-07-20T15:20:45.703
+Unexpected IOException with stream: h
+
+# Created at 2022-07-20T15:20:45.703
+Unexpected IOException with stream: r
+
+# Created at 2022-07-20T15:20:45.704
+Unexpected IOException with stream: o
+
+# Created at 2022-07-20T15:20:45.704
+Unexpected IOException with stream: m
+
+# Created at 2022-07-20T15:20:45.704
+Unexpected IOException with stream: e
+
+# Created at 2022-07-20T15:20:45.704
+Unexpected IOException with stream: ,
+
+# Created at 2022-07-20T15:20:45.704
+Unexpected IOException with stream:  
+
+# Created at 2022-07-20T15:20:45.704
+Unexpected IOException with stream: r
+
+# Created at 2022-07-20T15:20:45.704
+Unexpected IOException with stream: e
+
+# Created at 2022-07-20T15:20:45.705
+Unexpected IOException with stream: t
+
+# Created at 2022-07-20T15:20:45.705
+Unexpected IOException with stream: r
+
+# Created at 2022-07-20T15:20:45.705
+Unexpected IOException with stream: y
+
+# Created at 2022-07-20T15:20:45.705
+Unexpected IOException with stream: i
+
+# Created at 2022-07-20T15:20:45.705
+Unexpected IOException with stream: n
+
+# Created at 2022-07-20T15:20:45.706
+Unexpected IOException with stream: g
+
+# Created at 2022-07-20T15:20:45.706
+Unexpected IOException with stream: .
+
+# Created at 2022-07-20T15:20:45.706
+Unexpected IOException with stream: .
+
+# Created at 2022-07-20T15:20:45.706
+Unexpected IOException with stream: .
+
+# Created at 2022-07-20T15:20:45.706
+Unexpected IOException with stream: 
+
+# Created at 2022-07-20T15:20:45.707
+Unexpected IOException with stream: 
+
+
+# Created at 2022-07-20T15:20:53.879
+Unexpected IOException: 8,1,test.Test_NavData_JPN,test_Step02_MenuTop_JPN(test.Test_NavData_JPN),null,chrome not reachable\000A  (Session info: chrome=103.0.5060.134)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'G3771J3-KHUANG'\002C ip: '10.103.50.149'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '11.0.16'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 103.0.5060.134\002C chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7...\002C userDataDir: C:\005CUsers\005Ckhuang\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:58762}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 49f5214d0b813cc9552390de32117fe7,null,chrome not reachable\000A  (Session info: chrome=103.0.5060.134)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'G3771J3-KHUANG'\002C ip: '10.103.50.149'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '11.0.16'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 103.0.5060.134\002C chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7...\002C userDataDir: C:\005CUsers\005Ckhuang\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:58762}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 49f5214d0b813cc9552390de32117fe7,Test_NavData_JPN.test_Step02_MenuTop_JPN:119 \00BB WebDriver chrome not reachable\000A...,org.openqa.selenium.WebDriverException: \000Achrome not reachable\000A  (Session info: chrome=103.0.5060.134)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'G3771J3-KHUANG'\002C ip: '10.103.50.149'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '11.0.16'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 103.0.5060.134\002C chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7...\002C userDataDir: C:\005CUsers\005Ckhuang\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:58762}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 49f5214d0b813cc9552390de32117fe7\000A\0009at test.Test_NavData_JPN.test_Step02_MenuTop_JPN(Test_NavData_JPN.java:119)\000A
+
+
+# Created at 2022-07-20T15:20:57.892
+Unexpected IOException with stream: [
+
+# Created at 2022-07-20T15:20:57.893
+Unexpected IOException with stream: 1
+
+# Created at 2022-07-20T15:20:57.894
+Unexpected IOException with stream: 6
+
+# Created at 2022-07-20T15:20:57.894
+Unexpected IOException with stream: 5
+
+# Created at 2022-07-20T15:20:57.895
+Unexpected IOException with stream: 8
+
+# Created at 2022-07-20T15:20:57.896
+Unexpected IOException with stream: 3
+
+# Created at 2022-07-20T15:20:57.896
+Unexpected IOException with stream: 0
+
+# Created at 2022-07-20T15:20:57.897
+Unexpected IOException with stream: 1
+
+# Created at 2022-07-20T15:20:57.897
+Unexpected IOException with stream: 6
+
+# Created at 2022-07-20T15:20:57.898
+Unexpected IOException with stream: 5
+
+# Created at 2022-07-20T15:20:57.898
+Unexpected IOException with stream: 7
+
+# Created at 2022-07-20T15:20:57.898
+Unexpected IOException with stream: .
+
+# Created at 2022-07-20T15:20:57.898
+Unexpected IOException with stream: 8
+
+# Created at 2022-07-20T15:20:57.898
+Unexpected IOException with stream: 9
+
+# Created at 2022-07-20T15:20:57.898
+Unexpected IOException with stream: 3
+
+# Created at 2022-07-20T15:20:57.899
+Unexpected IOException with stream: ]
+
+# Created at 2022-07-20T15:20:57.899
+Unexpected IOException with stream: [
+
+# Created at 2022-07-20T15:20:57.899
+Unexpected IOException with stream: W
+
+# Created at 2022-07-20T15:20:57.899
+Unexpected IOException with stream: A
+
+# Created at 2022-07-20T15:20:57.899
+Unexpected IOException with stream: R
+
+# Created at 2022-07-20T15:20:57.900
+Unexpected IOException with stream: N
+
+# Created at 2022-07-20T15:20:57.900
+Unexpected IOException with stream: I
+
+# Created at 2022-07-20T15:20:57.900
+Unexpected IOException with stream: N
+
+# Created at 2022-07-20T15:20:57.900
+Unexpected IOException with stream: G
+
+# Created at 2022-07-20T15:20:57.900
+Unexpected IOException with stream: ]
+
+# Created at 2022-07-20T15:20:57.901
+Unexpected IOException with stream: :
+
+# Created at 2022-07-20T15:20:57.901
+Unexpected IOException with stream:  
+
+# Created at 2022-07-20T15:20:57.901
+Unexpected IOException with stream: T
+
+# Created at 2022-07-20T15:20:57.901
+Unexpected IOException with stream: i
+
+# Created at 2022-07-20T15:20:57.901
+Unexpected IOException with stream: m
+
+# Created at 2022-07-20T15:20:57.902
+Unexpected IOException with stream: e
+
+# Created at 2022-07-20T15:20:57.902
+Unexpected IOException with stream: d
+
+# Created at 2022-07-20T15:20:57.902
+Unexpected IOException with stream:  
+
+# Created at 2022-07-20T15:20:57.902
+Unexpected IOException with stream: o
+
+# Created at 2022-07-20T15:20:57.902
+Unexpected IOException with stream: u
+
+# Created at 2022-07-20T15:20:57.902
+Unexpected IOException with stream: t
+
+# Created at 2022-07-20T15:20:57.903
+Unexpected IOException with stream:  
+
+# Created at 2022-07-20T15:20:57.903
+Unexpected IOException with stream: c
+
+# Created at 2022-07-20T15:20:57.903
+Unexpected IOException with stream: o
+
+# Created at 2022-07-20T15:20:57.903
+Unexpected IOException with stream: n
+
+# Created at 2022-07-20T15:20:57.903
+Unexpected IOException with stream: n
+
+# Created at 2022-07-20T15:20:57.904
+Unexpected IOException with stream: e
+
+# Created at 2022-07-20T15:20:57.904
+Unexpected IOException with stream: c
+
+# Created at 2022-07-20T15:20:57.904
+Unexpected IOException with stream: t
+
+# Created at 2022-07-20T15:20:57.904
+Unexpected IOException with stream: i
+
+# Created at 2022-07-20T15:20:57.904
+Unexpected IOException with stream: n
+
+# Created at 2022-07-20T15:20:57.905
+Unexpected IOException with stream: g
+
+# Created at 2022-07-20T15:20:57.905
+Unexpected IOException with stream:  
+
+# Created at 2022-07-20T15:20:57.905
+Unexpected IOException with stream: t
+
+# Created at 2022-07-20T15:20:57.905
+Unexpected IOException with stream: o
+
+# Created at 2022-07-20T15:20:57.905
+Unexpected IOException with stream:  
+
+# Created at 2022-07-20T15:20:57.906
+Unexpected IOException with stream: C
+
+# Created at 2022-07-20T15:20:57.906
+Unexpected IOException with stream: h
+
+# Created at 2022-07-20T15:20:57.906
+Unexpected IOException with stream: r
+
+# Created at 2022-07-20T15:20:57.906
+Unexpected IOException with stream: o
+
+# Created at 2022-07-20T15:20:57.906
+Unexpected IOException with stream: m
+
+# Created at 2022-07-20T15:20:57.907
+Unexpected IOException with stream: e
+
+# Created at 2022-07-20T15:20:57.907
+Unexpected IOException with stream: ,
+
+# Created at 2022-07-20T15:20:57.907
+Unexpected IOException with stream:  
+
+# Created at 2022-07-20T15:20:57.907
+Unexpected IOException with stream: r
+
+# Created at 2022-07-20T15:20:57.907
+Unexpected IOException with stream: e
+
+# Created at 2022-07-20T15:20:57.908
+Unexpected IOException with stream: t
+
+# Created at 2022-07-20T15:20:57.908
+Unexpected IOException with stream: r
+
+# Created at 2022-07-20T15:20:57.908
+Unexpected IOException with stream: y
+
+# Created at 2022-07-20T15:20:57.908
+Unexpected IOException with stream: i
+
+# Created at 2022-07-20T15:20:57.908
+Unexpected IOException with stream: n
+
+# Created at 2022-07-20T15:20:57.909
+Unexpected IOException with stream: g
+
+# Created at 2022-07-20T15:20:57.909
+Unexpected IOException with stream: .
+
+# Created at 2022-07-20T15:20:57.909
+Unexpected IOException with stream: .
+
+# Created at 2022-07-20T15:20:57.909
+Unexpected IOException with stream: .
+
+# Created at 2022-07-20T15:20:57.909
+Unexpected IOException with stream: 
+
+# Created at 2022-07-20T15:20:57.910
+Unexpected IOException with stream: 
+
+

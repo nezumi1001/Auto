@@ -1,0 +1,125 @@
+# Created at 2022-07-20T17:12:48.867
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+
+# Created at 2022-07-20T17:12:57.172
+Unexpected IOException: 8,1,test.Test_NavData_ENG,afterMethod(test.Test_NavData_ENG),null,chrome not reachable\000A  (Session info: chrome=103.0.5060.134)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'G3771J3-KHUANG'\002C ip: '10.103.50.149'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '11.0.16'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 103.0.5060.134\002C chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7...\002C userDataDir: C:\005CUsers\005Ckhuang\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:56637}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 7a67d419cf944b0808af801b5ca8cd5d,null,chrome not reachable\000A  (Session info: chrome=103.0.5060.134)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'G3771J3-KHUANG'\002C ip: '10.103.50.149'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '11.0.16'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 103.0.5060.134\002C chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7...\002C userDataDir: C:\005CUsers\005Ckhuang\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:56637}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 7a67d419cf944b0808af801b5ca8cd5d,Test_NavData_ENG.afterMethod:161 \00BB WebDriver chrome not reachable\000A  (Session i...,org.openqa.selenium.WebDriverException: \000Achrome not reachable\000A  (Session info: chrome=103.0.5060.134)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'G3771J3-KHUANG'\002C ip: '10.103.50.149'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '11.0.16'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 103.0.5060.134\002C chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7...\002C userDataDir: C:\005CUsers\005Ckhuang\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:56637}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 7a67d419cf944b0808af801b5ca8cd5d\000A\0009at test.Test_NavData_ENG.afterMethod(Test_NavData_ENG.java:161)\000A
+
+
+# Created at 2022-07-20T17:12:57.185
+Unexpected IOException: 5,1,test.Test_NavData_ENG,test_Step02_MenuTop_ENG(test.Test_NavData_ENG),test.Test_NavData_ENG,null,null
+
+
+# Created at 2022-07-20T17:12:57.185
+Unexpected IOException: 9,1,test.Test_NavData_ENG,test_Step02_MenuTop_ENG(test.Test_NavData_ENG),null,chrome not reachable\000A  (Session info: chrome=103.0.5060.134)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'G3771J3-KHUANG'\002C ip: '10.103.50.149'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '11.0.16'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 103.0.5060.134\002C chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7...\002C userDataDir: C:\005CUsers\005Ckhuang\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:56637}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 7a67d419cf944b0808af801b5ca8cd5d,null
+
+
+# Created at 2022-07-20T17:12:57.186
+Unexpected IOException: 9,1,test.Test_NavData_ENG,afterMethod(test.Test_NavData_ENG),null,null,null
+
+
+# Created at 2022-07-20T17:12:57.187
+Unexpected IOException: 9,1,test.Test_NavData_ENG,afterClass(test.Test_NavData_ENG),null,null,null
+
+
+# Created at 2022-07-20T17:12:57.223
+Unexpected IOException: 5,1,test.Test_vsDATA,test_dataCompare(test.Test_vsDATA),test.Test_vsDATA,null,null
+
+
+# Created at 2022-07-20T17:12:57.413
+Unexpected IOException with stream: [S]ReportLog >> box_JPN > Got data!
+
+
+# Created at 2022-07-20T17:12:57.418
+Unexpected IOException with stream: [S]ReportLog >> box_ENG > Got data!
+
+
+# Created at 2022-07-20T17:12:57.419
+Unexpected IOException with stream: [S]ReportLog >> test_dataCompare > Ready to start...
+
+
+# Created at 2022-07-20T17:12:57.419
+Unexpected IOException with stream: [S]ReportLog >> test_dataCompare > --------------------------------------------------------------------
+
+
+# Created at 2022-07-20T17:12:57.421
+Unexpected IOException with stream: [S]ReportLog >> test_dataCompare > [JPN] info: Device Name -----> TZ 270W
+
+
+# Created at 2022-07-20T17:12:57.421
+Unexpected IOException with stream: [S]ReportLog >> test_dataCompare > [JPN] info: Serial Number ---> 2CB8EDA98900
+
+
+# Created at 2022-07-20T17:12:57.422
+Unexpected IOException with stream: [S]ReportLog >> test_dataCompare > [JPN] info: Firmware Version > SonicOS 7.0.1-5079
+
+
+# Created at 2022-07-20T17:12:57.422
+Unexpected IOException with stream: [S]ReportLog >> test_dataCompare > --------------------------------------------------------------------
+
+
+# Created at 2022-07-20T17:12:57.425
+Unexpected IOException with stream: [S]ReportLog >> test_dataCompare > [ENG] info: Device Name -----> TZ 570P
+
+
+# Created at 2022-07-20T17:12:57.425
+Unexpected IOException with stream: [S]ReportLog >> test_dataCompare > [ENG] info: Serial Number ---> 2CB8ED694D58
+
+
+# Created at 2022-07-20T17:12:57.426
+Unexpected IOException with stream: [S]ReportLog >> test_dataCompare > [ENG] info: Firmware Version > SonicOS 7.0.1-5079
+
+
+# Created at 2022-07-20T17:12:57.426
+Unexpected IOException with stream: [S]ReportLog >> test_dataCompare > --------------------------------------------------------------------
+
+
+# Created at 2022-07-20T17:12:57.427
+Unexpected IOException with stream: [S]ReportLog >> missing_page > [ENG] version missing: DEVICE > Internal Wireless
+
+
+# Created at 2022-07-20T17:12:57.428
+Unexpected IOException with stream: [S]ReportLog >> missing_page > [ENG] version missing: DEVICE > Internal Wireless > Status
+
+
+# Created at 2022-07-20T17:12:57.429
+Unexpected IOException with stream: [S]ReportLog >> missing_page > [ENG] version missing: DEVICE > Internal Wireless > Settings
+
+
+# Created at 2022-07-20T17:12:57.429
+Unexpected IOException with stream: [S]ReportLog >> missing_page > [ENG] version missing: DEVICE > Internal Wireless > Security
+
+
+# Created at 2022-07-20T17:12:57.430
+Unexpected IOException with stream: [S]ReportLog >> missing_page > [ENG] version missing: DEVICE > Internal Wireless > Advanced
+
+
+# Created at 2022-07-20T17:12:57.431
+Unexpected IOException with stream: [S]ReportLog >> missing_page > [ENG] version missing: DEVICE > Internal Wireless > MAC Filter List
+
+
+# Created at 2022-07-20T17:12:57.432
+Unexpected IOException with stream: [S]ReportLog >> missing_page > [ENG] version missing: DEVICE > Internal Wireless > IDS
+
+
+# Created at 2022-07-20T17:12:57.432
+Unexpected IOException with stream: [S]ReportLog >> missing_page > [ENG] version missing: DEVICE > Internal Wireless > Virtual Access Point
+
+
+# Created at 2022-07-20T17:12:57.433
+Unexpected IOException with stream: [S]ReportLog >> missing_page > [JPN] version missing: NETWORK > System > PoE Settings
+
+
+# Created at 2022-07-20T17:12:57.613
+Unexpected IOException: 6,1,test.Test_vsDATA,test_dataCompare(test.Test_vsDATA),null,null,null
+
+
+# Created at 2022-07-20T17:12:57.703
+Unexpected IOException: 2,1,org.apache.maven.surefire.testng.TestNGXmlTestSuite,TestSuite,null,null,null
+
+

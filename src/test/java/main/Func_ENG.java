@@ -146,7 +146,7 @@ public class Func_ENG {
 
 	// Wait element (short time) > preempt
 	public WebElement wait_element_short(String type, String path) {
-		WebDriverWait wait = new WebDriverWait(driver, 60);
+		WebDriverWait wait = new WebDriverWait(driver, 10);
 		try {
 			if (type.equals("xpath")) {
 				we = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(path)));
@@ -159,7 +159,7 @@ public class Func_ENG {
 
 	// Wait element (long time)
 	public WebElement wait_element(String type, String path) {
-		WebDriverWait wait = new WebDriverWait(driver, 90);
+		WebDriverWait wait = new WebDriverWait(driver, 20);
 		try {
 			if (type.equals("id")) {
 				we = wait.until(ExpectedConditions.presenceOfElementLocated(By.id(path)));

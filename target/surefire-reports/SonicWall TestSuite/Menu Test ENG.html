@@ -1,0 +1,778 @@
+<html>
+<head>
+<title>TestNG:  Menu Test ENG</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Menu Test ENG</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>2/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Jul 20 14:41:03 CST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>106 seconds (106370 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='test.Test_NavData_ENG.test_Step01_Login_ENG()'><b>test_Step01_Login_ENG</b><br>Test class: test.Test_NavData_ENG<br/>
+<a href="#Output-327986890" onClick='toggleBox("Output-327986890", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-327986890" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-327986890">
+[S]ReportLog >> test_Step01_Login_ENG > Login to main page...<br/>
+</div>
+</td>
+<td></td>
+<td>60</td>
+<td>test.Test_NavData_ENG@6f27a732</td></tr>
+<tr>
+<td title='test.Test_NavData_ENG.test_Step02_MenuTop_ENG()'><b>test_Step02_MenuTop_ENG</b><br>Test class: test.Test_NavData_ENG<br/>
+<a href="#Output-1277882374" onClick='toggleBox("Output-1277882374", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1277882374" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1277882374">
+[S]ReportLog >> test_Step02_MenuTop_ENG > Switch to 'Non-Config' mode...<br/>
+[S]ReportLog >> test_Step02_MenuTop_ENG > Got info for [ENG]!<br/>
+[S]ReportLog >> test.Test_NavData_ENG > 'HOME' has sub closed menu (2). Please wait...<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Legal Information<br/>
+[S]ReportLog >> test.Test_NavData_ENG > API<br/>
+[S]ReportLog >> test.Test_NavData_ENG > *************************************************<br/>
+[S]ReportLog >> test.Test_NavData_ENG > >>>>>>>>>>>>>>>>>>><br/>
+[S]ReportLog >> test.Test_NavData_ENG > API is clicked!<br/>
+[S]ReportLog >> test.Test_NavData_ENG > 'HOME' sub-menu API total: 0<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 6<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: API<br/>
+[S]ReportLog >> test.Test_NavData_ENG > >>>>>>>>>>>>>>>>>>><br/>
+[S]ReportLog >> test.Test_NavData_ENG > Legal Information is clicked!<br/>
+[S]ReportLog >> test.Test_NavData_ENG > 'HOME' sub-menu Legal Information total: 0<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 5<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Legal Information<br/>
+[S]ReportLog >> test.Test_NavData_ENG > +++++++++++++++++++++++++++++++++++++++++++++++++<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add top opened menu: Dashboard<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add top opened menu: System<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add top opened menu: Access Points<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add top opened menu: Capture ATP<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add top opened menu: Topology<br/>
+[S]ReportLog >> test.Test_NavData_ENG > @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: API<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Legal Information<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Dashboard<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: System<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Access Points<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Capture ATP<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Topology<br/>
+[S]ReportLog >> test.Test_NavData_ENG > ALL MENU: 7<br/>
+[S]ReportLog >> test_Step02_MenuTop_ENG > Data created!<br/>
+[S]ReportLog >> test_Step02_MenuTop_ENG > Data updated!<br/>
+[S]ReportLog >> test_Step02_MenuTop_ENG > Top menu 'HOME' is done!<br/>
+[S]ReportLog >> test.Test_NavData_ENG > 'MONITOR' has sub closed menu (4). Please wait...<br/>
+[S]ReportLog >> test.Test_NavData_ENG > AppFlow<br/>
+[S]ReportLog >> test.Test_NavData_ENG > SDWAN<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Logs<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Tools & Monitors<br/>
+[S]ReportLog >> test.Test_NavData_ENG > *************************************************<br/>
+[S]ReportLog >> test.Test_NavData_ENG > >>>>>>>>>>>>>>>>>>><br/>
+[S]ReportLog >> test.Test_NavData_ENG > Tools & Monitors is clicked!<br/>
+[S]ReportLog >> test.Test_NavData_ENG > 'MONITOR' sub-menu Tools & Monitors total: 4<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 8<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Tools & Monitors<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 9<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Packet Monitor<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 10<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Connections<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 11<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Core 0 Processes<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 12<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Packet Replay<br/>
+[S]ReportLog >> test.Test_NavData_ENG > >>>>>>>>>>>>>>>>>>><br/>
+[S]ReportLog >> test.Test_NavData_ENG > Logs is clicked!<br/>
+[S]ReportLog >> test.Test_NavData_ENG > 'MONITOR' sub-menu Logs total: 2<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 7<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Logs<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 8<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: System Logs<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 9<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Auditing Logs<br/>
+[S]ReportLog >> test.Test_NavData_ENG > >>>>>>>>>>>>>>>>>>><br/>
+[S]ReportLog >> test.Test_NavData_ENG > SDWAN is clicked!<br/>
+[S]ReportLog >> test.Test_NavData_ENG > 'MONITOR' sub-menu SDWAN total: 2<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 6<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: SDWAN<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 7<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: SDWAN Monitor<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 8<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: SD-WAN Connections<br/>
+[S]ReportLog >> test.Test_NavData_ENG > >>>>>>>>>>>>>>>>>>><br/>
+[S]ReportLog >> test.Test_NavData_ENG > AppFlow is clicked!<br/>
+[S]ReportLog >> test.Test_NavData_ENG > 'MONITOR' sub-menu AppFlow total: 3<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 5<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: AppFlow<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 6<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: AppFlow Report<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 7<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: AppFlow Monitor<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 8<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: CTA Report<br/>
+[S]ReportLog >> test.Test_NavData_ENG > +++++++++++++++++++++++++++++++++++++++++++++++++<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add top opened menu: Real-Time Charts<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add top opened menu: System Monitor<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add top opened menu: Protocol Monitor<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add top opened menu: User Monitor<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add top opened menu: BWM Monitor<br/>
+[S]ReportLog >> test.Test_NavData_ENG > @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Tools & Monitors<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Packet Monitor<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Connections<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Core 0 Processes<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Packet Replay<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Logs<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: System Logs<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Auditing Logs<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: SDWAN<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: SDWAN Monitor<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: SD-WAN Connections<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: AppFlow<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: AppFlow Report<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: AppFlow Monitor<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: CTA Report<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Real-Time Charts<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: System Monitor<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Protocol Monitor<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: User Monitor<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: BWM Monitor<br/>
+[S]ReportLog >> test.Test_NavData_ENG > ALL MENU: 20<br/>
+[S]ReportLog >> test_Step02_MenuTop_ENG > Data updated!<br/>
+[S]ReportLog >> test_Step02_MenuTop_ENG > Top menu 'MONITOR' is done!<br/>
+[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' has sub closed menu (8). Please wait...<br/>
+[S]ReportLog >> test.Test_NavData_ENG > High Availability<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Users<br/>
+[S]ReportLog >> test.Test_NavData_ENG > AppFlow<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Log<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Diagnostics<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Switch Network<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Access Points<br/>
+[S]ReportLog >> test.Test_NavData_ENG > WWAN<br/>
+[S]ReportLog >> test.Test_NavData_ENG > *************************************************<br/>
+[S]ReportLog >> test.Test_NavData_ENG > >>>>>>>>>>>>>>>>>>><br/>
+[S]ReportLog >> test.Test_NavData_ENG > WWAN is clicked!<br/>
+[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' sub-menu WWAN total: 0<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 16<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: WWAN<br/>
+[S]ReportLog >> test.Test_NavData_ENG > >>>>>>>>>>>>>>>>>>><br/>
+[S]ReportLog >> test.Test_NavData_ENG > Access Points is clicked!<br/>
+[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' sub-menu Access Points total: 16<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 15<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Access Points<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 16<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Settings<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 17<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Firmware Management<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 18<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Floor Plan View<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 19<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Station Status<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 20<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: IDS<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 21<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Advanced IDP<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 22<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Packet Capture<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 23<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Virtual Access Point<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 24<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: RF Monitoring<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 25<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: RF Analysis<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 26<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: RF Spectrum<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 27<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: FairNet<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 28<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Wi-Fi Multimedia<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 29<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: 3G/4G/LTE WWAN<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 30<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Bluetooth LE<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 31<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Radio Management<br/>
+[S]ReportLog >> test.Test_NavData_ENG > >>>>>>>>>>>>>>>>>>><br/>
+[S]ReportLog >> test.Test_NavData_ENG > Switch Network is clicked!<br/>
+[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' sub-menu Switch Network total: 2<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 14<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Switch Network<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 15<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Overview<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 16<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Switches<br/>
+[S]ReportLog >> test.Test_NavData_ENG > >>>>>>>>>>>>>>>>>>><br/>
+[S]ReportLog >> test.Test_NavData_ENG > Diagnostics is clicked!<br/>
+[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' sub-menu Diagnostics total: 15<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 13<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Diagnostics<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 14<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Tech Support Report<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 15<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Check Network Settings<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 16<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: DNS Name Lookup<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 17<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Network Path<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 18<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Ping<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 19<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Trace Route<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 20<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Real-Time Blacklist<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 21<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Reverse Name Lookup<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 22<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Connection TopX<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 23<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Geo and Botnet<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 24<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: MX and Banner<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 25<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: GRID Check<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 26<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: URL Rating Request<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 27<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: PMTU Discovery<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 28<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Switch Diagnostics<br/>
+[S]ReportLog >> test.Test_NavData_ENG > >>>>>>>>>>>>>>>>>>><br/>
+[S]ReportLog >> test.Test_NavData_ENG > Log is clicked!<br/>
+[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' sub-menu Log total: 6<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 12<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Log<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 13<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Settings<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 14<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Syslog<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 15<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Automation<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 16<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Name Resolution<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 17<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Reports<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 18<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: AWS<br/>
+[S]ReportLog >> test.Test_NavData_ENG > >>>>>>>>>>>>>>>>>>><br/>
+[S]ReportLog >> test.Test_NavData_ENG > AppFlow is clicked!<br/>
+[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' sub-menu AppFlow total: 2<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 11<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: AppFlow<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 12<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Flow Reporting<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 13<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: AppFlow Agent<br/>
+[S]ReportLog >> test.Test_NavData_ENG > >>>>>>>>>>>>>>>>>>><br/>
+[S]ReportLog >> test.Test_NavData_ENG > Users is clicked!<br/>
+[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' sub-menu Users total: 6<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 10<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Users<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 11<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Status<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 12<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Settings<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 13<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Local Users & Groups<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 14<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Guest Services<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 15<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Guest Accounts<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 16<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Guest Status<br/>
+[S]ReportLog >> test.Test_NavData_ENG > >>>>>>>>>>>>>>>>>>><br/>
+[S]ReportLog >> test.Test_NavData_ENG > High Availability is clicked!<br/>
+[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' sub-menu High Availability total: 4<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 9<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: High Availability<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 10<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Status<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 11<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Settings<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 12<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Advanced<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 13<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Monitoring<br/>
+[S]ReportLog >> test.Test_NavData_ENG > +++++++++++++++++++++++++++++++++++++++++++++++++<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add top opened menu: Settings<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add top opened menu: Licenses<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add top opened menu: Administration<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add top opened menu: Time<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add top opened menu: Certificates<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add top opened menu: SNMP<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add top opened menu: Firmware and Settings<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add top opened menu: Storage<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add top opened menu: Restart<br/>
+[S]ReportLog >> test.Test_NavData_ENG > @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: WWAN<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Access Points<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Settings<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Firmware Management<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Floor Plan View<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Station Status<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: IDS<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Advanced IDP<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Packet Capture<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Virtual Access Point<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: RF Monitoring<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: RF Analysis<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: RF Spectrum<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: FairNet<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Wi-Fi Multimedia<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: 3G/4G/LTE WWAN<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Bluetooth LE<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Radio Management<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Switch Network<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Overview<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Switches<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Diagnostics<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Tech Support Report<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Check Network Settings<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: DNS Name Lookup<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Network Path<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Ping<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Trace Route<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Real-Time Blacklist<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Reverse Name Lookup<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Connection TopX<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Geo and Botnet<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: MX and Banner<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: GRID Check<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: URL Rating Request<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: PMTU Discovery<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Switch Diagnostics<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Log<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Settings<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Syslog<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Automation<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Name Resolution<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Reports<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: AWS<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: AppFlow<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Flow Reporting<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: AppFlow Agent<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Users<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Status<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Settings<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Local Users & Groups<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Guest Services<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Guest Accounts<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Guest Status<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: High Availability<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Status<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Settings<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Advanced<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Monitoring<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Settings (TOP)<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Licenses<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Administration<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Time<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Certificates<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: SNMP<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Firmware and Settings<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Storage<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Restart<br/>
+[S]ReportLog >> test.Test_NavData_ENG > ALL MENU: 68<br/>
+[S]ReportLog >> test_Step02_MenuTop_ENG > Data updated!<br/>
+[S]ReportLog >> test_Step02_MenuTop_ENG > Top menu 'DEVICE' is done!<br/>
+[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' has sub closed menu (6). Please wait...<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Firewall<br/>
+[S]ReportLog >> test.Test_NavData_ENG > VoIP<br/>
+[S]ReportLog >> test.Test_NavData_ENG > DNS<br/>
+[S]ReportLog >> test.Test_NavData_ENG > SDWAN<br/>
+[S]ReportLog >> test.Test_NavData_ENG > <br/>
+[S]ReportLog >> test.Test_NavData_ENG > SSL VPN<br/>
+[S]ReportLog >> test.Test_NavData_ENG > *************************************************<br/>
+[S]ReportLog >> test.Test_NavData_ENG > >>>>>>>>>>>>>>>>>>><br/>
+[S]ReportLog >> test.Test_NavData_ENG > SSL VPN is clicked!<br/>
+[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' sub-menu SSL VPN total: 5<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 21<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: SSL VPN<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 22<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Status<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 23<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Server Settings<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 24<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Client Settings<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 25<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Portal Settings<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 26<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Virtual Office<br/>
+[S]ReportLog >> test.Test_NavData_ENG > >>>>>>>>>>>>>>>>>>><br/>
+[S]ReportLog >> test.Test_NavData_ENG > IPSec VPN is clicked!<br/>
+[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' sub-menu IPSec VPN total: 5<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 20<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: IPSec VPN<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 21<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Rules and Settings<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 22<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Advanced<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 23<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: DHCP over VPN<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 24<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: L2TP Server<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 25<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: AWS VPN<br/>
+[S]ReportLog >> test.Test_NavData_ENG > >>>>>>>>>>>>>>>>>>><br/>
+[S]ReportLog >> test.Test_NavData_ENG > SDWAN is clicked!<br/>
+[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' sub-menu SDWAN total: 5<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 19<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: SDWAN<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 20<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Groups<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 21<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: SLA Probes<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 22<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: SLA Class Objects<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 23<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: <br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 24<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Rules<br/>
+[S]ReportLog >> test.Test_NavData_ENG > >>>>>>>>>>>>>>>>>>><br/>
+[S]ReportLog >> test.Test_NavData_ENG > DNS is clicked!<br/>
+[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' sub-menu DNS total: 4<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 18<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: DNS<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 19<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Settings<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 20<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Dynamic DNS<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 21<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: DNS Proxy<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 22<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: DNS Security<br/>
+[S]ReportLog >> test.Test_NavData_ENG > >>>>>>>>>>>>>>>>>>><br/>
+[S]ReportLog >> test.Test_NavData_ENG > VoIP is clicked!<br/>
+[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' sub-menu VoIP total: 2<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 17<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: VoIP<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 18<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Settings<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 19<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Call Status<br/>
+[S]ReportLog >> test.Test_NavData_ENG > >>>>>>>>>>>>>>>>>>><br/>
+[S]ReportLog >> test.Test_NavData_ENG > Firewall is clicked!<br/>
+[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' sub-menu Firewall total: 5<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 16<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Firewall<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 17<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Advanced<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 18<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Flood Protection<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 19<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: SSL Control<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 20<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Cipher Control<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 21<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: RBL Filter<br/>
+[S]ReportLog >> test.Test_NavData_ENG > +++++++++++++++++++++++++++++++++++++++++++++++++<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add top opened menu: System<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add top opened menu: Interfaces<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add top opened menu: Failover & LB<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add top opened menu: Neighbor Discovery<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add top opened menu: ARP<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add top opened menu: MAC IP Anti-Spoof<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add top opened menu: Web Proxy<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add top opened menu: PortShield Groups<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add top opened menu: PoE Settings<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add top opened menu: VLAN Translation<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add top opened menu: IP Helper<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add top opened menu: Dynamic Routing<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add top opened menu: DHCP Server<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add top opened menu: Multicast<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add top opened menu: Network Monitor<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add top opened menu: AWS Configuration<br/>
+[S]ReportLog >> test.Test_NavData_ENG > @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: SSL VPN<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Status<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Server Settings<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Client Settings<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Portal Settings<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Virtual Office<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: IPSec VPN<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Rules and Settings<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Advanced<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: DHCP over VPN<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: L2TP Server<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: AWS VPN<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: SDWAN<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Groups<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: SLA Probes<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: SLA Class Objects<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: <br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Rules<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: DNS<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Settings<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Dynamic DNS<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: DNS Proxy<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: DNS Security<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: VoIP<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Settings<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Call Status<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Firewall<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Advanced<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Flood Protection<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: SSL Control<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Cipher Control<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: RBL Filter<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: System<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Interfaces<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Failover & LB<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Neighbor Discovery<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: ARP<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: MAC IP Anti-Spoof<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Web Proxy<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: PortShield Groups<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: PoE Settings<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: VLAN Translation<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: IP Helper<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Dynamic Routing<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: DHCP Server<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Multicast<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Network Monitor<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: AWS Configuration<br/>
+[S]ReportLog >> test.Test_NavData_ENG > ALL MENU: 48<br/>
+[S]ReportLog >> test_Step02_MenuTop_ENG > Data updated!<br/>
+[S]ReportLog >> test_Step02_MenuTop_ENG > Top menu 'NETWORK' is done!<br/>
+[S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' has sub closed menu (2). Please wait...<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Profile Objects<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Action Objects<br/>
+[S]ReportLog >> test.Test_NavData_ENG > *************************************************<br/>
+[S]ReportLog >> test.Test_NavData_ENG > >>>>>>>>>>>>>>>>>>><br/>
+[S]ReportLog >> test.Test_NavData_ENG > Action Objects is clicked!<br/>
+[S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' sub-menu Action Objects total: 2<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 10<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Action Objects<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 11<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: App Rule Actions<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 12<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Content Filter Actions<br/>
+[S]ReportLog >> test.Test_NavData_ENG > >>>>>>>>>>>>>>>>>>><br/>
+[S]ReportLog >> test.Test_NavData_ENG > Profile Objects is clicked!<br/>
+[S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' sub-menu Profile Objects total: 6<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 9<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Profile Objects<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 10<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Endpoint Security<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 11<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Bandwidth<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 12<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: QoS Marking<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 13<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Content Filter<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 14<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: DHCP Option<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 15<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: AWS<br/>
+[S]ReportLog >> test.Test_NavData_ENG > +++++++++++++++++++++++++++++++++++++++++++++++++<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add top opened menu: Match Objects<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add top opened menu: Zones<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add top opened menu: Addresses<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add top opened menu: Services<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add top opened menu: URI Lists<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add top opened menu: Match Objects<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add top opened menu: Schedules<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add top opened menu: Dynamic Group<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add top opened menu: Email Addresses<br/>
+[S]ReportLog >> test.Test_NavData_ENG > @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Action Objects<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: App Rule Actions<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Content Filter Actions<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Profile Objects<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Endpoint Security<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Bandwidth<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: QoS Marking<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Content Filter<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: DHCP Option<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: AWS<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Match Objects<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Zones<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Addresses<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Services<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: URI Lists<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Match Objects<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Schedules<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Dynamic Group<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Email Addresses<br/>
+[S]ReportLog >> test.Test_NavData_ENG > ALL MENU: 19<br/>
+[S]ReportLog >> test_Step02_MenuTop_ENG > Data updated!<br/>
+[S]ReportLog >> test_Step02_MenuTop_ENG > Top menu 'OBJECT' is done!<br/>
+[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' has sub closed menu (6). Please wait...<br/>
+[S]ReportLog >> test.Test_NavData_ENG > DPI-SSL<br/>
+[S]ReportLog >> test.Test_NavData_ENG > DPI-SSH<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Security Services<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Anti-Spam<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Capture ATP<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Endpoint Security<br/>
+[S]ReportLog >> test.Test_NavData_ENG > *************************************************<br/>
+[S]ReportLog >> test.Test_NavData_ENG > >>>>>>>>>>>>>>>>>>><br/>
+[S]ReportLog >> test.Test_NavData_ENG > Endpoint Security is clicked!<br/>
+[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' sub-menu Endpoint Security total: 0<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 12<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Endpoint Security<br/>
+[S]ReportLog >> test.Test_NavData_ENG > >>>>>>>>>>>>>>>>>>><br/>
+[S]ReportLog >> test.Test_NavData_ENG > Capture ATP is clicked!<br/>
+[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' sub-menu Capture ATP total: 2<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 11<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Capture ATP<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 12<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Settings<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 13<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Scanning History<br/>
+[S]ReportLog >> test.Test_NavData_ENG > >>>>>>>>>>>>>>>>>>><br/>
+[S]ReportLog >> test.Test_NavData_ENG > Anti-Spam is clicked!<br/>
+[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' sub-menu Anti-Spam total: 2<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 10<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Anti-Spam<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 11<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Status<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 12<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Settings<br/>
+[S]ReportLog >> test.Test_NavData_ENG > >>>>>>>>>>>>>>>>>>><br/>
+[S]ReportLog >> test.Test_NavData_ENG > Security Services is clicked!<br/>
+[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' sub-menu Security Services total: 8<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 9<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Security Services<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 10<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Summary<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 11<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Gateway Anti-Virus<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 12<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Anti-Spyware<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 13<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Intrusion Prevention<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 14<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Geo-IP Filter<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 15<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Botnet Filter<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 16<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: App Control<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 17<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: <br/>
+[S]ReportLog >> test.Test_NavData_ENG > >>>>>>>>>>>>>>>>>>><br/>
+[S]ReportLog >> test.Test_NavData_ENG > DPI-SSH is clicked!<br/>
+[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' sub-menu DPI-SSH total: 1<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 8<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: DPI-SSH<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 9<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Settings<br/>
+[S]ReportLog >> test.Test_NavData_ENG > >>>>>>>>>>>>>>>>>>><br/>
+[S]ReportLog >> test.Test_NavData_ENG > DPI-SSL is clicked!<br/>
+[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' sub-menu DPI-SSL total: 2<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 7<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: DPI-SSL<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 8<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Client SSL<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Menu Index: 9<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add sub closed menu: Server SSL<br/>
+[S]ReportLog >> test.Test_NavData_ENG > +++++++++++++++++++++++++++++++++++++++++++++++++<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add top opened menu: Rules and Policies<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add top opened menu: Access Rules<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add top opened menu: NAT Rules<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add top opened menu: Routing Rules<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add top opened menu: Content Filter Rules<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add top opened menu: App Rules<br/>
+[S]ReportLog >> test.Test_NavData_ENG > Add top opened menu: Endpoint Rules<br/>
+[S]ReportLog >> test.Test_NavData_ENG > @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Endpoint Security<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Capture ATP<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Settings<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Scanning History<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Anti-Spam<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Status<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Settings<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Security Services<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Summary<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Gateway Anti-Virus<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Anti-Spyware<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Intrusion Prevention<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Geo-IP Filter<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Botnet Filter<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: App Control<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: <br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: DPI-SSH<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Settings<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: DPI-SSL<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Client SSL<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Server SSL<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Rules and Policies<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Access Rules<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: NAT Rules<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Routing Rules<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Content Filter Rules<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: App Rules<br/>
+[S]ReportLog >> test.Test_NavData_ENG > MENU: Endpoint Rules<br/>
+[S]ReportLog >> test.Test_NavData_ENG > ALL MENU: 28<br/>
+[S]ReportLog >> test_Step02_MenuTop_ENG > Data updated!<br/>
+[S]ReportLog >> test_Step02_MenuTop_ENG > Top menu 'POLICY' is done!<br/>
+</div>
+</td>
+<td></td>
+<td>40</td>
+<td>test.Test_NavData_ENG@6f27a732</td></tr>
+</table><p>
+</body>
+</html>

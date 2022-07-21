@@ -4,7 +4,7 @@ import java.io.File;
 
 public class iData_JPN {
 	// --- Base ---
-	public static String baseUrl = "https://10.103.50.159/"; // TZ 270W
+	public static String baseUrl = "https://10.103.50.207/"; // TZ 270W
 //	public static String baseUrl = "https://10.8.162.169/"; // TZ 570P
 
 	public static File my_path = new File(System.getProperty("user.dir"));
@@ -20,7 +20,7 @@ public class iData_JPN {
 	public static String login_name = "admin";
 	// パスワード field
 	public static String password_path = "//input[contains(@placeholder,'パスワードを入力')]";
-	public static String login_pass = "password";
+	public static String login_pass = "sonicwall";
 	// ログイン button
 	public static String login_path = "//div[contains(text(),'ログイン')]";
 
@@ -95,7 +95,7 @@ public class iData_JPN {
 			"AppFlow エージェント", "Network Access Control", "Settings", "Sessions", "ログ", "設定", "Syslog", "自動化", "名前解決",
 			"レポート", "AWS", "診断", "テクニカル サポート レポート", "ネットワーク設定の確認", "DNS 名の調査", "ネットワーク パス", "Ping", "ルート追跡",
 			"リアルタイム ブラックリスト", "逆引き名前調査", "上位接続", "地域とボットネット", "MX とバナー", "グリッド確認", "URL 格付け要求", "PMTU 検出", "スイッチ診断",
-			"Policy Lookup", "スイッチ ネットワーク", "概要", "スイッチ", "アクセス ポイント", "設定", "ファームウェア管理", "フロア プラン表示", "ステーション状況",
+			"Policy Lookup", "スイッチ ネットワーク", "概要", "スイッチ", "アクセス ポイント", "設定", "ファームウェア管理", "フロア プランの表示", "ステーション状況",
 			"IDS", "高度な IDP", "パケット キャプチャ", "仮想アクセス ポイント", "RF 監視", "RF 解析", "RF スペクトラム", "FairNet", "Wi-Fi マルチメディア",
 			"3G/4G/LTE WWAN", "Bluetooth LE", "無線管理", "WWAN" };
 

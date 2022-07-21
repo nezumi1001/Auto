@@ -28,7 +28,9 @@ public class Test_NavData_JPN {
 		// [A]ChromeDriver Settings
 		System.setProperty(iData_JPN.chromeDriver_data[0], iData_JPN.chromeDriver_data[1]);
 		ChromeOptions chromOptions = new ChromeOptions();
+		chromOptions.addArguments("--user-data-dir=C:\\Users\\khuang\\AppData\\Local\\Google\\Chrome\\User Data3");
 		chromOptions.addArguments("--start-maximized", "--ignore-certificate-errors", "--lang=ja-JP");
+		chromOptions.addArguments("--incognito");
 		driver = new ChromeDriver(chromOptions);
 		driver.get(iData_JPN.baseUrl);
 		mf = new Func_JPN(driver);
@@ -113,6 +115,7 @@ public class Test_NavData_JPN {
 			mf.wait_element("xpath", iData_JPN.Config_path).click();
 			mf.log_message(Thread.currentThread().getStackTrace()[1].getMethodName(), "Switch to 'Non-Config' mode...");
 		}
+		
 		// [A]Run all top menu
 		for (int i = 0; i < topMenus.length; i++) {
 			// [A]Click e.g. ("HOME" > "Main menu" > "Sub menu")

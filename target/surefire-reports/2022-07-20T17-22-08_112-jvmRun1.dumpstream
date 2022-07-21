@@ -1,0 +1,2019 @@
+# Created at 2022-07-20T17:22:52.180
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+
+# Created at 2022-07-20T17:22:52.766
+Unexpected IOException with stream: [S]ReportLog >> test_Step02_MenuTop_JPN > Data updated!
+
+
+# Created at 2022-07-20T17:22:52.777
+Unexpected IOException with stream: [S]ReportLog >> test_Step02_MenuTop_JPN > Top menu 'MONITOR' is done!
+
+
+# Created at 2022-07-20T17:22:53.732
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' has sub closed menu (9). Please wait...
+
+
+# Created at 2022-07-20T17:22:53.748
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 内部無線
+
+
+# Created at 2022-07-20T17:22:53.762
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 高可用性
+
+
+# Created at 2022-07-20T17:22:53.778
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > ユーザ
+
+
+# Created at 2022-07-20T17:22:53.791
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > AppFlow
+
+
+# Created at 2022-07-20T17:22:53.805
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > ログ
+
+
+# Created at 2022-07-20T17:22:53.816
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 診断
+
+
+# Created at 2022-07-20T17:22:53.830
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > スイッチ ネットワーク
+
+
+# Created at 2022-07-20T17:22:53.844
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > アクセス ポイント
+
+
+# Created at 2022-07-20T17:22:53.856
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > WWAN
+
+
+# Created at 2022-07-20T17:22:53.857
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > *************************************************
+
+
+# Created at 2022-07-20T17:22:53.931
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > >>>>>>>>>>>>>>>>>>>
+
+
+# Created at 2022-07-20T17:22:53.943
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > WWAN is clicked!
+
+
+# Created at 2022-07-20T17:22:54.990
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' sub-menu WWAN total: 0
+
+
+# Created at 2022-07-20T17:22:54.991
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Menu Index: 17
+
+
+# Created at 2022-07-20T17:22:55.006
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: WWAN
+
+
+# Created at 2022-07-20T17:22:55.020
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> WWAN
+
+
+# Created at 2022-07-20T17:22:55.098
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > >>>>>>>>>>>>>>>>>>>
+
+
+# Created at 2022-07-20T17:22:55.110
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > アクセス ポイント is clicked!
+
+
+# Created at 2022-07-20T17:22:56.145
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' sub-menu アクセス ポイント total: 16
+
+
+# Created at 2022-07-20T17:22:56.147
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Menu Index: 16
+
+
+# Created at 2022-07-20T17:22:56.155
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: アクセス ポイント
+
+
+# Created at 2022-07-20T17:22:56.166
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> Access Points
+
+
+# Created at 2022-07-20T17:22:56.167
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Menu Index: 17
+
+
+# Created at 2022-07-20T17:22:56.185
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: 設定
+
+
+# Created at 2022-07-20T17:22:56.197
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> Settings
+
+
+# Created at 2022-07-20T17:22:56.197
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Menu Index: 18
+
+
+# Created at 2022-07-20T17:22:56.212
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: ファームウェア管理
+
+
+# Created at 2022-07-20T17:22:56.223
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> Firmware Management
+
+
+# Created at 2022-07-20T17:22:56.224
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Menu Index: 19
+
+
+# Created at 2022-07-20T17:22:56.238
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: フロア プランの表示
+
+
+# Created at 2022-07-20T17:22:56.249
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> Floor Plan View
+
+
+# Created at 2022-07-20T17:22:56.249
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Menu Index: 20
+
+
+# Created at 2022-07-20T17:22:56.265
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: ステーション状況
+
+
+# Created at 2022-07-20T17:22:56.273
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> Station Status
+
+
+# Created at 2022-07-20T17:22:56.274
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Menu Index: 21
+
+
+# Created at 2022-07-20T17:22:56.290
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: IDS
+
+
+# Created at 2022-07-20T17:22:56.299
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> IDS
+
+
+# Created at 2022-07-20T17:22:56.300
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Menu Index: 22
+
+
+# Created at 2022-07-20T17:22:56.315
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: 高度な IDP
+
+
+# Created at 2022-07-20T17:22:56.326
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> Advanced IDP
+
+
+# Created at 2022-07-20T17:22:56.327
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Menu Index: 23
+
+
+# Created at 2022-07-20T17:22:56.340
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: パケット キャプチャ
+
+
+# Created at 2022-07-20T17:22:56.351
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> Packet Capture
+
+
+# Created at 2022-07-20T17:22:56.352
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Menu Index: 24
+
+
+# Created at 2022-07-20T17:22:56.366
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: 仮想アクセス ポイント
+
+
+# Created at 2022-07-20T17:22:56.377
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> Virtual Access Point
+
+
+# Created at 2022-07-20T17:22:56.378
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Menu Index: 25
+
+
+# Created at 2022-07-20T17:22:56.391
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: RF 監視
+
+
+# Created at 2022-07-20T17:22:56.402
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> RF Monitoring
+
+
+# Created at 2022-07-20T17:22:56.403
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Menu Index: 26
+
+
+# Created at 2022-07-20T17:22:56.418
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: RF 解析
+
+
+# Created at 2022-07-20T17:22:56.430
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> RF Analysis
+
+
+# Created at 2022-07-20T17:22:56.430
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Menu Index: 27
+
+
+# Created at 2022-07-20T17:22:56.447
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: RF スペクトラム
+
+
+# Created at 2022-07-20T17:22:56.457
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> RF Spectrum
+
+
+# Created at 2022-07-20T17:22:56.458
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Menu Index: 28
+
+
+# Created at 2022-07-20T17:22:56.472
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: FairNet
+
+
+# Created at 2022-07-20T17:22:56.483
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> FairNet
+
+
+# Created at 2022-07-20T17:22:56.484
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Menu Index: 29
+
+
+# Created at 2022-07-20T17:22:56.499
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: Wi-Fi マルチメディア
+
+
+# Created at 2022-07-20T17:22:56.514
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> Wi-Fi Multimedia
+
+
+# Created at 2022-07-20T17:22:56.514
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Menu Index: 30
+
+
+# Created at 2022-07-20T17:22:56.531
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: 3G/4G/LTE WWAN
+
+
+# Created at 2022-07-20T17:22:56.542
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> 3G/4G/LTE WWAN
+
+
+# Created at 2022-07-20T17:22:56.542
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Menu Index: 31
+
+
+# Created at 2022-07-20T17:22:56.557
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: Bluetooth LE
+
+
+# Created at 2022-07-20T17:22:56.567
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> Bluetooth LE
+
+
+# Created at 2022-07-20T17:22:56.567
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Menu Index: 32
+
+
+# Created at 2022-07-20T17:22:56.580
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: 無線管理
+
+
+# Created at 2022-07-20T17:22:56.593
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> Radio Management
+
+
+# Created at 2022-07-20T17:22:56.669
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > >>>>>>>>>>>>>>>>>>>
+
+
+# Created at 2022-07-20T17:22:56.679
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > スイッチ ネットワーク is clicked!
+
+
+# Created at 2022-07-20T17:22:57.716
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' sub-menu スイッチ ネットワーク total: 2
+
+
+# Created at 2022-07-20T17:22:57.717
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Menu Index: 15
+
+
+# Created at 2022-07-20T17:22:57.727
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: スイッチ ネットワーク
+
+
+# Created at 2022-07-20T17:22:57.738
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> Switch Network
+
+
+# Created at 2022-07-20T17:22:57.739
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Menu Index: 16
+
+
+# Created at 2022-07-20T17:22:57.755
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: 概要
+
+
+# Created at 2022-07-20T17:22:57.765
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> Overview
+
+
+# Created at 2022-07-20T17:22:57.766
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Menu Index: 17
+
+
+# Created at 2022-07-20T17:22:57.784
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: スイッチ
+
+
+# Created at 2022-07-20T17:22:57.794
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> Switches
+
+
+# Created at 2022-07-20T17:22:57.922
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > >>>>>>>>>>>>>>>>>>>
+
+
+# Created at 2022-07-20T17:22:57.932
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 診断 is clicked!
+
+
+# Created at 2022-07-20T17:22:58.980
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' sub-menu 診断 total: 15
+
+
+# Created at 2022-07-20T17:22:58.980
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Menu Index: 14
+
+
+# Created at 2022-07-20T17:22:58.993
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: 診断
+
+
+# Created at 2022-07-20T17:22:59.002
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> Diagnostics
+
+
+# Created at 2022-07-20T17:22:59.002
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Menu Index: 15
+
+
+# Created at 2022-07-20T17:22:59.019
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: テクニカル サポート レポート
+
+
+# Created at 2022-07-20T17:22:59.028
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> Tech Support Report
+
+
+# Created at 2022-07-20T17:22:59.029
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Menu Index: 16
+
+
+# Created at 2022-07-20T17:22:59.045
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: ネットワーク設定の確認
+
+
+# Created at 2022-07-20T17:22:59.054
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> Check Network Settings
+
+
+# Created at 2022-07-20T17:22:59.056
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Menu Index: 17
+
+
+# Created at 2022-07-20T17:22:59.071
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: DNS 名の調査
+
+
+# Created at 2022-07-20T17:22:59.080
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> DNS Name Lookup
+
+
+# Created at 2022-07-20T17:22:59.080
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Menu Index: 18
+
+
+# Created at 2022-07-20T17:22:59.097
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: ネットワーク パス
+
+
+# Created at 2022-07-20T17:22:59.106
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> Network Path
+
+
+# Created at 2022-07-20T17:22:59.107
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Menu Index: 19
+
+
+# Created at 2022-07-20T17:22:59.123
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: Ping
+
+
+# Created at 2022-07-20T17:22:59.132
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> Ping
+
+
+# Created at 2022-07-20T17:22:59.133
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Menu Index: 20
+
+
+# Created at 2022-07-20T17:22:59.152
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: ルート追跡
+
+
+# Created at 2022-07-20T17:22:59.163
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> Trace Route
+
+
+# Created at 2022-07-20T17:22:59.164
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Menu Index: 21
+
+
+# Created at 2022-07-20T17:22:59.182
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: リアルタイム ブラックリスト
+
+
+# Created at 2022-07-20T17:22:59.194
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> Real-Time Blacklist
+
+
+# Created at 2022-07-20T17:22:59.195
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Menu Index: 22
+
+
+# Created at 2022-07-20T17:22:59.209
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: 逆引き名前調査
+
+
+# Created at 2022-07-20T17:22:59.218
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> Reverse Name Lookup
+
+
+# Created at 2022-07-20T17:22:59.219
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Menu Index: 23
+
+
+# Created at 2022-07-20T17:22:59.234
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: 上位接続
+
+
+# Created at 2022-07-20T17:22:59.246
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> Connection TopX
+
+
+# Created at 2022-07-20T17:22:59.246
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Menu Index: 24
+
+
+# Created at 2022-07-20T17:22:59.261
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: 地域とボットネット
+
+
+# Created at 2022-07-20T17:22:59.272
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> Geo and Botnet
+
+
+# Created at 2022-07-20T17:22:59.273
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Menu Index: 25
+
+
+# Created at 2022-07-20T17:22:59.289
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: MX とバナー
+
+
+# Created at 2022-07-20T17:22:59.299
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> MX and Banner
+
+
+# Created at 2022-07-20T17:22:59.301
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Menu Index: 26
+
+
+# Created at 2022-07-20T17:22:59.318
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: グリッド確認
+
+
+# Created at 2022-07-20T17:22:59.328
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> GRID Check
+
+
+# Created at 2022-07-20T17:22:59.328
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Menu Index: 27
+
+
+# Created at 2022-07-20T17:22:59.346
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: URL 格付け要求
+
+
+# Created at 2022-07-20T17:22:59.354
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> URL Rating Request
+
+
+# Created at 2022-07-20T17:22:59.354
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Menu Index: 28
+
+
+# Created at 2022-07-20T17:22:59.369
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: PMTU 検出
+
+
+# Created at 2022-07-20T17:22:59.378
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> PMTU Discovery
+
+
+# Created at 2022-07-20T17:22:59.379
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Menu Index: 29
+
+
+# Created at 2022-07-20T17:22:59.392
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: スイッチ診断
+
+
+# Created at 2022-07-20T17:22:59.400
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> Switch Diagnostics
+
+
+# Created at 2022-07-20T17:22:59.473
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > >>>>>>>>>>>>>>>>>>>
+
+
+# Created at 2022-07-20T17:22:59.482
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > ログ is clicked!
+
+
+# Created at 2022-07-20T17:23:00.531
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' sub-menu ログ total: 6
+
+
+# Created at 2022-07-20T17:23:00.532
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Menu Index: 13
+
+
+# Created at 2022-07-20T17:23:00.540
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: ログ
+
+
+# Created at 2022-07-20T17:23:00.550
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> Log
+
+
+# Created at 2022-07-20T17:23:00.551
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Menu Index: 14
+
+
+# Created at 2022-07-20T17:23:00.565
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: 設定
+
+
+# Created at 2022-07-20T17:23:00.575
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> Settings
+
+
+# Created at 2022-07-20T17:23:00.575
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Menu Index: 15
+
+
+# Created at 2022-07-20T17:23:00.586
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: Syslog
+
+
+# Created at 2022-07-20T17:23:00.595
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> Syslog
+
+
+# Created at 2022-07-20T17:23:00.595
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Menu Index: 16
+
+
+# Created at 2022-07-20T17:23:00.609
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: 自動化
+
+
+# Created at 2022-07-20T17:23:00.616
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> Automation
+
+
+# Created at 2022-07-20T17:23:00.617
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Menu Index: 17
+
+
+# Created at 2022-07-20T17:23:00.630
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: 名前解決
+
+
+# Created at 2022-07-20T17:23:00.638
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> Name Resolution
+
+
+# Created at 2022-07-20T17:23:00.640
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Menu Index: 18
+
+
+# Created at 2022-07-20T17:23:00.659
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: レポート
+
+
+# Created at 2022-07-20T17:23:00.667
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> Reports
+
+
+# Created at 2022-07-20T17:23:00.668
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Menu Index: 19
+
+
+# Created at 2022-07-20T17:23:00.683
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: AWS
+
+
+# Created at 2022-07-20T17:23:00.692
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> AWS
+
+
+# Created at 2022-07-20T17:23:00.781
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > >>>>>>>>>>>>>>>>>>>
+
+
+# Created at 2022-07-20T17:23:00.793
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > AppFlow is clicked!
+
+
+# Created at 2022-07-20T17:23:01.835
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' sub-menu AppFlow total: 2
+
+
+# Created at 2022-07-20T17:23:01.835
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Menu Index: 12
+
+
+# Created at 2022-07-20T17:23:01.845
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: AppFlow
+
+
+# Created at 2022-07-20T17:23:01.853
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> AppFlow
+
+
+# Created at 2022-07-20T17:23:01.854
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Menu Index: 13
+
+
+# Created at 2022-07-20T17:23:01.868
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: フロー報告
+
+
+# Created at 2022-07-20T17:23:01.876
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> Flow Reporting
+
+
+# Created at 2022-07-20T17:23:01.877
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Menu Index: 14
+
+
+# Created at 2022-07-20T17:23:01.888
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: AppFlow エージェント
+
+
+# Created at 2022-07-20T17:23:01.897
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> AppFlow Agent
+
+
+# Created at 2022-07-20T17:23:01.966
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > >>>>>>>>>>>>>>>>>>>
+
+
+# Created at 2022-07-20T17:23:01.975
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > ユーザ is clicked!
+
+
+# Created at 2022-07-20T17:23:03.029
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' sub-menu ユーザ total: 6
+
+
+# Created at 2022-07-20T17:23:03.030
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Menu Index: 11
+
+
+# Created at 2022-07-20T17:23:03.039
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: ユーザ
+
+
+# Created at 2022-07-20T17:23:03.047
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> Users
+
+
+# Created at 2022-07-20T17:23:03.048
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Menu Index: 12
+
+
+# Created at 2022-07-20T17:23:03.061
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: 状況
+
+
+# Created at 2022-07-20T17:23:03.070
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> Status
+
+
+# Created at 2022-07-20T17:23:03.071
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Menu Index: 13
+
+
+# Created at 2022-07-20T17:23:03.084
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: 設定
+
+
+# Created at 2022-07-20T17:23:03.093
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> Settings
+
+
+# Created at 2022-07-20T17:23:03.093
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Menu Index: 14
+
+
+# Created at 2022-07-20T17:23:03.106
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: ローカル ユーザとグループ
+
+
+# Created at 2022-07-20T17:23:03.116
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> Local Users & Groups
+
+
+# Created at 2022-07-20T17:23:03.117
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Menu Index: 15
+
+
+# Created at 2022-07-20T17:23:03.130
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: ゲスト サービス
+
+
+# Created at 2022-07-20T17:23:03.139
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> Guest Services
+
+
+# Created at 2022-07-20T17:23:03.139
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Menu Index: 16
+
+
+# Created at 2022-07-20T17:23:03.150
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: ゲスト アカウント
+
+
+# Created at 2022-07-20T17:23:03.158
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> Guest Accounts
+
+
+# Created at 2022-07-20T17:23:03.158
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Menu Index: 17
+
+
+# Created at 2022-07-20T17:23:03.171
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: ゲスト状況
+
+
+# Created at 2022-07-20T17:23:03.179
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> Guest Status
+
+
+# Created at 2022-07-20T17:23:03.247
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > >>>>>>>>>>>>>>>>>>>
+
+
+# Created at 2022-07-20T17:23:03.258
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 高可用性 is clicked!
+
+
+# Created at 2022-07-20T17:23:04.299
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' sub-menu 高可用性 total: 4
+
+
+# Created at 2022-07-20T17:23:04.300
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Menu Index: 10
+
+
+# Created at 2022-07-20T17:23:04.310
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: 高可用性
+
+
+# Created at 2022-07-20T17:23:04.318
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> High Availability
+
+
+# Created at 2022-07-20T17:23:04.318
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Menu Index: 11
+
+
+# Created at 2022-07-20T17:23:04.331
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: 状況
+
+
+# Created at 2022-07-20T17:23:04.338
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> Status
+
+
+# Created at 2022-07-20T17:23:04.339
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Menu Index: 12
+
+
+# Created at 2022-07-20T17:23:04.350
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: 設定
+
+
+# Created at 2022-07-20T17:23:04.359
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> Settings
+
+
+# Created at 2022-07-20T17:23:04.360
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Menu Index: 13
+
+
+# Created at 2022-07-20T17:23:04.372
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: 詳細
+
+
+# Created at 2022-07-20T17:23:04.382
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> Advanced
+
+
+# Created at 2022-07-20T17:23:04.382
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Menu Index: 14
+
+
+# Created at 2022-07-20T17:23:04.395
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: 監視
+
+
+# Created at 2022-07-20T17:23:04.403
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> Monitoring
+
+
+# Created at 2022-07-20T17:23:04.481
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > >>>>>>>>>>>>>>>>>>>
+
+
+# Created at 2022-07-20T17:23:04.495
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 内部無線 is clicked!
+
+
+# Created at 2022-07-20T17:23:05.539
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' sub-menu 内部無線 total: 7
+
+
+# Created at 2022-07-20T17:23:05.539
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Menu Index: 9
+
+
+# Created at 2022-07-20T17:23:05.546
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: 内部無線
+
+
+# Created at 2022-07-20T17:23:05.555
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> Internal Wireless
+
+
+# Created at 2022-07-20T17:23:05.556
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Menu Index: 10
+
+
+# Created at 2022-07-20T17:23:05.568
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: 状況
+
+
+# Created at 2022-07-20T17:23:05.576
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> Status
+
+
+# Created at 2022-07-20T17:23:05.577
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Menu Index: 11
+
+
+# Created at 2022-07-20T17:23:05.588
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: 設定
+
+
+# Created at 2022-07-20T17:23:05.597
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> Settings
+
+
+# Created at 2022-07-20T17:23:05.598
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Menu Index: 12
+
+
+# Created at 2022-07-20T17:23:05.608
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: セキュリティ
+
+
+# Created at 2022-07-20T17:23:05.616
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> Security
+
+
+# Created at 2022-07-20T17:23:05.617
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Menu Index: 13
+
+
+# Created at 2022-07-20T17:23:05.629
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: 詳細
+
+
+# Created at 2022-07-20T17:23:05.636
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> Advanced
+
+
+# Created at 2022-07-20T17:23:05.637
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Menu Index: 14
+
+
+# Created at 2022-07-20T17:23:05.652
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: MAC フィルタ リスト
+
+
+# Created at 2022-07-20T17:23:05.659
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> MAC Filter List
+
+
+# Created at 2022-07-20T17:23:05.660
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Menu Index: 15
+
+
+# Created at 2022-07-20T17:23:05.670
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: IDS
+
+
+# Created at 2022-07-20T17:23:05.679
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> IDS
+
+
+# Created at 2022-07-20T17:23:05.680
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Menu Index: 16
+
+
+# Created at 2022-07-20T17:23:05.690
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: 仮想アクセス ポイント
+
+
+# Created at 2022-07-20T17:23:05.697
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> Virtual Access Point
+
+
+# Created at 2022-07-20T17:23:05.732
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > +++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+# Created at 2022-07-20T17:23:05.743
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Add top opened menu: 設定
+
+
+# Created at 2022-07-20T17:23:05.753
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> Settings
+
+
+# Created at 2022-07-20T17:23:05.764
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Add top opened menu: ライセンス
+
+
+# Created at 2022-07-20T17:23:05.772
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> Licenses
+
+
+# Created at 2022-07-20T17:23:05.782
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Add top opened menu: 管理
+
+
+# Created at 2022-07-20T17:23:05.790
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> Administration
+
+
+# Created at 2022-07-20T17:23:05.802
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Add top opened menu: 時間
+
+
+# Created at 2022-07-20T17:23:05.809
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> Time
+
+
+# Created at 2022-07-20T17:23:05.821
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Add top opened menu: 証明書
+
+
+# Created at 2022-07-20T17:23:05.830
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> Certificates
+
+
+# Created at 2022-07-20T17:23:05.843
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Add top opened menu: SNMP
+
+
+# Created at 2022-07-20T17:23:05.851
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> SNMP
+
+
+# Created at 2022-07-20T17:23:05.864
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Add top opened menu: ファームウェアと設定
+
+
+# Created at 2022-07-20T17:23:05.872
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> Firmware and Settings
+
+
+# Created at 2022-07-20T17:23:05.883
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Add top opened menu: 記憶装置
+
+
+# Created at 2022-07-20T17:23:05.892
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> Storage
+
+
+# Created at 2022-07-20T17:23:05.906
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Add top opened menu: 再起動
+
+
+# Created at 2022-07-20T17:23:05.917
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Change sub closed menu >> Restart
+
+
+# Created at 2022-07-20T17:23:05.917
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+# Created at 2022-07-20T17:23:05.918
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > MENU: WWAN
+
+
+# Created at 2022-07-20T17:23:05.918
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > MENU: Access Points
+
+
+# Created at 2022-07-20T17:23:05.919
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > MENU: Settings
+
+
+# Created at 2022-07-20T17:23:05.919
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > MENU: Firmware Management
+
+
+# Created at 2022-07-20T17:23:05.919
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > MENU: Floor Plan View
+
+
+# Created at 2022-07-20T17:23:05.920
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > MENU: Station Status
+
+
+# Created at 2022-07-20T17:23:05.920
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > MENU: IDS
+
+
+# Created at 2022-07-20T17:23:05.921
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > MENU: Advanced IDP
+
+
+# Created at 2022-07-20T17:23:05.921
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > MENU: Packet Capture
+
+
+# Created at 2022-07-20T17:23:05.922
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > MENU: Virtual Access Point
+
+
+# Created at 2022-07-20T17:23:05.922
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > MENU: RF Monitoring
+
+
+# Created at 2022-07-20T17:23:05.922
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > MENU: RF Analysis
+
+
+# Created at 2022-07-20T17:23:05.923
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > MENU: RF Spectrum
+
+
+# Created at 2022-07-20T17:23:05.923
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > MENU: FairNet
+
+
+# Created at 2022-07-20T17:23:05.924
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > MENU: Wi-Fi Multimedia
+
+
+# Created at 2022-07-20T17:23:05.924
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > MENU: 3G/4G/LTE WWAN
+
+
+# Created at 2022-07-20T17:23:05.924
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > MENU: Bluetooth LE
+
+
+# Created at 2022-07-20T17:23:05.925
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > MENU: Radio Management
+
+
+# Created at 2022-07-20T17:23:05.925
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > MENU: Switch Network
+
+
+# Created at 2022-07-20T17:23:05.925
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > MENU: Overview
+
+
+# Created at 2022-07-20T17:23:05.925
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > MENU: Switches
+
+
+# Created at 2022-07-20T17:23:05.926
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > MENU: Diagnostics
+
+
+# Created at 2022-07-20T17:23:05.926
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > MENU: Tech Support Report
+
+
+# Created at 2022-07-20T17:23:05.926
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > MENU: Check Network Settings
+
+
+# Created at 2022-07-20T17:23:05.927
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > MENU: DNS Name Lookup
+
+
+# Created at 2022-07-20T17:23:05.927
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > MENU: Network Path
+
+
+# Created at 2022-07-20T17:23:05.928
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > MENU: Ping
+
+
+# Created at 2022-07-20T17:23:05.928
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > MENU: Trace Route
+
+
+# Created at 2022-07-20T17:23:05.928
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > MENU: Real-Time Blacklist
+
+
+# Created at 2022-07-20T17:23:05.928
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > MENU: Reverse Name Lookup
+
+
+# Created at 2022-07-20T17:23:05.929
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > MENU: Connection TopX
+
+
+# Created at 2022-07-20T17:23:05.929
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > MENU: Geo and Botnet
+
+
+# Created at 2022-07-20T17:23:05.929
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > MENU: MX and Banner
+
+
+# Created at 2022-07-20T17:23:05.929
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > MENU: GRID Check
+
+
+# Created at 2022-07-20T17:23:05.930
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > MENU: URL Rating Request
+
+
+# Created at 2022-07-20T17:23:05.930
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > MENU: PMTU Discovery
+
+
+# Created at 2022-07-20T17:23:05.930
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > MENU: Switch Diagnostics
+
+
+# Created at 2022-07-20T17:23:05.931
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > MENU: Log
+
+
+# Created at 2022-07-20T17:23:05.931
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > MENU: Settings
+
+
+# Created at 2022-07-20T17:23:05.931
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > MENU: Syslog
+
+
+# Created at 2022-07-20T17:23:05.931
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > MENU: Automation
+
+
+# Created at 2022-07-20T17:23:05.932
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > MENU: Name Resolution
+
+
+# Created at 2022-07-20T17:23:05.932
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > MENU: Reports
+
+
+# Created at 2022-07-20T17:23:05.933
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > MENU: AWS
+
+
+# Created at 2022-07-20T17:23:05.934
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > MENU: AppFlow
+
+
+# Created at 2022-07-20T17:23:05.934
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > MENU: Flow Reporting
+
+
+# Created at 2022-07-20T17:23:05.934
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > MENU: AppFlow Agent
+
+
+# Created at 2022-07-20T17:23:05.935
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > MENU: Users
+
+
+# Created at 2022-07-20T17:23:05.935
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > MENU: Status
+
+
+# Created at 2022-07-20T17:23:05.935
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > MENU: Settings
+
+
+# Created at 2022-07-20T17:23:05.936
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > MENU: Local Users & Groups
+
+
+# Created at 2022-07-20T17:23:05.936
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > MENU: Guest Services
+
+
+# Created at 2022-07-20T17:23:05.936
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > MENU: Guest Accounts
+
+
+# Created at 2022-07-20T17:23:05.937
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > MENU: Guest Status
+
+
+# Created at 2022-07-20T17:23:05.937
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > MENU: High Availability
+
+
+# Created at 2022-07-20T17:23:05.938
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > MENU: Status
+
+
+# Created at 2022-07-20T17:23:05.938
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > MENU: Settings
+
+
+# Created at 2022-07-20T17:23:05.938
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > MENU: Advanced
+
+
+# Created at 2022-07-20T17:23:05.938
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > MENU: Monitoring
+
+
+# Created at 2022-07-20T17:23:05.939
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > MENU: Internal Wireless
+
+
+# Created at 2022-07-20T17:23:05.939
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > MENU: Status
+
+
+# Created at 2022-07-20T17:23:05.940
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > MENU: Settings
+
+
+# Created at 2022-07-20T17:23:05.941
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > MENU: Security
+
+
+# Created at 2022-07-20T17:23:05.941
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > MENU: Advanced
+
+
+# Created at 2022-07-20T17:23:05.941
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > MENU: MAC Filter List
+
+
+# Created at 2022-07-20T17:23:05.942
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > MENU: IDS
+
+
+# Created at 2022-07-20T17:23:05.943
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > MENU: Virtual Access Point
+
+
+# Created at 2022-07-20T17:23:05.944
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > MENU: Settings (TOP)
+
+
+# Created at 2022-07-20T17:23:05.945
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > MENU: Licenses
+
+
+# Created at 2022-07-20T17:23:05.945
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > MENU: Administration
+
+
+# Created at 2022-07-20T17:23:05.946
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > MENU: Time
+
+
+# Created at 2022-07-20T17:23:05.946
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > MENU: Certificates
+
+
+# Created at 2022-07-20T17:23:05.946
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > MENU: SNMP
+
+
+# Created at 2022-07-20T17:23:05.947
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > MENU: Firmware and Settings
+
+
+# Created at 2022-07-20T17:23:05.947
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > MENU: Storage
+
+
+# Created at 2022-07-20T17:23:05.948
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > MENU: Restart
+
+
+# Created at 2022-07-20T17:23:05.948
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > ALL MENU: 76
+
+
+# Created at 2022-07-20T17:23:05.979
+Unexpected IOException with stream: [S]ReportLog >> test_Step02_MenuTop_JPN > Data updated!
+
+
+# Created at 2022-07-20T17:23:05.980
+Unexpected IOException with stream: [S]ReportLog >> test_Step02_MenuTop_JPN > Top menu 'DEVICE' is done!
+
+
+# Created at 2022-07-20T17:23:06.867
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' has sub closed menu (6). Please wait...
+
+
+# Created at 2022-07-20T17:23:06.880
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > ファイアウォール
+
+
+# Created at 2022-07-20T17:23:06.897
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > VoIP
+
+
+# Created at 2022-07-20T17:23:06.914
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > DNS
+
+
+# Created at 2022-07-20T17:23:06.930
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > SDWAN
+
+
+# Created at 2022-07-20T17:23:06.943
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > IPSec VPN
+
+
+# Created at 2022-07-20T17:23:06.958
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > SSL VPN
+
+
+# Created at 2022-07-20T17:23:06.959
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > *************************************************
+
+
+# Created at 2022-07-20T17:23:07.046
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > >>>>>>>>>>>>>>>>>>>
+
+
+# Created at 2022-07-20T17:23:07.127
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > SSL VPN is clicked!
+
+
+# Created at 2022-07-20T17:23:08.171
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' sub-menu SSL VPN total: 5
+
+
+# Created at 2022-07-20T17:23:08.172
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Menu Index: 20
+
+
+# Created at 2022-07-20T17:23:08.182
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: SSL VPN
+
+
+# Created at 2022-07-20T17:23:08.192
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Change sub closed menu >> SSL VPN
+
+
+# Created at 2022-07-20T17:23:08.192
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Menu Index: 21
+
+
+# Created at 2022-07-20T17:23:08.204
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: 状況
+
+
+# Created at 2022-07-20T17:23:08.214
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Change sub closed menu >> Status
+
+
+# Created at 2022-07-20T17:23:08.215
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Menu Index: 22
+
+
+# Created at 2022-07-20T17:23:08.226
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: サーバ設定
+
+
+# Created at 2022-07-20T17:23:08.233
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Change sub closed menu >> Server Settings
+
+
+# Created at 2022-07-20T17:23:08.234
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Menu Index: 23
+
+
+# Created at 2022-07-20T17:23:08.244
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: クライアント設定
+
+
+# Created at 2022-07-20T17:23:08.252
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Change sub closed menu >> Client Settings
+
+
+# Created at 2022-07-20T17:23:08.253
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Menu Index: 24
+
+
+# Created at 2022-07-20T17:23:08.264
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: ポータル設定
+
+
+# Created at 2022-07-20T17:23:08.275
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Change sub closed menu >> Portal Settings
+
+
+# Created at 2022-07-20T17:23:08.275
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Menu Index: 25
+
+
+# Created at 2022-07-20T17:23:08.288
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: 仮想オフィス
+
+
+# Created at 2022-07-20T17:23:08.297
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Change sub closed menu >> Virtual Office
+
+
+# Created at 2022-07-20T17:23:08.377
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > >>>>>>>>>>>>>>>>>>>
+
+
+# Created at 2022-07-20T17:23:08.386
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > IPSec VPN is clicked!
+
+
+# Created at 2022-07-20T17:23:09.424
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' sub-menu IPSec VPN total: 5
+
+
+# Created at 2022-07-20T17:23:09.425
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Menu Index: 19
+
+
+# Created at 2022-07-20T17:23:09.432
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: IPSec VPN
+
+
+# Created at 2022-07-20T17:23:09.437
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Change sub closed menu >> IPSec VPN
+
+
+# Created at 2022-07-20T17:23:09.438
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Menu Index: 20
+
+
+# Created at 2022-07-20T17:23:09.446
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: ルールと設定
+
+
+# Created at 2022-07-20T17:23:09.453
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Change sub closed menu >> Rules and Settings
+
+
+# Created at 2022-07-20T17:23:09.453
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Menu Index: 21
+
+
+# Created at 2022-07-20T17:23:09.464
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: 詳細
+
+
+# Created at 2022-07-20T17:23:09.472
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Change sub closed menu >> Advanced
+
+
+# Created at 2022-07-20T17:23:09.473
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Menu Index: 22
+
+
+# Created at 2022-07-20T17:23:09.484
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: VPN を越えた DHCP
+
+
+# Created at 2022-07-20T17:23:09.492
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Change sub closed menu >> DHCP over VPN
+
+
+# Created at 2022-07-20T17:23:09.493
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Menu Index: 23
+
+
+# Created at 2022-07-20T17:23:09.504
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: L2TP サーバ
+
+
+# Created at 2022-07-20T17:23:09.511
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Change sub closed menu >> L2TP Server
+
+
+# Created at 2022-07-20T17:23:09.511
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Menu Index: 24
+
+
+# Created at 2022-07-20T17:23:09.559
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Add sub closed menu: AWS VPN
+
+
+# Created at 2022-07-20T17:23:09.579
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Change sub closed menu >> AWS VPN
+
+
+# Created at 2022-07-20T17:23:09.656
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > >>>>>>>>>>>>>>>>>>>
+
+
+# Created at 2022-07-20T17:23:09.665
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > SDWAN is clicked!
+
+
+# Created at 2022-07-20T17:23:14.697
+Unexpected IOException with stream: [
+
+# Created at 2022-07-20T17:23:14.698
+Unexpected IOException with stream: 1
+
+# Created at 2022-07-20T17:23:14.698
+Unexpected IOException with stream: 6
+
+# Created at 2022-07-20T17:23:14.698
+Unexpected IOException with stream: 5
+
+# Created at 2022-07-20T17:23:14.700
+Unexpected IOException with stream: 8
+
+# Created at 2022-07-20T17:23:14.701
+Unexpected IOException with stream: 3
+
+# Created at 2022-07-20T17:23:14.701
+Unexpected IOException with stream: 0
+
+# Created at 2022-07-20T17:23:14.702
+Unexpected IOException with stream: 8
+
+# Created at 2022-07-20T17:23:14.702
+Unexpected IOException with stream: 9
+
+# Created at 2022-07-20T17:23:14.702
+Unexpected IOException with stream: 9
+
+# Created at 2022-07-20T17:23:14.702
+Unexpected IOException with stream: 4
+
+# Created at 2022-07-20T17:23:14.702
+Unexpected IOException with stream: .
+
+# Created at 2022-07-20T17:23:14.703
+Unexpected IOException with stream: 6
+
+# Created at 2022-07-20T17:23:14.703
+Unexpected IOException with stream: 9
+
+# Created at 2022-07-20T17:23:14.703
+Unexpected IOException with stream: 6
+
+# Created at 2022-07-20T17:23:14.704
+Unexpected IOException with stream: ]
+
+# Created at 2022-07-20T17:23:14.704
+Unexpected IOException with stream: [
+
+# Created at 2022-07-20T17:23:14.704
+Unexpected IOException with stream: W
+
+# Created at 2022-07-20T17:23:14.704
+Unexpected IOException with stream: A
+
+# Created at 2022-07-20T17:23:14.705
+Unexpected IOException with stream: R
+
+# Created at 2022-07-20T17:23:14.705
+Unexpected IOException with stream: N
+
+# Created at 2022-07-20T17:23:14.705
+Unexpected IOException with stream: I
+
+# Created at 2022-07-20T17:23:14.706
+Unexpected IOException with stream: N
+
+# Created at 2022-07-20T17:23:14.706
+Unexpected IOException with stream: G
+
+# Created at 2022-07-20T17:23:14.706
+Unexpected IOException with stream: ]
+
+# Created at 2022-07-20T17:23:14.706
+Unexpected IOException with stream: :
+
+# Created at 2022-07-20T17:23:14.706
+Unexpected IOException with stream:  
+
+# Created at 2022-07-20T17:23:14.707
+Unexpected IOException with stream: T
+
+# Created at 2022-07-20T17:23:14.707
+Unexpected IOException with stream: i
+
+# Created at 2022-07-20T17:23:14.707
+Unexpected IOException with stream: m
+
+# Created at 2022-07-20T17:23:14.707
+Unexpected IOException with stream: e
+
+# Created at 2022-07-20T17:23:14.707
+Unexpected IOException with stream: d
+
+# Created at 2022-07-20T17:23:14.707
+Unexpected IOException with stream:  
+
+# Created at 2022-07-20T17:23:14.707
+Unexpected IOException with stream: o
+
+# Created at 2022-07-20T17:23:14.708
+Unexpected IOException with stream: u
+
+# Created at 2022-07-20T17:23:14.708
+Unexpected IOException with stream: t
+
+# Created at 2022-07-20T17:23:14.708
+Unexpected IOException with stream:  
+
+# Created at 2022-07-20T17:23:14.708
+Unexpected IOException with stream: c
+
+# Created at 2022-07-20T17:23:14.709
+Unexpected IOException with stream: o
+
+# Created at 2022-07-20T17:23:14.709
+Unexpected IOException with stream: n
+
+# Created at 2022-07-20T17:23:14.709
+Unexpected IOException with stream: n
+
+# Created at 2022-07-20T17:23:14.709
+Unexpected IOException with stream: e
+
+# Created at 2022-07-20T17:23:14.710
+Unexpected IOException with stream: c
+
+# Created at 2022-07-20T17:23:14.710
+Unexpected IOException with stream: t
+
+# Created at 2022-07-20T17:23:14.710
+Unexpected IOException with stream: i
+
+# Created at 2022-07-20T17:23:14.710
+Unexpected IOException with stream: n
+
+# Created at 2022-07-20T17:23:14.710
+Unexpected IOException with stream: g
+
+# Created at 2022-07-20T17:23:14.710
+Unexpected IOException with stream:  
+
+# Created at 2022-07-20T17:23:14.711
+Unexpected IOException with stream: t
+
+# Created at 2022-07-20T17:23:14.711
+Unexpected IOException with stream: o
+
+# Created at 2022-07-20T17:23:14.711
+Unexpected IOException with stream:  
+
+# Created at 2022-07-20T17:23:14.711
+Unexpected IOException with stream: C
+
+# Created at 2022-07-20T17:23:14.711
+Unexpected IOException with stream: h
+
+# Created at 2022-07-20T17:23:14.712
+Unexpected IOException with stream: r
+
+# Created at 2022-07-20T17:23:14.712
+Unexpected IOException with stream: o
+
+# Created at 2022-07-20T17:23:14.712
+Unexpected IOException with stream: m
+
+# Created at 2022-07-20T17:23:14.712
+Unexpected IOException with stream: e
+
+# Created at 2022-07-20T17:23:14.712
+Unexpected IOException with stream: ,
+
+# Created at 2022-07-20T17:23:14.712
+Unexpected IOException with stream:  
+
+# Created at 2022-07-20T17:23:14.713
+Unexpected IOException with stream: r
+
+# Created at 2022-07-20T17:23:14.713
+Unexpected IOException with stream: e
+
+# Created at 2022-07-20T17:23:14.713
+Unexpected IOException with stream: t
+
+# Created at 2022-07-20T17:23:14.713
+Unexpected IOException with stream: r
+
+# Created at 2022-07-20T17:23:14.714
+Unexpected IOException with stream: y
+
+# Created at 2022-07-20T17:23:14.714
+Unexpected IOException with stream: i
+
+# Created at 2022-07-20T17:23:14.714
+Unexpected IOException with stream: n
+
+# Created at 2022-07-20T17:23:14.714
+Unexpected IOException with stream: g
+
+# Created at 2022-07-20T17:23:14.715
+Unexpected IOException with stream: .
+
+# Created at 2022-07-20T17:23:14.715
+Unexpected IOException with stream: .
+
+# Created at 2022-07-20T17:23:14.715
+Unexpected IOException with stream: .
+
+# Created at 2022-07-20T17:23:14.715
+Unexpected IOException with stream: 
+
+# Created at 2022-07-20T17:23:14.716
+Unexpected IOException with stream: 
+
+
+# Created at 2022-07-20T17:23:22.906
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Element Not Found!
+
+
+# Created at 2022-07-20T17:23:26.922
+Unexpected IOException with stream: [
+
+# Created at 2022-07-20T17:23:26.923
+Unexpected IOException with stream: 1
+
+# Created at 2022-07-20T17:23:26.924
+Unexpected IOException with stream: 6
+
+# Created at 2022-07-20T17:23:26.925
+Unexpected IOException with stream: 5
+
+# Created at 2022-07-20T17:23:26.926
+Unexpected IOException with stream: 8
+
+# Created at 2022-07-20T17:23:26.926
+Unexpected IOException with stream: 3
+
+# Created at 2022-07-20T17:23:26.927
+Unexpected IOException with stream: 0
+
+# Created at 2022-07-20T17:23:26.927
+Unexpected IOException with stream: 9
+
+# Created at 2022-07-20T17:23:26.928
+Unexpected IOException with stream: 0
+
+# Created at 2022-07-20T17:23:26.928
+Unexpected IOException with stream: 0
+
+# Created at 2022-07-20T17:23:26.929
+Unexpected IOException with stream: 6
+
+# Created at 2022-07-20T17:23:26.929
+Unexpected IOException with stream: .
+
+# Created at 2022-07-20T17:23:26.929
+Unexpected IOException with stream: 9
+
+# Created at 2022-07-20T17:23:26.929
+Unexpected IOException with stream: 2
+
+# Created at 2022-07-20T17:23:26.930
+Unexpected IOException with stream: 2
+
+# Created at 2022-07-20T17:23:26.930
+Unexpected IOException with stream: ]
+
+# Created at 2022-07-20T17:23:26.930
+Unexpected IOException with stream: [
+
+# Created at 2022-07-20T17:23:26.931
+Unexpected IOException with stream: W
+
+# Created at 2022-07-20T17:23:26.931
+Unexpected IOException with stream: A
+
+# Created at 2022-07-20T17:23:26.931
+Unexpected IOException with stream: R
+
+# Created at 2022-07-20T17:23:26.932
+Unexpected IOException with stream: N
+
+# Created at 2022-07-20T17:23:26.932
+Unexpected IOException with stream: I
+
+# Created at 2022-07-20T17:23:26.932
+Unexpected IOException with stream: N
+
+# Created at 2022-07-20T17:23:26.932
+Unexpected IOException with stream: G
+
+# Created at 2022-07-20T17:23:26.932
+Unexpected IOException with stream: ]
+
+# Created at 2022-07-20T17:23:26.933
+Unexpected IOException with stream: :
+
+# Created at 2022-07-20T17:23:26.933
+Unexpected IOException with stream:  
+
+# Created at 2022-07-20T17:23:26.933
+Unexpected IOException with stream: T
+
+# Created at 2022-07-20T17:23:26.933
+Unexpected IOException with stream: i
+
+# Created at 2022-07-20T17:23:26.933
+Unexpected IOException with stream: m
+
+# Created at 2022-07-20T17:23:26.933
+Unexpected IOException with stream: e
+
+# Created at 2022-07-20T17:23:26.934
+Unexpected IOException with stream: d
+
+# Created at 2022-07-20T17:23:26.934
+Unexpected IOException with stream:  
+
+# Created at 2022-07-20T17:23:26.934
+Unexpected IOException with stream: o
+
+# Created at 2022-07-20T17:23:26.934
+Unexpected IOException with stream: u
+
+# Created at 2022-07-20T17:23:26.935
+Unexpected IOException with stream: t
+
+# Created at 2022-07-20T17:23:26.935
+Unexpected IOException with stream:  
+
+# Created at 2022-07-20T17:23:26.936
+Unexpected IOException with stream: c
+
+# Created at 2022-07-20T17:23:26.936
+Unexpected IOException with stream: o
+
+# Created at 2022-07-20T17:23:26.937
+Unexpected IOException with stream: n
+
+# Created at 2022-07-20T17:23:26.937
+Unexpected IOException with stream: n
+
+# Created at 2022-07-20T17:23:26.938
+Unexpected IOException with stream: e
+
+# Created at 2022-07-20T17:23:26.938
+Unexpected IOException with stream: c
+
+# Created at 2022-07-20T17:23:26.938
+Unexpected IOException with stream: t
+
+# Created at 2022-07-20T17:23:26.939
+Unexpected IOException with stream: i
+
+# Created at 2022-07-20T17:23:26.939
+Unexpected IOException with stream: n
+
+# Created at 2022-07-20T17:23:26.939
+Unexpected IOException with stream: g
+
+# Created at 2022-07-20T17:23:26.940
+Unexpected IOException with stream:  
+
+# Created at 2022-07-20T17:23:26.940
+Unexpected IOException with stream: t
+
+# Created at 2022-07-20T17:23:26.940
+Unexpected IOException with stream: o
+
+# Created at 2022-07-20T17:23:26.940
+Unexpected IOException with stream:  
+
+# Created at 2022-07-20T17:23:26.941
+Unexpected IOException with stream: C
+
+# Created at 2022-07-20T17:23:26.941
+Unexpected IOException with stream: h
+
+# Created at 2022-07-20T17:23:26.941
+Unexpected IOException with stream: r
+
+# Created at 2022-07-20T17:23:26.941
+Unexpected IOException with stream: o
+
+# Created at 2022-07-20T17:23:26.942
+Unexpected IOException with stream: m
+
+# Created at 2022-07-20T17:23:26.942
+Unexpected IOException with stream: e
+
+# Created at 2022-07-20T17:23:26.942
+Unexpected IOException with stream: ,
+
+# Created at 2022-07-20T17:23:26.942
+Unexpected IOException with stream:  
+
+# Created at 2022-07-20T17:23:26.942
+Unexpected IOException with stream: r
+
+# Created at 2022-07-20T17:23:26.942
+Unexpected IOException with stream: e
+
+# Created at 2022-07-20T17:23:26.943
+Unexpected IOException with stream: t
+
+# Created at 2022-07-20T17:23:26.943
+Unexpected IOException with stream: r
+
+# Created at 2022-07-20T17:23:26.943
+Unexpected IOException with stream: y
+
+# Created at 2022-07-20T17:23:26.943
+Unexpected IOException with stream: i
+
+# Created at 2022-07-20T17:23:26.944
+Unexpected IOException with stream: n
+
+# Created at 2022-07-20T17:23:26.944
+Unexpected IOException with stream: g
+
+# Created at 2022-07-20T17:23:26.944
+Unexpected IOException with stream: .
+
+# Created at 2022-07-20T17:23:26.944
+Unexpected IOException with stream: .
+
+# Created at 2022-07-20T17:23:26.944
+Unexpected IOException with stream: .
+
+# Created at 2022-07-20T17:23:26.944
+Unexpected IOException with stream: 
+
+# Created at 2022-07-20T17:23:26.945
+Unexpected IOException with stream: 
+
+
+# Created at 2022-07-20T17:23:35.105
+Unexpected IOException: 8,1,test.Test_NavData_JPN,test_Step02_MenuTop_JPN(test.Test_NavData_JPN),null,chrome not reachable\000A  (Session info: chrome=103.0.5060.134)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'G3771J3-KHUANG'\002C ip: '10.103.50.149'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '11.0.16'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 103.0.5060.134\002C chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7...\002C userDataDir: C:\005CUsers\005Ckhuang\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:56523}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 93e4e8d6ad7aae5e5d9330290a9a6fd6,null,chrome not reachable\000A  (Session info: chrome=103.0.5060.134)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'G3771J3-KHUANG'\002C ip: '10.103.50.149'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '11.0.16'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 103.0.5060.134\002C chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7...\002C userDataDir: C:\005CUsers\005Ckhuang\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:56523}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 93e4e8d6ad7aae5e5d9330290a9a6fd6,Test_NavData_JPN.test_Step02_MenuTop_JPN:146->actual_data:46 \00BB WebDriver chrom...,org.openqa.selenium.WebDriverException: \000Achrome not reachable\000A  (Session info: chrome=103.0.5060.134)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'G3771J3-KHUANG'\002C ip: '10.103.50.149'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '11.0.16'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 103.0.5060.134\002C chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7...\002C userDataDir: C:\005CUsers\005Ckhuang\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:56523}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 93e4e8d6ad7aae5e5d9330290a9a6fd6\000A\0009at test.Test_NavData_JPN.actual_data(Test_NavData_JPN.java:46)\000A\0009at test.Test_NavData_JPN.test_Step02_MenuTop_JPN(Test_NavData_JPN.java:146)\000A
+
+

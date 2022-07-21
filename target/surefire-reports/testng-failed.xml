@@ -6,6 +6,7 @@
       <class name="test.Test_NavData_JPN">
         <methods>
           <include name="afterClass"/>
+          <include name="test_Step01_Login_JPN"/>
           <include name="beforeClass"/>
           <include name="test_Step02_MenuTop_JPN"/>
           <include name="afterMethod"/>
@@ -14,6 +15,7 @@
       <class name="test.Test_NavData_ENG">
         <methods>
           <include name="beforeClass"/>
+          <include name="test_Step01_Login_ENG"/>
           <include name="afterClass"/>
           <include name="afterMethod"/>
           <include name="test_Step02_MenuTop_ENG"/>

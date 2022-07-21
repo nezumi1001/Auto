@@ -28,7 +28,9 @@ public class Test_NavData_ENG {
 		// [A]ChromeDriver Settings
 		System.setProperty(iData_ENG.chromeDriver_data[0], iData_ENG.chromeDriver_data[1]);
 		ChromeOptions chromOptions = new ChromeOptions();
+		chromOptions.addArguments("--user-data-dir=C:\\Users\\khuang\\AppData\\Local\\Google\\Chrome\\User Data2");
 		chromOptions.addArguments("--start-maximized", "--ignore-certificate-errors", "--lang=en-US");
+		chromOptions.addArguments("--incognito");
 		driver = new ChromeDriver(chromOptions);
 		driver.get(iData_ENG.baseUrl);
 		mf = new Func_ENG(driver);
